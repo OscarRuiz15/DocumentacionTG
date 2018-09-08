@@ -1,0 +1,31 @@
+﻿Actividad -> Modulo -> Implementacion -> Prueba
+
+Implementacion Firebase
+Implementacion Api Google
+Autenticacion de Usuarios
+Implementacion Google Maps
+Activity Mapa
+Modulo Ver Informacion de Lugar
+Modulo Notificaciones App
+
+-Usuario Cualquiera:
+Modulo Crear Cuenta de Usuario
+Modulo Modificar Cuenta de Usuario
+Modulo Registrar Visita a Lugar
+Modulo Agregar Comentarios a Lugar
+Modulo Agregar/Quitar Suscripciones a Lugares
+Modulo Consultar Lugares Suscrito por Nombre
+Modulo Consultar Lugares por Categoria y Nombre
+Modulo Consultar Eventos por Nombre
+
+-Usuario Comerciante:
+Diseño Activity Principal Para Comerciante
+Modulo Crear Lugar
+Modulo Modificar Lugar 
+Activity Agregar Productos
+Modulo Agregar Productos
+Modulo Modificar Productos
+Activity crear evento
+Modulo Crear Evento
+Modulo Modificar/Eliminar evento
+Modulo Consultar Suscripciones
