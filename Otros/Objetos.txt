@@ -11,8 +11,7 @@ Id
 Nombre
 Descripcion
 Fotos
-Productos  (Lista)
-Ubicacion
+Productos (Lista)
 Calificacion
 Tags (Lista)
 Email (Lista)
@@ -24,12 +23,10 @@ Direccion
 Horarioabierto
 Horariocerrado
 Diasservicio
-
-Ubicacion->
-Id
-Latitud
-Longitud
-Municipio
+latitud
+longitud
+municipio
+categoria
 
 Tags->
 Id
@@ -46,7 +43,7 @@ Categoria->
 Id
 Nombre
 Descripcion
-Imagen
+Foto
 
 Visita->
 Id
@@ -63,12 +60,10 @@ Direccion
 Fotos
 Calificacion
 Tipo*
-Fechainicio
-Fechafin
+FechaHoraInicio
+FechaHoraFin
 Diainicio
 Mesinicio
-Horainicio
-Horafin
 Finalizado
 Diasemana
 
@@ -77,10 +72,15 @@ Id
 Nombre
 Descripcion
 Precio
+Foto
 
 Solicitud->
 Id
 Usuario
+NombreLugar
+Direccion
+Telefono
+Email
 Informacion
 Nit
 Aceptado

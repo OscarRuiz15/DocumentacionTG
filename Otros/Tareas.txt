@@ -29,3 +29,16 @@ Activity crear evento
 Modulo Crear Evento
 Modulo Modificar/Eliminar evento
 Modulo Consultar Suscripciones
+
+Python -> Django
+Crear Modelos:
+Modulo Lugar
+Modulo Usuario
+Modulo Visita
+Modulo Solicitud
+Modulo Suscripcion
+Modulo Comentario
+Modulo Categoria
+Modulo Eventos
+Modulo Producto
+Modulo Tag
