@@ -135,7 +135,8 @@ si tuviera una}
 \addcontentsline{toc}{chapter}{Agradecimientos} % si queremos que aparezca en el índice
 \markboth{AGRADECIMIENTOS}{AGRADECIMIENTOS} % encabezado 
  
-Profesor Joshua.
+Joshua David Triana. \\
+Royer David Estrada.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%						FIN AGRADECIMIENTOS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -148,7 +149,7 @@ Profesor Joshua.
 \tableofcontents % indice de contenidos
 
 \newpage
-\listoffigures % indice de figuras	
+\listoffigures % indice de figuras
 
 \newpage
 \listoftables % indice de tablas
@@ -197,7 +198,6 @@ Desarrollar un prototipo de sistema de recomendación que pueda ser usado por me
     \item Determinar el tipo de sistema de recomendación y los algoritmos a utilizar.
     \item Implementar un prototipo de una aplicación móvil que permita consumir y ofrecer la información sobre los sitios y eventos de la ciudad de Ginebra.
     \item Implementar un prototipo de sistema de recomendación para los sitios y eventos del municipio de Ginebra.
-    \item Evaluar las recomendaciones emitidas por el sistema de recomendación conforme a la realimentación de los usuarios de la aplicación.
     \item Evaluar las recomendaciones emitidas por el sistema de recomendación conforme a la realimentación de los usuarios de la aplicación.
 \end{itemize}
 
@@ -267,13 +267,8 @@ El uso de una metodología de desarrollo permite trabajar de una manera ordenada
 Las metodologías de desarrollo de software están clasificadas en 2 tipos de metodologías: las ágiles y las tradicionales. [13] resume las características de ambas metodologías, en la siguiente tabla:
 
 \begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
+\centering
 \includegraphics[width=13cm]{./imagenes/tablas/comparacion_metodologias}
-\end{center}
-\end{figure}
-\end{center}
 \caption{Comparación de metodologías.}
 \end{table}
 
@@ -427,35 +422,20 @@ La metodología Mobile-D consta de 5 fases: exploración, iniciación, producci�
 \section{Diseño}
 \subsection{Historias de Usuarios}
 \begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
+\centering
 \includegraphics[width=13cm]{./imagenes/HU/HU1}
-\end{center}
-\end{figure}
-\end{center}
 \caption{HU1: Login y creación de usuarios con E-mail.}
 \end{table}
 
 \begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
+\centering
 \includegraphics[width=13cm]{./imagenes/HU/HU9}
-\end{center}
-\end{figure}
-\end{center}
 \caption{HU9 Detalles Lugar Activity.}
 \end{table}
 
 \begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
+\centering
 \includegraphics[width=13cm]{./imagenes/HU/HU14}
-\end{center}
-\end{figure}
-\end{center}
 \caption{HU14 Mapa Activity.}
 \end{table}
 
@@ -476,20 +456,25 @@ La metodología Mobile-D consta de 5 fases: exploración, iniciación, producci�
 \end{figure}
 
 \subsection{Diagramas UML (Casos de Uso)}
+Un caso de uso representa un proceso comun e importante. Los casos de uso constituyen una tecnica para la captura de requisitos potenciales de un nuevo sistema o una actualizacion de software. Un diagrama de caso de uso muestra las distintas operaciones que se esperan de una aplicacion o sistema y como se relaciona con su entorno (usuarios u otras aplicaciones).
+\vspace{5mm}\newline
+\textbf{Administrador:} En el diagrama de casos de uso de la figura están representados los casos de uso en los cuales participa el administrador del sistema de gestión de la aplicación.
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=13cm]{./imagenes/CU/cu_administrador}
+\includegraphics[width=10cm]{./imagenes/CU/cu_administrador}
 \caption{Caso de Uso Administrador.}
 \end{center}
 \end{figure}
 
+\textbf{Usuario:} En el diagrama de casos de uso de la figura están representados los casos de uso en los cuales participa el usuario del aplicativo móvil.
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=13cm]{./imagenes/CU/cu_usuario}
+\includegraphics[width=10cm]{./imagenes/CU/cu_usuario}
 \caption{Caso de Uso Usuario.}
 \end{center}
 \end{figure}
 
+\textbf{Comerciante:} En el diagrama de casos de uso de la figura están representados los casos de uso en los cuales participa el usuario comerciante del aplicativo móvil.
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=13cm]{./imagenes/CU/cu_comerciante}
@@ -498,38 +483,21 @@ La metodología Mobile-D consta de 5 fases: exploración, iniciación, producci�
 \end{figure}
 
 \subsection{Plantillas Especificación Casos de Uso}
-Un caso de uso representa un proceso comun e importante. Los casos de uso constituyen una tecnica para la captura de requisitos potenciales de un nuevo sistema o una actualizacion de software. Un diagrama de caso de uso muestra las distintas operaciones que se esperan de una aplicacion o sistema y como se relaciona con su entorno (usuarios u otras aplicaciones).
-
 \begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
+\centering
 \includegraphics[width=13cm]{./imagenes/PCU/login}
-\end{center}
-\end{figure}
-\end{center}
 \caption{Plantilla Especificación Caso de Uso Login.}
 \end{table}
 
 \begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
+\centering
 \includegraphics[width=13cm]{./imagenes/PCU/crear_usuario}
-\end{center}
-\end{figure}
-\end{center}
 \caption{Plantilla Especificación Caso de Uso Crear Usuario.}
 \end{table}
 
 \begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
+\centering
 \includegraphics[width=13cm]{./imagenes/PCU/ver_lugares_recomendados}
-\end{center}
-\end{figure}
-\end{center}
 \caption{Plantilla Especificación Caso de Uso Ver lugares recomendados.}
 \end{table}
 
@@ -545,6 +513,73 @@ La interfaz gráfica de usuario pone a disposición los métodos y funcionalidad
 \end{figure}
 
 \subsection{Administrador}
+Para la administración de la aplicación móvil, se implementó un servicio web el cual permite al administrador, la creación de los sitios que aparecerán dentro del app, las diferentes categorías y los tags, como también revisar las solicitudes recibidas para registrar nuevos lugares por parte de los usuarios.
+\vspace{5mm}\newline
+Para el desarrollo del servicio web, se hizo uso de React, una biblioteca Javascript de código abierto, la cual fue diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola pagina.
+
+\subsubsection{Autenticación}
+En la siguiente pantalla, el administrador ingresa su usuario y contraseña en el servicio web para identificarse como tal y poder realizar alguna de las funciones previamente mencionadas.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=4cm]{./imagenes/admin/login}
+\caption{Login Web Service.}
+\end{center}
+\end{figure}
+
+Una vez el administrador ha ingresado al sistema, tendrá en pantalla las opciones permitidas para él.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=13cm]{./imagenes/admin/p_principal}
+\caption{Pantalla Principal Menú Administrador.}
+\end{center}
+\end{figure}
+
+\subsubsection{Registrar Lugar}
+En la siguiente pantalla, el administrador registra los datos asociados a un nuevo lugar. \\
+Si el registro se realiza desde la pestaña de solicitudes, el propietario del lugar será la persona que realizo la solicitud, mientras si se realiza desde la pestaña crear lugar, el propietario sera el administrador de manera temporal.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=9cm]{./imagenes/admin/crear_lugar}
+\caption{Registrar Lugar.}
+\end{center}
+\end{figure}
+
+\subsubsection{Registrar Categoría}
+En la siguiente pantalla, el administrador registra los datos asociados a una nueva categoría.
+Las categorías son usadas para poder clasificar los lugares disponibles en la aplicación.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=8cm]{./imagenes/admin/r_categoria}
+\caption{Registrar Categoria.}
+\end{center}
+\end{figure}
+
+Las imágenes que se cargan en esta pantalla se almacenan en Firebase, utilizado para la autenticación de los usuarios y almacenamiento de multimedia. Se hace un llamado a la URL de la ubicación de la imagen cuando es solicitada por la aplicación desde el celular del usuario.
+
+\subsubsection{Registrar Tag}
+En la siguiente pantalla, el administrador registra tags, los cuales serán claves para identificar a los lugares, y para poder generar recomendaciones a los usuarios.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=10cm]{./imagenes/admin/r_tags}
+\caption{Registrar Tag.}
+\end{center}
+\end{figure}
+
+\subsubsection{Ver Solicitudes}
+En la siguiente pantalla, el administrador revisará las solicitudes recibidas para registrar nuevos lugares en la aplicación. El administrador puede decidir que solicitud aceptar, o rechazar.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=10cm]{./imagenes/admin/solicitudes}
+\caption{Solicitudes Recibidas.}
+\end{center}
+\end{figure}
+
+
+
 \subsection{Usuario}
 \subsection{Comerciante}
 
@@ -609,503 +644,7 @@ Las pruebas realizadas para verificar el correcto comportamiento del sistema fue
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%						APENDICE A
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\appendix
-\chapter{Historias de Usuario}\label{aped.A}
-En este anexo se relaciona parte de las Historias de Usuario (HU) que fueron necesarias para el desarrollo de este proyecto.	
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/HU/HU2}
-\end{center}
-\end{figure}
-\end{center}
-\caption{HU2: Login y creación de usuarios con Google.}
-\end{table}
 
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/HU/HU3}
-\end{center}
-\end{figure}
-\end{center}
-\caption{HU3: Home Fragment.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/HU/HU4}
-\end{center}
-\end{figure}
-\end{center}
-\caption{HU4: Search Fragment.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/HU/HU5}
-\end{center}
-\end{figure}
-\end{center}
-\caption{HU5: Favorite Fragment.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/HU/HU6}
-\end{center}
-\end{figure}
-\end{center}
-\caption{HU6: Evento Fragment.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/HU/HU7}
-\end{center}
-\end{figure}
-\end{center}
-\caption{HU7: Profile Fragment.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/HU/HU8}
-\end{center}
-\end{figure}
-\end{center}
-\caption{HU8: Solicitud.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/HU/HU10}
-\end{center}
-\end{figure}
-\end{center}
-\caption{HU10: Opciones Detalles Lugar Activity.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/HU/HU11}
-\end{center}
-\end{figure}
-\end{center}
-\caption{HU11: Detalles Evento Activity.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/HU/HU12}
-\end{center}
-\end{figure}
-\end{center}
-\caption{HU12: Opciones Detalles Evento Activity.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/HU/HU13}
-\end{center}
-\end{figure}
-\end{center}
-\caption{HU13: Detalles Producto Activity.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/HU/HU15}
-\end{center}
-\end{figure}
-\end{center}
-\caption{HU15: Mapa Categoria Activity.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/HU/HU16}
-\end{center}
-\end{figure}
-\end{center}
-\caption{HU16: Crear Evento Activity.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/HU/HU17}
-\end{center}
-\end{figure}
-\end{center}
-\caption{HU17: Modificar Evento Activity.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/HU/HU18}
-\end{center}
-\end{figure}
-\end{center}
-\caption{HU18: Crear Producto Activity.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/HU/HU19}
-\end{center}
-\end{figure}
-\end{center}
-\caption{HU19: Modificar Producto Activity.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/HU/HU20}
-\end{center}
-\end{figure}
-\end{center}
-\caption{HU20: Modificar Lugar Activity.}
-\end{table}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%						FIN APENDICE A
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%						APENDICE B
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Plantillas Especificación Casos de Uso}\label{aped.B}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%						FIN APENDICE B
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%						APENDICE C
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/PCU/crear_usuario_google}
-\end{center}
-\end{figure}
-\end{center}
-\caption{Plantilla Especificación Caso de Uso Crear Usuario con Google.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/PCU/ver_lugares_populares}
-\end{center}
-\end{figure}
-\end{center}
-\caption{Plantilla Especificación Caso de Uso Ver lugares populares.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/PCU/ver_nuevos_lugares}
-\end{center}
-\end{figure}
-\end{center}
-\caption{Plantilla Especificación Caso de Uso Ver nuevos lugares.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/PCU/ver_proximos_eventos}
-\end{center}
-\end{figure}
-\end{center}
-\caption{Plantilla Especificación Caso de Uso Ver próximos eventos.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/PCU/ver_lugares_categoria}
-\end{center}
-\end{figure}
-\end{center}
-\caption{Plantilla Especificación Caso de Uso Ver lugares por categoría.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/PCU/ver_detalles_lugar}
-\end{center}
-\end{figure}
-\end{center}
-\caption{Plantilla Especificación Caso de Uso Ver detalles de un lugar.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/PCU/ver_detalles_evento}
-\end{center}
-\end{figure}
-\end{center}
-\caption{Plantilla Especificación Caso de Uso Ver detalles de un evento.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/PCU/ver_detalles_producto}
-\end{center}
-\end{figure}
-\end{center}
-\caption{Plantilla Especificación Caso de Uso Ver detalles de un producto.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/PCU/modificar_perfil}
-\end{center}
-\end{figure}
-\end{center}
-\caption{Plantilla Especificación Caso de Uso Modificar perfil.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/PCU/modificar_contrasena}
-\end{center}
-\end{figure}
-\end{center}
-\caption{Plantilla Especificación Caso de Uso Modificar contraseña.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/PCU/solicitar_lugar}
-\end{center}
-\end{figure}
-\end{center}
-\caption{Plantilla Especificación Caso de Uso Solicitar lugar.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/PCU/comentar_lugar}
-\end{center}
-\end{figure}
-\end{center}
-\caption{Plantilla Especificación Caso de Uso Comentar lugar.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/PCU/comentar_evento}
-\end{center}
-\end{figure}
-\end{center}
-\caption{Plantilla Especificación Caso de Uso Comentar evento.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/PCU/seguir_lugar}
-\end{center}
-\end{figure}
-\end{center}
-\caption{Plantilla Especificación Caso de Uso Seguir lugar.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/PCU/registrar_visita}
-\end{center}
-\end{figure}
-\end{center}
-\caption{Plantilla Especificación Caso de Uso Registrar visita.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/PCU/crear_evento}
-\end{center}
-\end{figure}
-\end{center}
-\caption{Plantilla Especificación Caso de Uso Crear evento.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/PCU/ver_suscriptores}
-\end{center}
-\end{figure}
-\end{center}
-\caption{Plantilla Especificación Caso de Uso Ver suscriptores.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/PCU/modificar_lugar}
-\end{center}
-\end{figure}
-\end{center}
-\caption{Plantilla Especificación Caso de Uso Modificar lugar.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/PCU/crear_productos}
-\end{center}
-\end{figure}
-\end{center}
-\caption{Plantilla Especificación Caso de Uso Crear productos.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/PCU/modificar_producto}
-\end{center}
-\end{figure}
-\end{center}
-\caption{Plantilla Especificación Caso de Uso Modificar productos.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/PCU/ver_fotos}
-\end{center}
-\end{figure}
-\end{center}
-\caption{Plantilla Especificación Caso de Uso Ver Fotos.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/PCU/ver_productos}
-\end{center}
-\end{figure}
-\end{center}
-\caption{Plantilla Especificación Caso de Uso Ver productos.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/PCU/ver_eventos}
-\end{center}
-\end{figure}
-\end{center}
-\caption{Plantilla Especificación Caso de Uso Ver eventos.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/PCU/ubicacion_lugar}
-\end{center}
-\end{figure}
-\end{center}
-\caption{Plantilla Especificación Caso de Uso Ubicación de un lugar.}
-\end{table}
-
-\begin{table}[H]
-\begin{center}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/PCU/ubicacion_lugar_categoria}
-\end{center}
-\end{figure}
-\end{center}
-\caption{Plantilla Especificación Caso de Uso Ubicación de lugares por categoría.}
-\end{table}
-
-\chapter{Pruebas}\label{aped.C}
-Este anexo contiene pruebas de aceptación realizadas para validar funcionalidades del sistema.	
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%						FIN APENDICE C
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

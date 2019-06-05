@@ -36,17 +36,19 @@
 \BOOKMARK [1][-]{section.3.2}{Descripci\363n General del Sistema}{chapter.3}% 36
 \BOOKMARK [2][-]{subsection.3.2.1}{Interfaz Gr\341fica de Usuario}{section.3.2}% 37
 \BOOKMARK [2][-]{subsection.3.2.2}{Administrador}{section.3.2}% 38
-\BOOKMARK [2][-]{subsection.3.2.3}{Usuario}{section.3.2}% 39
-\BOOKMARK [2][-]{subsection.3.2.4}{Comerciante}{section.3.2}% 40
-\BOOKMARK [1][-]{section.3.3}{Arquitectura del Sistema Implementado}{chapter.3}% 41
-\BOOKMARK [1][-]{section.3.4}{Detalles de la Implementaci\363n}{chapter.3}% 42
-\BOOKMARK [1][-]{section.3.5}{Pruebas}{chapter.3}% 43
-\BOOKMARK [2][-]{subsection.3.5.1}{Precision and Recall}{section.3.5}% 44
-\BOOKMARK [2][-]{subsection.3.5.2}{Pruebas de Usabilidad}{section.3.5}% 45
-\BOOKMARK [2][-]{subsection.3.5.3}{Pruebas Funcionales }{section.3.5}% 46
-\BOOKMARK [0][-]{chapter.4}{Conclusiones y Trabajos Futuros}{}% 47
-\BOOKMARK [1][-]{section.4.1}{Conclusiones}{chapter.4}% 48
-\BOOKMARK [1][-]{section.4.2}{Trabajo Futuro}{chapter.4}% 49
-\BOOKMARK [0][-]{appendix.Alph1}{Historias de Usuario}{}% 50
-\BOOKMARK [0][-]{appendix.Alph2}{Plantillas Especificaci\363n Casos de Uso}{}% 51
-\BOOKMARK [0][-]{appendix.Alph3}{Pruebas}{}% 52
+\BOOKMARK [3][-]{subsubsection.3.2.2.1}{Autenticaci\363n}{subsection.3.2.2}% 39
+\BOOKMARK [3][-]{subsubsection.3.2.2.2}{Registrar Lugar}{subsection.3.2.2}% 40
+\BOOKMARK [3][-]{subsubsection.3.2.2.3}{Registrar Categor\355a}{subsection.3.2.2}% 41
+\BOOKMARK [3][-]{subsubsection.3.2.2.4}{Registrar Tag}{subsection.3.2.2}% 42
+\BOOKMARK [3][-]{subsubsection.3.2.2.5}{Ver Solicitudes}{subsection.3.2.2}% 43
+\BOOKMARK [2][-]{subsection.3.2.3}{Usuario}{section.3.2}% 44
+\BOOKMARK [2][-]{subsection.3.2.4}{Comerciante}{section.3.2}% 45
+\BOOKMARK [1][-]{section.3.3}{Arquitectura del Sistema Implementado}{chapter.3}% 46
+\BOOKMARK [1][-]{section.3.4}{Detalles de la Implementaci\363n}{chapter.3}% 47
+\BOOKMARK [1][-]{section.3.5}{Pruebas}{chapter.3}% 48
+\BOOKMARK [2][-]{subsection.3.5.1}{Precision and Recall}{section.3.5}% 49
+\BOOKMARK [2][-]{subsection.3.5.2}{Pruebas de Usabilidad}{section.3.5}% 50
+\BOOKMARK [2][-]{subsection.3.5.3}{Pruebas Funcionales }{section.3.5}% 51
+\BOOKMARK [0][-]{chapter.4}{Conclusiones y Trabajos Futuros}{}% 52
+\BOOKMARK [1][-]{section.4.1}{Conclusiones}{chapter.4}% 53
+\BOOKMARK [1][-]{section.4.2}{Trabajo Futuro}{chapter.4}% 54
