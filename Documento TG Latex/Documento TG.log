@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.9)  11 JUN 2019 19:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.9)  24 JUN 2019 22:21
 entering extended mode
 **"./Documento TG.tex"
 ("Documento TG.tex"
@@ -521,7 +521,7 @@ LaTeX Info: Redefining \nameref on input line 25.
 \@outlinefile=\write3
 \openout3 = `"Documento TG.out"'.
 
-<./imagenes/logo.jpg, id=219, 640.3925pt x 480.79625pt>
+<./imagenes/logo.jpg, id=223, 640.3925pt x 480.79625pt>
 File: ./imagenes/logo.jpg Graphic file (type jpg)
 <use ./imagenes/logo.jpg>
 Package pdftex.def Info: ./imagenes/logo.jpg  used on input line 38.
@@ -558,7 +558,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.33 ...2}Diagrama de Clase}{23}{subsection.3.1.2}
+l.33 ... Entidad - Relacion}{23}{subsection.3.1.2}
                                                   % [1])
 \tf@toc=\write4
 \openout4 = `"Documento TG.toc"'.
@@ -614,7 +614,7 @@ LaTeX Info: Redefining \% on input line 245.
 LaTeX Info: Redefining \. on input line 269.
 LaTeX Info: Redefining \% on input line 269.
  [11]
-<./imagenes/tablas/comparacion_metodologias.png, id=407, 434.37282pt x 297.3609
+<./imagenes/tablas/comparacion_metodologias.png, id=414, 434.37282pt x 297.3609
 3pt>
 File: ./imagenes/tablas/comparacion_metodologias.png Graphic file (type png)
 <use ./imagenes/tablas/comparacion_metodologias.png>
@@ -636,7 +636,7 @@ LaTeX Info: Redefining \% on input line 301.
 LaTeX Info: Redefining \. on input line 307.
 LaTeX Info: Redefining \% on input line 307.
  [14]
-<./imagenes/mapa_politico.png, id=423, 927.465pt x 610.53094pt>
+<./imagenes/mapa_politico.png, id=430, 927.465pt x 610.53094pt>
 File: ./imagenes/mapa_politico.png Graphic file (type png)
 <use ./imagenes/mapa_politico.png>
 Package pdftex.def Info: ./imagenes/mapa_politico.png  used on input line 314.
@@ -650,7 +650,7 @@ LaTeX Info: Redefining \% on input line 324.
                                                   \fi \fi 
 l.324 
        <./imagenes/mapa_politico.png>]
-<./imagenes/division_corregimientos.png, id=430, 927.465pt x 610.53094pt>
+<./imagenes/division_corregimientos.png, id=437, 927.465pt x 610.53094pt>
 File: ./imagenes/division_corregimientos.png Graphic file (type png)
 <use ./imagenes/division_corregimientos.png>
 Package pdftex.def Info: ./imagenes/division_corregimientos.png  used on input 
@@ -681,7 +681,7 @@ LaTeX Info: Redefining \. on input line 404.
 LaTeX Info: Redefining \% on input line 404.
  [19]
 Cap\'{\i }tulo 3.
-<./imagenes/ciclo_desarrollo.png, id=448, 644.4075pt x 212.29312pt>
+<./imagenes/ciclo_desarrollo.png, id=455, 644.4075pt x 212.29312pt>
 File: ./imagenes/ciclo_desarrollo.png Graphic file (type png)
 <use ./imagenes/ciclo_desarrollo.png>
 Package pdftex.def Info: ./imagenes/ciclo_desarrollo.png  used on input line 41
@@ -692,7 +692,7 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 418--419
  [] 
  []
 
-<./imagenes/HU/HU1.png, id=449, 441.14813pt x 261.22594pt>
+<./imagenes/HU/HU1.png, id=456, 441.14813pt x 261.22594pt>
 File: ./imagenes/HU/HU1.png Graphic file (type png)
 <use ./imagenes/HU/HU1.png>
 Package pdftex.def Info: ./imagenes/HU/HU1.png  used on input line 427.
@@ -706,12 +706,12 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.430 
        <./imagenes/ciclo_desarrollo.png>]
-<./imagenes/HU/HU9.png, id=455, 437.38406pt x 308.65312pt>
+<./imagenes/HU/HU9.png, id=462, 437.38406pt x 308.65312pt>
 File: ./imagenes/HU/HU9.png Graphic file (type png)
 <use ./imagenes/HU/HU9.png>
 Package pdftex.def Info: ./imagenes/HU/HU9.png  used on input line 433.
 (pdftex.def)             Requested size: 369.88582pt x 261.02354pt.
-<./imagenes/HU/HU14.png, id=456, 438.8897pt x 263.48438pt>
+<./imagenes/HU/HU14.png, id=463, 438.8897pt x 263.48438pt>
 File: ./imagenes/HU/HU14.png Graphic file (type png)
 <use ./imagenes/HU/HU14.png>
 Package pdftex.def Info: ./imagenes/HU/HU14.png  used on input line 439.
@@ -731,11 +731,12 @@ l.442
                                                   \fi \fi 
 l.442 
        <./imagenes/HU/HU1.png> <./imagenes/HU/HU9.png>]
-<./imagenes/Diagrama_UML.png, id=463, 2020.54875pt x 1380.15625pt>
-File: ./imagenes/Diagrama_UML.png Graphic file (type png)
-<use ./imagenes/Diagrama_UML.png>
-Package pdftex.def Info: ./imagenes/Diagrama_UML.png  used on input line 446.
-(pdftex.def)             Requested size: 455.24408pt x 310.94295pt.
+<./imagenes/Diagrama_entidad_relacion.png, id=470, 825.0825pt x 910.90312pt>
+File: ./imagenes/Diagrama_entidad_relacion.png Graphic file (type png)
+<use ./imagenes/Diagrama_entidad_relacion.png>
+Package pdftex.def Info: ./imagenes/Diagrama_entidad_relacion.png  used on inpu
+t line 446.
+(pdftex.def)             Requested size: 455.24408pt x 502.59668pt.
 
 Overfull \hbox (11.6656pt too wide) in paragraph at lines 446--447
  [] 
@@ -750,250 +751,268 @@ LaTeX Info: Redefining \% on input line 450.
                                                   \fi \fi 
 l.450 
        <./imagenes/HU/HU14.png>]
-<./imagenes/diagrama_ventanas.png, id=469, 785.18344pt x 627.84563pt>
-File: ./imagenes/diagrama_ventanas.png Graphic file (type png)
-<use ./imagenes/diagrama_ventanas.png>
-Package pdftex.def Info: ./imagenes/diagrama_ventanas.png  used on input line 4
-54.
-(pdftex.def)             Requested size: 369.88582pt x 295.76767pt.
+<./imagenes/diagrama_clases.png, id=476, 1285.05093pt x 384.6872pt>
+File: ./imagenes/diagrama_clases.png Graphic file (type png)
+<use ./imagenes/diagrama_clases.png>
+Package pdftex.def Info: ./imagenes/diagrama_clases.png  used on input line 454
+.
+(pdftex.def)             Requested size: 455.24408pt x 136.28021pt.
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 454--455
+ [] 
+ []
+
 LaTeX Info: Redefining \. on input line 458.
 LaTeX Info: Redefining \% on input line 458.
- [23pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-2}) has been already used, duplicate ignored
+[23pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.458 
-       <./imagenes/Diagrama_UML.png (PNG copy)>]
-<./imagenes/CU/cu_administrador.png, id=474, 470.50781pt x 382.42876pt>
+       <./imagenes/Diagrama_entidad_relacion.png>]
+<./imagenes/diagrama_ventanas.png, id=482, 785.18344pt x 627.84563pt>
+File: ./imagenes/diagrama_ventanas.png Graphic file (type png)
+<use ./imagenes/diagrama_ventanas.png>
+Package pdftex.def Info: ./imagenes/diagrama_ventanas.png  used on input line 4
+62.
+(pdftex.def)             Requested size: 369.88582pt x 295.76767pt.
+<./imagenes/CU/cu_administrador.png, id=483, 470.50781pt x 382.42876pt>
 File: ./imagenes/CU/cu_administrador.png Graphic file (type png)
 <use ./imagenes/CU/cu_administrador.png>
 Package pdftex.def Info: ./imagenes/CU/cu_administrador.png  used on input line
- 465.
+ 473.
 (pdftex.def)             Requested size: 284.52756pt x 231.26215pt.
-LaTeX Info: Redefining \. on input line 469.
-LaTeX Info: Redefining \% on input line 469.
+LaTeX Info: Redefining \. on input line 476.
+LaTeX Info: Redefining \% on input line 476.
  [24pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.469 
-       <./imagenes/diagrama_ventanas.png>]
-<./imagenes/CU/cu_usuario.png, id=480, 453.94594pt x 373.395pt>
+l.476 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{figure.3.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.476 \end{figure}
+                   <./imagenes/diagrama_clases.png> <./imagenes/diagrama_ventan
+as.png>]
+<./imagenes/CU/cu_usuario.png, id=490, 453.94594pt x 373.395pt>
 File: ./imagenes/CU/cu_usuario.png Graphic file (type png)
 <use ./imagenes/CU/cu_usuario.png>
-Package pdftex.def Info: ./imagenes/CU/cu_usuario.png  used on input line 473.
+Package pdftex.def Info: ./imagenes/CU/cu_usuario.png  used on input line 481.
 (pdftex.def)             Requested size: 284.52756pt x 234.0379pt.
-<./imagenes/CU/cu_comerciante.png, id=481, 749.04843pt x 325.96782pt>
-File: ./imagenes/CU/cu_comerciante.png Graphic file (type png)
-<use ./imagenes/CU/cu_comerciante.png>
-Package pdftex.def Info: ./imagenes/CU/cu_comerciante.png  used on input line 4
-81.
-(pdftex.def)             Requested size: 369.88582pt x 160.96411pt.
 LaTeX Info: Redefining \. on input line 485.
 LaTeX Info: Redefining \% on input line 485.
  [25pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-4}) has been already used, duplicate ignored
+5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.485 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-3.5}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.485 
-       <./imagenes/CU/cu_administrador.png (PNG copy)> <./imagenes/CU/cu_usuari
-o.png (PNG copy)>]
-<./imagenes/PCU/login.png, id=486, 452.4403pt x 249.18094pt>
+       <./imagenes/CU/cu_administrador.png (PNG copy)>]
+<./imagenes/CU/cu_comerciante.png, id=495, 749.04843pt x 325.96782pt>
+File: ./imagenes/CU/cu_comerciante.png Graphic file (type png)
+<use ./imagenes/CU/cu_comerciante.png>
+Package pdftex.def Info: ./imagenes/CU/cu_comerciante.png  used on input line 4
+89.
+(pdftex.def)             Requested size: 369.88582pt x 160.96411pt.
+<./imagenes/PCU/login.png, id=496, 452.4403pt x 249.18094pt>
 File: ./imagenes/PCU/login.png Graphic file (type png)
 <use ./imagenes/PCU/login.png>
-Package pdftex.def Info: ./imagenes/PCU/login.png  used on input line 489.
+Package pdftex.def Info: ./imagenes/PCU/login.png  used on input line 497.
 (pdftex.def)             Requested size: 369.88582pt x 203.71371pt.
-<./imagenes/PCU/crear_usuario.png, id=487, 450.9347pt x 333.49594pt>
-File: ./imagenes/PCU/crear_usuario.png Graphic file (type png)
-<use ./imagenes/PCU/crear_usuario.png>
-Package pdftex.def Info: ./imagenes/PCU/crear_usuario.png  used on input line 4
-95.
-(pdftex.def)             Requested size: 369.88582pt x 273.5702pt.
-LaTeX Info: Redefining \. on input line 498.
-LaTeX Info: Redefining \% on input line 498.
+LaTeX Info: Redefining \. on input line 500.
+LaTeX Info: Redefining \% on input line 500.
  [26pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.498 
-      pdfTeX warning (ext4): destination with the same identifier (name{table.3
-.4}) has been already used, duplicate ignored
+l.500 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+3.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.498 
-       <./imagenes/CU/cu_comerciante.png (PNG copy)> <./imagenes/PCU/login.png>
-]
-<./imagenes/PCU/ver_lugares_recomendados.png, id=494, 451.6875pt x 267.24844pt>
+l.500 
+       <./imagenes/CU/cu_usuario.png (PNG copy)> <./imagenes/CU/cu_comerciante.
+png (PNG copy)>]
+<./imagenes/PCU/crear_usuario.png, id=502, 450.9347pt x 333.49594pt>
+File: ./imagenes/PCU/crear_usuario.png Graphic file (type png)
+<use ./imagenes/PCU/crear_usuario.png>
+Package pdftex.def Info: ./imagenes/PCU/crear_usuario.png  used on input line 5
+03.
+(pdftex.def)             Requested size: 369.88582pt x 273.5702pt.
+<./imagenes/PCU/ver_lugares_recomendados.png, id=503, 451.6875pt x 267.24844pt>
 
 File: ./imagenes/PCU/ver_lugares_recomendados.png Graphic file (type png)
 <use ./imagenes/PCU/ver_lugares_recomendados.png>
 Package pdftex.def Info: ./imagenes/PCU/ver_lugares_recomendados.png  used on i
-nput line 501.
+nput line 509.
 (pdftex.def)             Requested size: 369.88582pt x 218.85968pt.
-LaTeX Info: Redefining \. on input line 508.
-LaTeX Info: Redefining \% on input line 508.
- [27pdfTeX warning (ext4): destination with the same identifier (name{table.3.5
+LaTeX Info: Redefining \. on input line 512.
+LaTeX Info: Redefining \% on input line 512.
+ [27pdfTeX warning (ext4): destination with the same identifier (name{table.3.4
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.508 
+l.512 
       pdfTeX warning (ext4): destination with the same identifier (name{table.3
-.6}) has been already used, duplicate ignored
+.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.508 
-       <./imagenes/PCU/crear_usuario.png> <./imagenes/PCU/ver_lugares_recomenda
-dos.png>]
-<./imagenes/gui.png, id=501, 361.35pt x 642.90187pt>
+l.512 
+       <./imagenes/PCU/login.png> <./imagenes/PCU/crear_usuario.png>]
+<./imagenes/gui.png, id=510, 361.35pt x 642.90187pt>
 File: ./imagenes/gui.png Graphic file (type png)
 <use ./imagenes/gui.png>
-Package pdftex.def Info: ./imagenes/gui.png  used on input line 511.
+Package pdftex.def Info: ./imagenes/gui.png  used on input line 519.
 (pdftex.def)             Requested size: 113.81102pt x 202.48573pt.
-<./imagenes/admin/login.png, id=502, 248.42813pt x 234.8775pt>
-File: ./imagenes/admin/login.png Graphic file (type png)
-<use ./imagenes/admin/login.png>
-Package pdftex.def Info: ./imagenes/admin/login.png  used on input line 526.
-(pdftex.def)             Requested size: 113.81102pt x 107.60413pt.
-LaTeX Info: Redefining \. on input line 530.
-LaTeX Info: Redefining \% on input line 530.
- [28pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-7}) has been already used, duplicate ignored
+LaTeX Info: Redefining \. on input line 528.
+LaTeX Info: Redefining \% on input line 528.
+ [28pdfTeX warning (ext4): destination with the same identifier (name{table.3.6
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.530 
-       <./imagenes/gui.png>]
-<./imagenes/admin/p_principal.png, id=507, 1028.34187pt x 240.14719pt>
+l.528 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+3.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.528 
+       <./imagenes/PCU/ver_lugares_recomendados.png> <./imagenes/gui.png>]
+<./imagenes/admin/login.png, id=516, 248.42813pt x 234.8775pt>
+File: ./imagenes/admin/login.png Graphic file (type png)
+<use ./imagenes/admin/login.png>
+Package pdftex.def Info: ./imagenes/admin/login.png  used on input line 534.
+(pdftex.def)             Requested size: 113.81102pt x 107.60413pt.
+<./imagenes/admin/p_principal.png, id=517, 1028.34187pt x 240.14719pt>
 File: ./imagenes/admin/p_principal.png Graphic file (type png)
 <use ./imagenes/admin/p_principal.png>
 Package pdftex.def Info: ./imagenes/admin/p_principal.png  used on input line 5
-35.
+43.
 (pdftex.def)             Requested size: 369.88582pt x 86.37962pt.
-<./imagenes/admin/crear_lugar.png, id=508, 402.75468pt x 233.37187pt>
+<./imagenes/admin/crear_lugar.png, id=518, 402.75468pt x 233.37187pt>
 File: ./imagenes/admin/crear_lugar.png Graphic file (type png)
 <use ./imagenes/admin/crear_lugar.png>
 Package pdftex.def Info: ./imagenes/admin/crear_lugar.png  used on input line 5
-46.
+54.
 (pdftex.def)             Requested size: 256.0748pt x 148.3782pt.
-<./imagenes/admin/r_categoria.png, id=509, 398.99063pt x 313.17pt>
-File: ./imagenes/admin/r_categoria.png Graphic file (type png)
-<use ./imagenes/admin/r_categoria.png>
-Package pdftex.def Info: ./imagenes/admin/r_categoria.png  used on input line 5
-56.
-(pdftex.def)             Requested size: 227.62204pt x 178.66165pt.
-LaTeX Info: Redefining \. on input line 559.
-LaTeX Info: Redefining \% on input line 559.
- [29pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-8}) has been already used, duplicate ignored
+LaTeX Info: Redefining \. on input line 557.
+LaTeX Info: Redefining \% on input line 557.
+
+[29pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.559 \end{figure}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{figure.3.9}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.559 \end{figure}
+l.557 \end{figure}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{figure.3.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.559 \end{figure}
+l.557 \end{figure}
                    <./imagenes/admin/login.png> <./imagenes/admin/p_principal.p
-ng> <./imagenes/admin/crear_lugar.png>]
-<./imagenes/admin/r_tags.png, id=517, 398.99063pt x 119.69719pt>
+ng>]
+<./imagenes/admin/r_categoria.png, id=525, 398.99063pt x 313.17pt>
+File: ./imagenes/admin/r_categoria.png Graphic file (type png)
+<use ./imagenes/admin/r_categoria.png>
+Package pdftex.def Info: ./imagenes/admin/r_categoria.png  used on input line 5
+64.
+(pdftex.def)             Requested size: 227.62204pt x 178.66165pt.
+<./imagenes/admin/r_tags.png, id=526, 398.99063pt x 119.69719pt>
 File: ./imagenes/admin/r_tags.png Graphic file (type png)
 <use ./imagenes/admin/r_tags.png>
-Package pdftex.def Info: ./imagenes/admin/r_tags.png  used on input line 567.
+Package pdftex.def Info: ./imagenes/admin/r_tags.png  used on input line 575.
 (pdftex.def)             Requested size: 284.52756pt x 85.36183pt.
-<./imagenes/admin/solicitudes.png, id=518, 1014.79124pt x 460.72125pt>
-File: ./imagenes/admin/solicitudes.png Graphic file (type png)
-<use ./imagenes/admin/solicitudes.png>
-Package pdftex.def Info: ./imagenes/admin/solicitudes.png  used on input line 5
-77.
-(pdftex.def)             Requested size: 284.52756pt x 129.17682pt.
-LaTeX Info: Redefining \. on input line 581.
-LaTeX Info: Redefining \% on input line 581.
+LaTeX Info: Redefining \. on input line 578.
+LaTeX Info: Redefining \% on input line 578.
  [30pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.581 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-3.12}) has been already used, duplicate ignored
+l.578 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{figure.3.12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.581 
-       <./imagenes/admin/r_categoria.png> <./imagenes/admin/r_tags.png>]
-<./imagenes/arquitectura.png, id=525, 970.62625pt x 763.85374pt>
+l.578 \end{figure}
+                   <./imagenes/admin/crear_lugar.png> <./imagenes/admin/r_categ
+oria.png>]
+<./imagenes/admin/solicitudes.png, id=533, 1014.79124pt x 460.72125pt>
+File: ./imagenes/admin/solicitudes.png Graphic file (type png)
+<use ./imagenes/admin/solicitudes.png>
+Package pdftex.def Info: ./imagenes/admin/solicitudes.png  used on input line 5
+85.
+(pdftex.def)             Requested size: 284.52756pt x 129.17682pt.
+<./imagenes/arquitectura.png, id=534, 970.62625pt x 763.85374pt>
 File: ./imagenes/arquitectura.png Graphic file (type png)
 <use ./imagenes/arquitectura.png>
-Package pdftex.def Info: ./imagenes/arquitectura.png  used on input line 592.
+Package pdftex.def Info: ./imagenes/arquitectura.png  used on input line 600.
 (pdftex.def)             Requested size: 369.88582pt x 291.09497pt.
-LaTeX Info: Redefining \. on input line 596.
-LaTeX Info: Redefining \% on input line 596.
-
-[31pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
-3}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.596 
-       <./imagenes/admin/solicitudes.png>]
-LaTeX Info: Redefining \. on input line 607.
-LaTeX Info: Redefining \% on input line 607.
- [32pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-14}) has been already used, duplicate ignored
+LaTeX Info: Redefining \. on input line 604.
+LaTeX Info: Redefining \% on input line 604.
+ [31pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.607     \item P
+l.604 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+3.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.604 
+       <./imagenes/admin/r_tags.png> <./imagenes/admin/solicitudes.png>]
+LaTeX Info: Redefining \. on input line 615.
+LaTeX Info: Redefining \% on input line 615.
+
+[32pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.615     \item P
                  ython: Python [30] es un lenguaje de programación interpre...
  <./imagenes/arquitectura.png>]
-LaTeX Info: Redefining \. on input line 635.
-LaTeX Info: Redefining \% on input line 635.
+LaTeX Info: Redefining \. on input line 643.
+LaTeX Info: Redefining \% on input line 643.
  [33]
 Cap\'{\i }tulo 4.
 [34
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 664.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 672.
  [35
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 664.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 672.
  ("Documento TG.aux"
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 664.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 664.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 672.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 672.
 Package rerunfilecheck Info: File `"Documento TG".out' has not changed.
-(rerunfilecheck)             Checksum: 7D94FC51FAD0704ADBD4BB2F12252CAE;4069.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 664.
+(rerunfilecheck)             Checksum: 73CBCC37BCDF95D646102640F7F87605;4152.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 672.
  ) 
 Here is how much of TeX's memory you used:
- 8834 strings out of 492945
- 126166 string characters out of 3135514
+ 8842 strings out of 492945
+ 126434 string characters out of 3135514
  247235 words of memory out of 3000000
- 12441 multiletter control sequences out of 15000+200000
+ 12446 multiletter control sequences out of 15000+200000
  12807 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  32i,17n,43p,1108b,686s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1005,9 +1024,9 @@ es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
 lic/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mti12.pfb>
-Output written on "Documento TG.pdf" (40 pages, 1825046 bytes).
+Output written on "Documento TG.pdf" (40 pages, 1857005 bytes).
 PDF statistics:
- 608 PDF objects out of 1000 (max. 8388607)
- 128 named destinations out of 1000 (max. 500000)
- 553 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 618 PDF objects out of 1000 (max. 8388607)
+ 130 named destinations out of 1000 (max. 500000)
+ 566 words of extra memory for PDF output out of 10000 (max. 10000000)
 
