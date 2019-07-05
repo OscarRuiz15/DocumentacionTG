@@ -1,22 +1,31 @@
 \babel@toc {spanish}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Mapa Pol\IeC {\'\i }tico Valle del Cauca.}}{15}{figure.2.1}% 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Divisi\IeC {\'o}n por corregimientos, municipio de Ginebra.}}{16}{figure.2.2}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Mapa Pol\IeC {\'\i }tico Valle del Cauca.\relax }}{15}{figure.caption.8}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Divisi\IeC {\'o}n por corregimientos, municipio de Ginebra.\relax }}{16}{figure.caption.9}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Ciclo de desarrollo Mobile-D.}}{20}{figure.3.1}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagrama Entidad - Relacion.}}{23}{figure.3.2}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagrama de clases.}}{24}{figure.3.3}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Diagrama de Ventanas.}}{24}{figure.3.4}% 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Caso de Uso Administrador.}}{25}{figure.3.5}% 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Caso de Uso Usuario.}}{26}{figure.3.6}% 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Caso de Uso Comerciante.}}{26}{figure.3.7}% 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Aspecto Inicial de la Aplicaci\IeC {\'o}n para un usuario logeado.}}{28}{figure.3.8}% 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Login Web Service.}}{29}{figure.3.9}% 
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Pantalla Principal Men\IeC {\'u} Administrador.}}{29}{figure.3.10}% 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Registrar Lugar.}}{30}{figure.3.11}% 
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Registrar Categoria.}}{30}{figure.3.12}% 
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Registrar Tag.}}{31}{figure.3.13}% 
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Solicitudes Recibidas.}}{31}{figure.3.14}% 
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Arquitectura del Sistema.}}{32}{figure.3.15}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Ciclo de desarrollo Mobile-D.\relax }}{20}{figure.caption.11}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagrama Entidad - Relacion.\relax }}{23}{figure.caption.15}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagrama de clases.\relax }}{24}{figure.caption.16}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Diagrama de Ventanas.\relax }}{24}{figure.caption.17}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Caso de Uso Administrador.\relax }}{25}{figure.caption.18}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Caso de Uso Usuario.\relax }}{26}{figure.caption.19}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Caso de Uso Comerciante.\relax }}{26}{figure.caption.20}% 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Aspecto Inicial de la Aplicaci\IeC {\'o}n para un usuario logeado.\relax }}{28}{figure.caption.24}% 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Login Web Service.\relax }}{29}{figure.caption.25}% 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Pantalla Principal Men\IeC {\'u} Administrador.\relax }}{29}{figure.caption.26}% 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Registrar Lugar.\relax }}{30}{figure.caption.27}% 
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Registrar Categoria.\relax }}{30}{figure.caption.28}% 
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Registrar Tag.\relax }}{31}{figure.caption.29}% 
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Solicitudes Recibidas.\relax }}{31}{figure.caption.30}% 
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Secciones Pantalla Principal.\relax }}{32}{figure.caption.31}% 
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Pantalla b\IeC {\'u}squedas, resultados obtenidos filtrados por categor\IeC {\'\i }a y ubicaci\IeC {\'o}n en el mapa.\relax }}{32}{figure.caption.32}% 
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Lugares Favoritos.\relax }}{33}{figure.caption.33}% 
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Detalles lugar y ruta/ubicaci\IeC {\'o}n.\relax }}{33}{figure.caption.34}% 
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Mi Perfil.\relax }}{34}{figure.caption.35}% 
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Realizar Solicitud.\relax }}{34}{figure.caption.36}% 
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Opciones Lugar Propio.\relax }}{35}{figure.caption.37}% 
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Opciones Comerciante 1\relax }}{35}{figure.caption.38}% 
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Opciones Comerciante 2\relax }}{36}{figure.caption.39}% 
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Arquitectura del Sistema.\relax }}{37}{figure.caption.40}% 
 \addvspace {10\p@ }

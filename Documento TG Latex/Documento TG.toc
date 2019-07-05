@@ -1,7 +1,7 @@
 \babel@toc {spanish}{}
-\contentsline {chapter}{Dedicatorias}{II}{chapter*.2}% 
-\contentsline {chapter}{Agradecimientos}{III}{chapter*.3}% 
-\contentsline {chapter}{Resumen}{5}{chapter*.4}% 
+\contentsline {chapter}{Dedicatorias}{II}{chapter*.4}% 
+\contentsline {chapter}{Agradecimientos}{III}{chapter*.5}% 
+\contentsline {chapter}{Resumen}{5}{chapter*.6}% 
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{6}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}Descripci\IeC {\'o}n del Problema}{6}{section.1.1}% 
 \contentsline {section}{\numberline {1.2}Formulaci\IeC {\'o}n del Problema}{7}{section.1.2}% 
@@ -23,9 +23,9 @@
 \contentsline {subsection}{\numberline {2.1.5}Ginebra \IeC {\textendash } Valle del Cauca}{15}{subsection.2.1.5}% 
 \contentsline {subsubsection}{\numberline {2.1.5.1}Aspectos Generales}{15}{subsubsection.2.1.5.1}% 
 \contentsline {subsubsection}{\numberline {2.1.5.2}Gesti\IeC {\'o}n del Turismo en Ginebra}{17}{subsubsection.2.1.5.2}% 
-\contentsline {section}{\numberline {2.2}Antecedentes}{17}{section.2.2}% 
+\contentsline {section}{\numberline {2.2}Antecedentes}{18}{section.2.2}% 
 \contentsline {subsection}{\numberline {2.2.1}DataEco[23]}{18}{subsection.2.2.1}% 
-\contentsline {subsection}{\numberline {2.2.2}Google Maps[24]}{18}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.2}Google Maps[24]}{19}{subsection.2.2.2}% 
 \contentsline {subsection}{\numberline {2.2.3}Foursquare[25], [26]}{19}{subsection.2.2.3}% 
 \contentsline {chapter}{\numberline {3}Desarrollo del Proyecto}{20}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}Dise\IeC {\~n}o}{21}{section.3.1}% 
@@ -44,13 +44,19 @@
 \contentsline {subsubsection}{\numberline {3.2.2.4}Registrar Tag}{31}{subsubsection.3.2.2.4}% 
 \contentsline {subsubsection}{\numberline {3.2.2.5}Ver Solicitudes}{31}{subsubsection.3.2.2.5}% 
 \contentsline {subsection}{\numberline {3.2.3}Usuario}{31}{subsection.3.2.3}% 
-\contentsline {subsection}{\numberline {3.2.4}Comerciante}{31}{subsection.3.2.4}% 
-\contentsline {section}{\numberline {3.3}Arquitectura del Sistema Implementado}{31}{section.3.3}% 
-\contentsline {section}{\numberline {3.4}Detalles de la Implementaci\IeC {\'o}n}{32}{section.3.4}% 
-\contentsline {section}{\numberline {3.5}Pruebas}{33}{section.3.5}% 
-\contentsline {subsection}{\numberline {3.5.1}Precision and Recall}{33}{subsection.3.5.1}% 
-\contentsline {subsection}{\numberline {3.5.2}Pruebas de Usabilidad}{33}{subsection.3.5.2}% 
-\contentsline {subsection}{\numberline {3.5.3}Pruebas Funcionales }{33}{subsection.3.5.3}% 
-\contentsline {chapter}{\numberline {4}Conclusiones y Trabajos Futuros}{34}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Conclusiones}{34}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Trabajo Futuro}{34}{section.4.2}% 
+\contentsline {subsubsection}{\numberline {3.2.3.1}Pantalla Principal}{31}{subsubsection.3.2.3.1}% 
+\contentsline {subsubsection}{\numberline {3.2.3.2}Buscar Lugares}{32}{subsubsection.3.2.3.2}% 
+\contentsline {subsubsection}{\numberline {3.2.3.3}Lugares favoritos}{32}{subsubsection.3.2.3.3}% 
+\contentsline {subsubsection}{\numberline {3.2.3.4}Detalles de un lugar}{33}{subsubsection.3.2.3.4}% 
+\contentsline {subsubsection}{\numberline {3.2.3.5}Mi perfil}{34}{subsubsection.3.2.3.5}% 
+\contentsline {subsubsection}{\numberline {3.2.3.6}Solicitudes}{34}{subsubsection.3.2.3.6}% 
+\contentsline {subsection}{\numberline {3.2.4}Comerciante}{35}{subsection.3.2.4}% 
+\contentsline {section}{\numberline {3.3}Arquitectura del Sistema Implementado}{36}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}Detalles de la Implementaci\IeC {\'o}n}{37}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}Pruebas}{38}{section.3.5}% 
+\contentsline {subsection}{\numberline {3.5.1}Precision and Recall}{38}{subsection.3.5.1}% 
+\contentsline {subsection}{\numberline {3.5.2}Pruebas de Usabilidad}{38}{subsection.3.5.2}% 
+\contentsline {subsection}{\numberline {3.5.3}Pruebas Funcionales }{38}{subsection.3.5.3}% 
+\contentsline {chapter}{\numberline {4}Conclusiones y Trabajos Futuros}{39}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Conclusiones}{39}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Trabajo Futuro}{39}{section.4.2}% 
