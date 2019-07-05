@@ -1,5 +1,5 @@
 \documentclass[12pt,letterpaper,openany]{book}
-
+\usepackage{subcaption}
 \usepackage{enumerate} 
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -587,10 +587,109 @@ En la siguiente pantalla, el administrador revisará las solicitudes recibidas p
 \end{center}
 \end{figure}
 
-
-
 \subsection{Usuario}
+\subsubsection{Pantalla Principal}
+La pantalla principal (Figura 3.8) está compuesta por diferentes secciones: \\
+Lugares populares: Son los que contengan la puntuación y el numero de comentarios más alto.\\
+Lugares recomendados: Son los que coincidan con las preferencias del usuario, dichas preferencias se podrán elegir al momento de crear una cuenta.\\
+Lugares nuevos: Son los lugares cuya fecha de registro se encuentra entre la fecha actual, y un parámetro de días establecidos.\\
+Por ultimo, en caso de existir eventos disponibles realizados por los lugares a los cuales el usuario sigue, aparecerán también  en pantalla.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=14cm]{./imagenes/1}
+\caption{Secciones Pantalla Principal.}
+\end{center}
+\end{figure}
+
+\subsubsection{Buscar Lugares}
+En la sección de búsquedas, es posible filtrar lugares por categorías (Vida Nocturna, Desayuno, Entretenimiento, Restaurante, Comida Rápida, Hospedaje), así como también filtrarlos por parte de su nombre
+\vspace{5mm}\newline
+Una vez ejecutada la búsqueda, aparece en pantalla los lugares que coincidan con el criterio establecido, y un botón para poder ver su ubicación en el mapa.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=10cm]{./imagenes/2}
+\caption{Pantalla búsquedas, resultados obtenidos filtrados por categoría y ubicación en el mapa.}
+\end{center}
+\end{figure}
+
+\subsubsection{Lugares favoritos}
+En la sección de lugares favoritos, aparecen los lugares a los cuales el usuario ha decidido seguir.\\
+Es posible realizar la búsqueda de los lugares favoritos como criterio de búsqueda parte de su nombre.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=4cm]{./imagenes/3}
+\caption{Lugares Favoritos.}
+\end{center}
+\end{figure}
+
+\subsubsection{Detalles de un lugar}
+Desde la pantalla principal, la sección de búsquedas o la sección lugares favoritos, es posible visualizar la información referente a un lugar deseado al entrar a este.
+\vspace{5mm}\newline
+La información que el usuario verá acerca de un lugar será nombre, fotos, dirección, teléfono, descripción, productos, calificación, tags, e-mail, sitio web, redes sociales, horarios de atención, municipio, comentarios, productos, eventos, cantidad de visitas, y cantidad de favoritos.\\
+También es posible visualizar en un mapa su ubicación y la ruta para llegar a este.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=8cm]{./imagenes/4}
+\caption{Detalles lugar y ruta/ubicación.}
+\end{center}
+\end{figure}
+Dentro de los detalles de un lugar, es posible realizar una suscripción a este (marcarlo como favorito), registrar una visita por día, y crear un comentario con una calificación.
+
+\subsubsection{Mi perfil}
+Dentro de la sección Mi perfil, el usuario podrá visualizar la información referente a él, así como el numero de visitas realizadas, número de  lugares favoritos, número de lugares en propiedad y un listado con la solicitudes realizadas\\
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=3cm]{./imagenes/5}
+\caption{Mi Perfil.}
+\end{center}
+\end{figure}
+También, se brindan opciones para realizar la modificación de datos personales, de contraseña de inicio de sesión, y de preferencias de las cuales recibirá recomendaciones.
+
+\subsubsection{Solicitudes}
+Los usuarios pueden realizar solicitudes para poder obtener su sitio registrado en la aplicación para disposición de los demás usuarios. Esta solicitud se realiza desde la sección Mi Perfil\\
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=7cm]{./imagenes/6}
+\caption{Realizar Solicitud.}
+\end{center}
+\end{figure}
+
 \subsection{Comerciante}
+El usuario tipo comerciante dispone de las mismas funcionalidades de un usuario normal, mencionadas en la sección anterior, pero ademas, el usuario tipo comerciante podrá administrar su negocio, al cual es posible crearle productos, eventos, y ver los suscriptores a sus lugares.\\
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=4cm]{./imagenes/7}
+\caption{Opciones Lugar Propio.}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{.4\linewidth}
+        \includegraphics[scale=0.12]{./imagenes/8}
+        \caption{Crear Evento.}
+    \end{subfigure}
+    \hskip2em
+    \begin{subfigure}{.4\linewidth}
+        \includegraphics[scale=0.1]{./imagenes/9}
+        \caption{Modificar Datos.}
+    \end{subfigure}
+    \caption{Opciones Comerciante 1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{.4\linewidth}
+        \includegraphics[scale=0.15]{./imagenes/10}
+        \caption{Crear Producto.}
+    \end{subfigure}
+    \hskip2em
+    \begin{subfigure}{.4\linewidth}
+        \includegraphics[scale=0.15]{./imagenes/11}
+        \caption{Ver Suscriptores.}
+    \end{subfigure}
+    \caption{Opciones Comerciante 2}
+\end{figure}
 
 
 \section{Arquitectura del Sistema Implementado}

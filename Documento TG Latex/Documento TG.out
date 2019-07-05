@@ -1,6 +1,6 @@
-\BOOKMARK [0][-]{chapter*.2}{Dedicatorias}{}% 1
-\BOOKMARK [0][-]{chapter*.3}{Agradecimientos}{}% 2
-\BOOKMARK [0][-]{chapter*.4}{Resumen}{}% 3
+\BOOKMARK [0][-]{chapter*.4}{Dedicatorias}{}% 1
+\BOOKMARK [0][-]{chapter*.5}{Agradecimientos}{}% 2
+\BOOKMARK [0][-]{chapter*.6}{Resumen}{}% 3
 \BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 4
 \BOOKMARK [1][-]{section.1.1}{Descripci\363n del Problema}{chapter.1}% 5
 \BOOKMARK [1][-]{section.1.2}{Formulaci\363n del Problema}{chapter.1}% 6
@@ -43,13 +43,19 @@
 \BOOKMARK [3][-]{subsubsection.3.2.2.4}{Registrar Tag}{subsection.3.2.2}% 43
 \BOOKMARK [3][-]{subsubsection.3.2.2.5}{Ver Solicitudes}{subsection.3.2.2}% 44
 \BOOKMARK [2][-]{subsection.3.2.3}{Usuario}{section.3.2}% 45
-\BOOKMARK [2][-]{subsection.3.2.4}{Comerciante}{section.3.2}% 46
-\BOOKMARK [1][-]{section.3.3}{Arquitectura del Sistema Implementado}{chapter.3}% 47
-\BOOKMARK [1][-]{section.3.4}{Detalles de la Implementaci\363n}{chapter.3}% 48
-\BOOKMARK [1][-]{section.3.5}{Pruebas}{chapter.3}% 49
-\BOOKMARK [2][-]{subsection.3.5.1}{Precision and Recall}{section.3.5}% 50
-\BOOKMARK [2][-]{subsection.3.5.2}{Pruebas de Usabilidad}{section.3.5}% 51
-\BOOKMARK [2][-]{subsection.3.5.3}{Pruebas Funcionales }{section.3.5}% 52
-\BOOKMARK [0][-]{chapter.4}{Conclusiones y Trabajos Futuros}{}% 53
-\BOOKMARK [1][-]{section.4.1}{Conclusiones}{chapter.4}% 54
-\BOOKMARK [1][-]{section.4.2}{Trabajo Futuro}{chapter.4}% 55
+\BOOKMARK [3][-]{subsubsection.3.2.3.1}{Pantalla Principal}{subsection.3.2.3}% 46
+\BOOKMARK [3][-]{subsubsection.3.2.3.2}{Buscar Lugares}{subsection.3.2.3}% 47
+\BOOKMARK [3][-]{subsubsection.3.2.3.3}{Lugares favoritos}{subsection.3.2.3}% 48
+\BOOKMARK [3][-]{subsubsection.3.2.3.4}{Detalles de un lugar}{subsection.3.2.3}% 49
+\BOOKMARK [3][-]{subsubsection.3.2.3.5}{Mi perfil}{subsection.3.2.3}% 50
+\BOOKMARK [3][-]{subsubsection.3.2.3.6}{Solicitudes}{subsection.3.2.3}% 51
+\BOOKMARK [2][-]{subsection.3.2.4}{Comerciante}{section.3.2}% 52
+\BOOKMARK [1][-]{section.3.3}{Arquitectura del Sistema Implementado}{chapter.3}% 53
+\BOOKMARK [1][-]{section.3.4}{Detalles de la Implementaci\363n}{chapter.3}% 54
+\BOOKMARK [1][-]{section.3.5}{Pruebas}{chapter.3}% 55
+\BOOKMARK [2][-]{subsection.3.5.1}{Precision and Recall}{section.3.5}% 56
+\BOOKMARK [2][-]{subsection.3.5.2}{Pruebas de Usabilidad}{section.3.5}% 57
+\BOOKMARK [2][-]{subsection.3.5.3}{Pruebas Funcionales }{section.3.5}% 58
+\BOOKMARK [0][-]{chapter.4}{Conclusiones y Trabajos Futuros}{}% 59
+\BOOKMARK [1][-]{section.4.1}{Conclusiones}{chapter.4}% 60
+\BOOKMARK [1][-]{section.4.2}{Trabajo Futuro}{chapter.4}% 61
