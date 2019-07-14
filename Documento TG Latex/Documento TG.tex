@@ -420,6 +420,15 @@ La metodología Mobile-D consta de 5 fases: exploración, iniciación, producci�
 \end{center}
 \end{figure}
 
+\section{Arquitectura del Sistema Implementado}
+La siguiente figura describe el esquema o funcionamiento de la aplicación y evidencia cada uno de los componentes que se relacionan entre sí, la arquitectura utilizada fue de tipo cliente – servidor. Para la generación de recomendación automática se hizo la utilización de otro lenguaje de programación diferente a JAVA, en este caso Python fue el seleccionado, usando el framework Django y Django-Rest-Full.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=13cm]{./imagenes/arquitectura}
+\caption{Arquitectura del Sistema.}
+\end{center}
+\end{figure}
+
 \section{Diseño}
 \subsection{Historias de Usuarios}
 \begin{table}[H]
@@ -464,7 +473,7 @@ La metodología Mobile-D consta de 5 fases: exploración, iniciación, producci�
 \end{center}
 \end{figure}
 
-\subsection{Diagramas UML (Casos de Uso)}
+\subsection{Diagramas de Casos de Uso}
 Un caso de uso representa un proceso comun e importante. Los casos de uso constituyen una tecnica para la captura de requisitos potenciales de un nuevo sistema o una actualizacion de software. Un diagrama de caso de uso muestra las distintas operaciones que se esperan de una aplicacion o sistema y como se relaciona con su entorno (usuarios u otras aplicaciones).
 \vspace{5mm}\newline
 \textbf{Administrador:} En el diagrama de casos de uso de la figura están representados los casos de uso en los cuales participa el administrador del sistema de gestión de la aplicación.
@@ -509,6 +518,26 @@ Un caso de uso representa un proceso comun e importante. Los casos de uso consti
 \includegraphics[width=13cm]{./imagenes/PCU/ver_lugares_recomendados}
 \caption{Plantilla Especificación Caso de Uso Ver lugares recomendados.}
 \end{table}
+
+\subsection{Diagramas de Secuencia y Colaboración}
+Los diagramas de secuencia permiten visualizar la interacción de los diferentes objetos y actores a través del tiempo. Los diagramas de colaboración contienen la misma información que los diagramas de secuencia, solo que se centran en las responsabilidades de cada objeto, en lugar del tiempo. En las siguientes figuras se encontraran algunos de los diagramas de secuencia y colaboración de los casos de uso descritos anteriormente.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=10cm]{./imagenes/DS/DS_gestionar_lugar}
+\caption{Diagrama de Secuencia Gestionar Lugar.}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=14cm]{./imagenes/DS/DS_consultar_lugares}
+\caption{Diagrama de Secuencia Consultar Lugares.}
+\end{center}
+\end{figure}
+
+
+
 
 \section{Descripción General del Sistema}
 \subsection{Interfaz Gráfica de Usuario}
@@ -691,16 +720,6 @@ El usuario tipo comerciante dispone de las mismas funcionalidades de un usuario 
     \caption{Opciones Comerciante 2}
 \end{figure}
 
-
-\section{Arquitectura del Sistema Implementado}
-La siguiente figura describe el esquema o funcionamiento de la aplicación y evidencia cada uno de los componentes que se relacionan entre sí, la arquitectura utilizada fue de tipo cliente – servidor. Para la generación de recomendación automática se hizo la utilización de otro lenguaje de programación diferente a JAVA, en este caso Python fue el seleccionado, usando el framework Django y Django-Rest-Full.
-\begin{figure}[H]
-\begin{center}
-\includegraphics[width=13cm]{./imagenes/arquitectura}
-\caption{Arquitectura del Sistema.}
-\end{center}
-\end{figure}
-
 \section{Detalles de la Implementación}
 Para lograr el primer objetivo \textbf{(Caracterizar los sitios y eventos del municipio de Ginebra)}, se inició con el desarrollo y aplicación de una encuesta a los dueños/administradores de los diferentes sitios para la recolección y formalización de los datos.
 Una vez recolectado de datos, se analizó la información obtenida para extraer datos que sean de utilidad para la aplicación, y se alimentó la base de datos con la información de los sitios consultados.
@@ -722,11 +741,45 @@ Para lograr el segundo objetivo \textbf{(Determinar el tipo de sistema de recome
 \end{itemize}
 
 \section{Pruebas}
-Las pruebas realizadas para verificar el correcto comportamiento del sistema fueron pruebas de precision and recall, pruebas de usabilidad y pruebas funcionales.
+Las pruebas realizadas para verificar el correcto comportamiento del sistema fueron pruebas funcionales, pruebas unitarias, pruebas de usabilidad y pruebas de precision and recall.
+
+\subsection{Pruebas Funcionales}
+
+
+\subsection{Pruebas Unitarias}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=10cm]{./imagenes/Test/ConsultasTest}
+\caption{Prueba Unitaria Metodo Consultas App Movil.}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=10cm]{./imagenes/Test/ControladorFechasTest}
+\caption{Prueba Unitaria Metodo Controlador Fechas App Movil.}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=6cm]{./imagenes/Test/Backend/Test__lugares_api_test}
+\caption{Prueba Unitaria Modulo Lugar - Backend.}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=6cm]{./imagenes/Test/Backend/Test__opiniones_api_test}
+\caption{Prueba Unitaria Modulo Opinion - Backend.}
+\end{center}
+\end{figure}
+
+\subsection{Pruebas de Usabilidad}
+
 
 \subsection{Precision and Recall}
-\subsection{Pruebas de Usabilidad}
-\subsection{Pruebas Funcionales }
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%						FIN DESARROLLO DEL PROYECTO
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -752,8 +805,407 @@ Las pruebas realizadas para verificar el correcto comportamiento del sistema fue
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%						APENDICE A
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendix
+\chapter{Historias de Usuario}\label{aped.A}
+En este anexo se relaciona parte de las Historias de Usuario (HU) que fueron necesarias para el desarrollo de este proyecto.	
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/HU/HU2}
+\caption{HU2: Login y creación de usuarios con Google.}
+\end{table}
 
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/HU/HU3}
+\caption{HU3: Home Fragment.}
+\end{table}
 
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/HU/HU4}
+\caption{HU4: Search Fragment.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/HU/HU5}
+\caption{HU5: Favorite Fragment.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/HU/HU6}
+\caption{HU6: Evento Fragment.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/HU/HU7}
+\caption{HU7: Profile Fragment.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/HU/HU8}
+\caption{HU8: Solicitud.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/HU/HU10}
+\caption{HU10: Opciones Detalles Lugar Activity.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/HU/HU11}
+\caption{HU11: Detalles Evento Activity.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/HU/HU12}
+\caption{HU12: Opciones Detalles Evento Activity.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/HU/HU13}
+\caption{HU13: Detalles Producto Activity.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/HU/HU15}
+\caption{HU15: Mapa Categoria Activity.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/HU/HU16}
+\caption{HU16: Crear Evento Activity.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/HU/HU17}
+\caption{HU17: Modificar Evento Activity.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/HU/HU18}
+\caption{HU18: Crear Producto Activity.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/HU/HU19}
+\caption{HU19: Modificar Producto Activity.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/HU/HU20}
+\caption{HU20: Modificar Lugar Activity.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/HU/HU21}
+\caption{HU21: Preferencias.}
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%						FIN APENDICE A
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%						APENDICE B
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Plantillas Especificación Casos de Uso}\label{aped.B}
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/PCU/crear_usuario_google}
+\caption{Plantilla Especificación Caso de Uso Crear Usuario con Google.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/PCU/ver_lugares_populares}
+\caption{Plantilla Especificación Caso de Uso Ver lugares populares.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/PCU/ver_nuevos_lugares}
+\caption{Plantilla Especificación Caso de Uso Ver nuevos lugares.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/PCU/ver_proximos_eventos}
+\caption{Plantilla Especificación Caso de Uso Ver próximos eventos.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/PCU/ver_lugares_categoria}
+\caption{Plantilla Especificación Caso de Uso Ver lugares por categoría.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/PCU/ver_detalles_lugar}
+\caption{Plantilla Especificación Caso de Uso Ver detalles de un lugar.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/PCU/ver_detalles_evento}
+\caption{Plantilla Especificación Caso de Uso Ver detalles de un evento.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/PCU/ver_detalles_producto}
+\caption{Plantilla Especificación Caso de Uso Ver detalles de un producto.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/PCU/modificar_perfil}
+\caption{Plantilla Especificación Caso de Uso Modificar perfil.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/PCU/modificar_contrasena}
+\caption{Plantilla Especificación Caso de Uso Modificar contraseña.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/PCU/solicitar_lugar}
+\caption{Plantilla Especificación Caso de Uso Solicitar lugar.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/PCU/comentar_lugar}
+\caption{Plantilla Especificación Caso de Uso Comentar lugar.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/PCU/comentar_evento}
+\caption{Plantilla Especificación Caso de Uso Comentar evento.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/PCU/seguir_lugar}
+\caption{Plantilla Especificación Caso de Uso Seguir lugar.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/PCU/registrar_visita}
+\caption{Plantilla Especificación Caso de Uso Registrar visita.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/PCU/crear_evento}
+\caption{Plantilla Especificación Caso de Uso Crear evento.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/PCU/ver_suscriptores}
+\caption{Plantilla Especificación Caso de Uso Ver suscriptores.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/PCU/modificar_lugar}
+\caption{Plantilla Especificación Caso de Uso Modificar lugar.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/PCU/crear_productos}
+\caption{Plantilla Especificación Caso de Uso Crear productos.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/PCU/modificar_producto}
+\caption{Plantilla Especificación Caso de Uso Modificar productos.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/PCU/ver_fotos}
+\caption{Plantilla Especificación Caso de Uso Ver Fotos.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/PCU/ver_productos}
+\caption{Plantilla Especificación Caso de Uso Ver productos.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/PCU/ver_eventos}
+\caption{Plantilla Especificación Caso de Uso Ver eventos.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/PCU/ubicacion_lugar}
+\caption{Plantilla Especificación Caso de Uso Ubicación de un lugar.}
+\end{table}
+
+\begin{table}[H]
+\centering
+\includegraphics[width=13cm]{./imagenes/PCU/ubicacion_lugar_categoria}
+\caption{Plantilla Especificación Caso de Uso Ubicación de lugares por categoría.}
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%						FIN APENDICE B
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%						APENDICE C
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Diagramas de Secuencia y Colaboración}\label{aped.C}
+A continuación se exponen algunos de los artefactos diseñados para la realización de este proyecto.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=10cm]{./imagenes/DS/DS_crear_categoria}
+\caption{Diagrama de Secuencia Crear Categoria.}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=10cm]{./imagenes/DS/DS_crear_tag}
+\caption{Diagrama de Secuencia Crear Tags.}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=10cm]{./imagenes/DS/DS_crear_lugar}
+\caption{Diagrama de Secuencia Crear Lugar.}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=10cm]{./imagenes/DS/DS_gestionar_eventos}
+\caption{Diagrama de Secuencia Gestionar Eventos.}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=10cm]{./imagenes/DS/DS_gestionar_producto}
+\caption{Diagrama de Secuencia Gestionar Productos.}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=10cm]{./imagenes/DS/DS_gestionar_solicitud}
+\caption{Diagrama de Secuencia Gestionar Solicitud.}
+\end{center}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%						FIN APENDICE C
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Pruebas}\label{aped.D}
+Este anexo contiene pruebas realizadas para validar funcionalidades del sistema.	
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=10cm]{./imagenes/Test/OperacionesTest}
+\caption{Prueba Unitaria Metodo Operaciones App Movil.}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=6cm]{./imagenes/Test/Backend/Test__categorias_api_test}
+\caption{Prueba Unitaria Modulo Categoria - Backend.}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=6cm]{./imagenes/Test/Backend/Test__comentarios_api_test}
+\caption{Prueba Unitaria Modulo Comentario - Backend.}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=6cm]{./imagenes/Test/Backend/Test__eventos_api_test}
+\caption{Prueba Unitaria Modulo Evento - Backend.}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=6cm]{./imagenes/Test/Backend/Test__preferencias_api_test}
+\caption{Prueba Unitaria Modulo Preferencia - Backend.}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=6cm]{./imagenes/Test/Backend/Test__productos_api_test}
+\caption{Prueba Unitaria Modulo Producto - Backend.}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=6cm]{./imagenes/Test/Backend/Test__solicitudes_api_test}
+\caption{Prueba Unitaria Modulo Solicitud - Backend.}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=6cm]{./imagenes/Test/Backend/Test__suscripciones_api_test}
+\caption{Prueba Unitaria Modulo Suscripcion - Backend.}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=6cm]{./imagenes/Test/Backend/Test__tags_api_test}
+\caption{Prueba Unitaria Modulo Tags - Backend.}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=6cm]{./imagenes/Test/Backend/Test__usuarios_api_test}
+\caption{Prueba Unitaria Modulo Usuario - Backend.}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=6cm]{./imagenes/Test/Backend/Test__visitas_api_test}
+\caption{Prueba Unitaria Modulo Visita - Backend.}
+\end{center}
+\end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
