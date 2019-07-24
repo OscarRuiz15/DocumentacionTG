@@ -12,49 +12,50 @@
 \contentsline {table}{\numberline {3.6}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Ver lugares recomendados.\relax }}{31}{table.caption.24}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces HU2: Login y creaci\IeC {\'o}n de usuarios con Google.\relax }}{44}{table.caption.47}% 
-\contentsline {table}{\numberline {A.2}{\ignorespaces HU3: Home Fragment.\relax }}{45}{table.caption.48}% 
-\contentsline {table}{\numberline {A.3}{\ignorespaces HU4: Search Fragment.\relax }}{45}{table.caption.49}% 
-\contentsline {table}{\numberline {A.4}{\ignorespaces HU5: Favorite Fragment.\relax }}{46}{table.caption.50}% 
-\contentsline {table}{\numberline {A.5}{\ignorespaces HU6: Evento Fragment.\relax }}{46}{table.caption.51}% 
-\contentsline {table}{\numberline {A.6}{\ignorespaces HU7: Profile Fragment.\relax }}{47}{table.caption.52}% 
-\contentsline {table}{\numberline {A.7}{\ignorespaces HU8: Solicitud.\relax }}{47}{table.caption.53}% 
-\contentsline {table}{\numberline {A.8}{\ignorespaces HU10: Opciones Detalles Lugar Activity.\relax }}{48}{table.caption.54}% 
-\contentsline {table}{\numberline {A.9}{\ignorespaces HU11: Detalles Evento Activity.\relax }}{48}{table.caption.55}% 
-\contentsline {table}{\numberline {A.10}{\ignorespaces HU12: Opciones Detalles Evento Activity.\relax }}{49}{table.caption.56}% 
-\contentsline {table}{\numberline {A.11}{\ignorespaces HU13: Detalles Producto Activity.\relax }}{49}{table.caption.57}% 
-\contentsline {table}{\numberline {A.12}{\ignorespaces HU15: Mapa Categoria Activity.\relax }}{50}{table.caption.58}% 
-\contentsline {table}{\numberline {A.13}{\ignorespaces HU16: Crear Evento Activity.\relax }}{50}{table.caption.59}% 
-\contentsline {table}{\numberline {A.14}{\ignorespaces HU17: Modificar Evento Activity.\relax }}{51}{table.caption.60}% 
-\contentsline {table}{\numberline {A.15}{\ignorespaces HU18: Crear Producto Activity.\relax }}{51}{table.caption.61}% 
-\contentsline {table}{\numberline {A.16}{\ignorespaces HU19: Modificar Producto Activity.\relax }}{52}{table.caption.62}% 
-\contentsline {table}{\numberline {A.17}{\ignorespaces HU20: Modificar Lugar Activity.\relax }}{52}{table.caption.63}% 
-\contentsline {table}{\numberline {A.18}{\ignorespaces HU21: Preferencias.\relax }}{53}{table.caption.64}% 
+\contentsline {table}{\numberline {A.1}{\ignorespaces HU2: Login y creaci\IeC {\'o}n de usuarios con Google.\relax }}{45}{table.caption.48}% 
+\contentsline {table}{\numberline {A.2}{\ignorespaces HU3: Home Fragment.\relax }}{46}{table.caption.49}% 
+\contentsline {table}{\numberline {A.3}{\ignorespaces HU4: Search Fragment.\relax }}{46}{table.caption.50}% 
+\contentsline {table}{\numberline {A.4}{\ignorespaces HU5: Favorite Fragment.\relax }}{47}{table.caption.51}% 
+\contentsline {table}{\numberline {A.5}{\ignorespaces HU6: Evento Fragment.\relax }}{47}{table.caption.52}% 
+\contentsline {table}{\numberline {A.6}{\ignorespaces HU7: Profile Fragment.\relax }}{48}{table.caption.53}% 
+\contentsline {table}{\numberline {A.7}{\ignorespaces HU8: Solicitud.\relax }}{48}{table.caption.54}% 
+\contentsline {table}{\numberline {A.8}{\ignorespaces HU10: Opciones Detalles Lugar Activity.\relax }}{49}{table.caption.55}% 
+\contentsline {table}{\numberline {A.9}{\ignorespaces HU11: Detalles Evento Activity.\relax }}{49}{table.caption.56}% 
+\contentsline {table}{\numberline {A.10}{\ignorespaces HU12: Opciones Detalles Evento Activity.\relax }}{50}{table.caption.57}% 
+\contentsline {table}{\numberline {A.11}{\ignorespaces HU13: Detalles Producto Activity.\relax }}{50}{table.caption.58}% 
+\contentsline {table}{\numberline {A.12}{\ignorespaces HU15: Mapa Categoria Activity.\relax }}{51}{table.caption.59}% 
+\contentsline {table}{\numberline {A.13}{\ignorespaces HU16: Crear Evento Activity.\relax }}{51}{table.caption.60}% 
+\contentsline {table}{\numberline {A.14}{\ignorespaces HU17: Modificar Evento Activity.\relax }}{52}{table.caption.61}% 
+\contentsline {table}{\numberline {A.15}{\ignorespaces HU18: Crear Producto Activity.\relax }}{52}{table.caption.62}% 
+\contentsline {table}{\numberline {A.16}{\ignorespaces HU19: Modificar Producto Activity.\relax }}{53}{table.caption.63}% 
+\contentsline {table}{\numberline {A.17}{\ignorespaces HU20: Modificar Lugar Activity.\relax }}{53}{table.caption.64}% 
+\contentsline {table}{\numberline {A.18}{\ignorespaces HU21: Preferencias.\relax }}{54}{table.caption.65}% 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {B.1}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Crear Usuario con Google.\relax }}{54}{table.caption.65}% 
-\contentsline {table}{\numberline {B.2}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Ver lugares populares.\relax }}{55}{table.caption.66}% 
-\contentsline {table}{\numberline {B.3}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Ver nuevos lugares.\relax }}{55}{table.caption.67}% 
-\contentsline {table}{\numberline {B.4}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Ver pr\IeC {\'o}ximos eventos.\relax }}{56}{table.caption.68}% 
-\contentsline {table}{\numberline {B.5}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Ver lugares por categor\IeC {\'\i }a.\relax }}{56}{table.caption.69}% 
-\contentsline {table}{\numberline {B.6}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Ver detalles de un lugar.\relax }}{57}{table.caption.70}% 
-\contentsline {table}{\numberline {B.7}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Ver detalles de un evento.\relax }}{57}{table.caption.71}% 
-\contentsline {table}{\numberline {B.8}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Ver detalles de un producto.\relax }}{58}{table.caption.72}% 
-\contentsline {table}{\numberline {B.9}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Modificar perfil.\relax }}{58}{table.caption.73}% 
-\contentsline {table}{\numberline {B.10}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Modificar contrase\IeC {\~n}a.\relax }}{59}{table.caption.74}% 
-\contentsline {table}{\numberline {B.11}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Solicitar lugar.\relax }}{59}{table.caption.75}% 
-\contentsline {table}{\numberline {B.12}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Comentar lugar.\relax }}{60}{table.caption.76}% 
-\contentsline {table}{\numberline {B.13}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Comentar evento.\relax }}{60}{table.caption.77}% 
-\contentsline {table}{\numberline {B.14}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Seguir lugar.\relax }}{61}{table.caption.78}% 
-\contentsline {table}{\numberline {B.15}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Registrar visita.\relax }}{61}{table.caption.79}% 
-\contentsline {table}{\numberline {B.16}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Crear evento.\relax }}{62}{table.caption.80}% 
-\contentsline {table}{\numberline {B.17}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Ver suscriptores.\relax }}{62}{table.caption.81}% 
-\contentsline {table}{\numberline {B.18}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Modificar lugar.\relax }}{63}{table.caption.82}% 
-\contentsline {table}{\numberline {B.19}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Crear productos.\relax }}{64}{table.caption.83}% 
-\contentsline {table}{\numberline {B.20}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Modificar productos.\relax }}{65}{table.caption.84}% 
-\contentsline {table}{\numberline {B.21}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Ver Fotos.\relax }}{65}{table.caption.85}% 
-\contentsline {table}{\numberline {B.22}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Ver productos.\relax }}{66}{table.caption.86}% 
-\contentsline {table}{\numberline {B.23}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Ver eventos.\relax }}{66}{table.caption.87}% 
-\contentsline {table}{\numberline {B.24}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Ubicaci\IeC {\'o}n de un lugar.\relax }}{67}{table.caption.88}% 
-\contentsline {table}{\numberline {B.25}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Ubicaci\IeC {\'o}n de lugares por categor\IeC {\'\i }a.\relax }}{68}{table.caption.89}% 
+\contentsline {table}{\numberline {B.1}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Crear Usuario con Google.\relax }}{55}{table.caption.66}% 
+\contentsline {table}{\numberline {B.2}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Ver lugares populares.\relax }}{56}{table.caption.67}% 
+\contentsline {table}{\numberline {B.3}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Ver nuevos lugares.\relax }}{56}{table.caption.68}% 
+\contentsline {table}{\numberline {B.4}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Ver pr\IeC {\'o}ximos eventos.\relax }}{57}{table.caption.69}% 
+\contentsline {table}{\numberline {B.5}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Ver lugares por categor\IeC {\'\i }a.\relax }}{57}{table.caption.70}% 
+\contentsline {table}{\numberline {B.6}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Ver detalles de un lugar.\relax }}{58}{table.caption.71}% 
+\contentsline {table}{\numberline {B.7}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Ver detalles de un evento.\relax }}{58}{table.caption.72}% 
+\contentsline {table}{\numberline {B.8}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Ver detalles de un producto.\relax }}{59}{table.caption.73}% 
+\contentsline {table}{\numberline {B.9}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Modificar perfil.\relax }}{59}{table.caption.74}% 
+\contentsline {table}{\numberline {B.10}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Modificar contrase\IeC {\~n}a.\relax }}{60}{table.caption.75}% 
+\contentsline {table}{\numberline {B.11}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Solicitar lugar.\relax }}{60}{table.caption.76}% 
+\contentsline {table}{\numberline {B.12}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Comentar lugar.\relax }}{61}{table.caption.77}% 
+\contentsline {table}{\numberline {B.13}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Comentar evento.\relax }}{61}{table.caption.78}% 
+\contentsline {table}{\numberline {B.14}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Seguir lugar.\relax }}{62}{table.caption.79}% 
+\contentsline {table}{\numberline {B.15}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Registrar visita.\relax }}{62}{table.caption.80}% 
+\contentsline {table}{\numberline {B.16}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Crear evento.\relax }}{63}{table.caption.81}% 
+\contentsline {table}{\numberline {B.17}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Ver suscriptores.\relax }}{63}{table.caption.82}% 
+\contentsline {table}{\numberline {B.18}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Modificar lugar.\relax }}{64}{table.caption.83}% 
+\contentsline {table}{\numberline {B.19}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Crear productos.\relax }}{65}{table.caption.84}% 
+\contentsline {table}{\numberline {B.20}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Modificar productos.\relax }}{66}{table.caption.85}% 
+\contentsline {table}{\numberline {B.21}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Ver Fotos.\relax }}{66}{table.caption.86}% 
+\contentsline {table}{\numberline {B.22}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Ver productos.\relax }}{67}{table.caption.87}% 
+\contentsline {table}{\numberline {B.23}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Ver eventos.\relax }}{67}{table.caption.88}% 
+\contentsline {table}{\numberline {B.24}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Ubicaci\IeC {\'o}n de un lugar.\relax }}{68}{table.caption.89}% 
+\contentsline {table}{\numberline {B.25}{\ignorespaces Plantilla Especificaci\IeC {\'o}n Caso de Uso Ubicaci\IeC {\'o}n de lugares por categor\IeC {\'\i }a.\relax }}{69}{table.caption.90}% 
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

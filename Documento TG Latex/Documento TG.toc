@@ -24,9 +24,9 @@
 \contentsline {subsubsection}{\numberline {2.1.5.1}Aspectos Generales}{17}{subsubsection.2.1.5.1}% 
 \contentsline {subsubsection}{\numberline {2.1.5.2}Gesti\IeC {\'o}n del Turismo en Ginebra}{19}{subsubsection.2.1.5.2}% 
 \contentsline {section}{\numberline {2.2}Antecedentes}{20}{section.2.2}% 
-\contentsline {subsection}{\numberline {2.2.1}DataEco[23]}{20}{subsection.2.2.1}% 
-\contentsline {subsection}{\numberline {2.2.2}Google Maps[24]}{21}{subsection.2.2.2}% 
-\contentsline {subsection}{\numberline {2.2.3}Foursquare[25], [26]}{21}{subsection.2.2.3}% 
+\contentsline {subsection}{\numberline {2.2.1}DataEco\cite {22}}{20}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.2}Google Maps\cite {23}}{21}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.3}Foursquare\cite {24}, \cite {25}}{21}{subsection.2.2.3}% 
 \contentsline {chapter}{\numberline {3}Desarrollo del Proyecto}{22}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}Arquitectura del Sistema Implementado}{23}{section.3.1}% 
 \contentsline {section}{\numberline {3.2}Dise\IeC {\~n}o}{24}{section.3.2}% 
@@ -37,32 +37,34 @@
 \contentsline {subsection}{\numberline {3.2.5}Diagramas de Casos de Uso}{28}{subsection.3.2.5}% 
 \contentsline {subsection}{\numberline {3.2.6}Plantillas Especificaci\IeC {\'o}n Casos de Uso}{30}{subsection.3.2.6}% 
 \contentsline {subsection}{\numberline {3.2.7}Diagramas de Secuencia y Colaboraci\IeC {\'o}n}{31}{subsection.3.2.7}% 
-\contentsline {section}{\numberline {3.3}Descripci\IeC {\'o}n General del Sistema}{32}{section.3.3}% 
-\contentsline {subsection}{\numberline {3.3.1}Interfaz Gr\IeC {\'a}fica de Usuario}{32}{subsection.3.3.1}% 
-\contentsline {subsection}{\numberline {3.3.2}Administrador}{32}{subsection.3.3.2}% 
+\contentsline {section}{\numberline {3.3}Descripci\IeC {\'o}n General del Sistema}{33}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}Interfaz Gr\IeC {\'a}fica de Usuario}{33}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}Administrador}{33}{subsection.3.3.2}% 
 \contentsline {subsubsection}{\numberline {3.3.2.1}Autenticaci\IeC {\'o}n}{33}{subsubsection.3.3.2.1}% 
-\contentsline {subsubsection}{\numberline {3.3.2.2}Registrar Lugar}{33}{subsubsection.3.3.2.2}% 
-\contentsline {subsubsection}{\numberline {3.3.2.3}Registrar Categor\IeC {\'\i }a}{34}{subsubsection.3.3.2.3}% 
-\contentsline {subsubsection}{\numberline {3.3.2.4}Registrar Tag}{34}{subsubsection.3.3.2.4}% 
+\contentsline {subsubsection}{\numberline {3.3.2.2}Registrar Lugar}{34}{subsubsection.3.3.2.2}% 
+\contentsline {subsubsection}{\numberline {3.3.2.3}Registrar Categor\IeC {\'\i }a}{35}{subsubsection.3.3.2.3}% 
+\contentsline {subsubsection}{\numberline {3.3.2.4}Registrar Tag}{35}{subsubsection.3.3.2.4}% 
 \contentsline {subsubsection}{\numberline {3.3.2.5}Ver Solicitudes}{35}{subsubsection.3.3.2.5}% 
-\contentsline {subsection}{\numberline {3.3.3}Usuario}{35}{subsection.3.3.3}% 
-\contentsline {subsubsection}{\numberline {3.3.3.1}Pantalla Principal}{35}{subsubsection.3.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.3}Usuario}{36}{subsection.3.3.3}% 
+\contentsline {subsubsection}{\numberline {3.3.3.1}Pantalla Principal}{36}{subsubsection.3.3.3.1}% 
 \contentsline {subsubsection}{\numberline {3.3.3.2}Buscar Lugares}{36}{subsubsection.3.3.3.2}% 
-\contentsline {subsubsection}{\numberline {3.3.3.3}Lugares favoritos}{36}{subsubsection.3.3.3.3}% 
+\contentsline {subsubsection}{\numberline {3.3.3.3}Lugares favoritos}{37}{subsubsection.3.3.3.3}% 
 \contentsline {subsubsection}{\numberline {3.3.3.4}Detalles de un lugar}{37}{subsubsection.3.3.3.4}% 
 \contentsline {subsubsection}{\numberline {3.3.3.5}Mi perfil}{38}{subsubsection.3.3.3.5}% 
-\contentsline {subsubsection}{\numberline {3.3.3.6}Solicitudes}{38}{subsubsection.3.3.3.6}% 
+\contentsline {subsubsection}{\numberline {3.3.3.6}Solicitudes}{39}{subsubsection.3.3.3.6}% 
 \contentsline {subsection}{\numberline {3.3.4}Comerciante}{39}{subsection.3.3.4}% 
 \contentsline {section}{\numberline {3.4}Detalles de la Implementaci\IeC {\'o}n}{40}{section.3.4}% 
-\contentsline {section}{\numberline {3.5}Pruebas}{41}{section.3.5}% 
-\contentsline {subsection}{\numberline {3.5.1}Pruebas Funcionales}{41}{subsection.3.5.1}% 
-\contentsline {subsection}{\numberline {3.5.2}Pruebas Unitarias}{41}{subsection.3.5.2}% 
-\contentsline {subsection}{\numberline {3.5.3}Pruebas de Usabilidad}{42}{subsection.3.5.3}% 
-\contentsline {subsection}{\numberline {3.5.4}Precision and Recall}{42}{subsection.3.5.4}% 
-\contentsline {chapter}{\numberline {4}Conclusiones y Trabajos Futuros}{43}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Conclusiones}{43}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Trabajo Futuro}{43}{section.4.2}% 
-\contentsline {chapter}{\numberline {A}Historias de Usuario}{44}{appendix.Alph1}% 
-\contentsline {chapter}{\numberline {B}Plantillas Especificaci\IeC {\'o}n Casos de Uso}{54}{appendix.Alph2}% 
-\contentsline {chapter}{\numberline {C}Diagramas de Secuencia y Colaboraci\IeC {\'o}n}{69}{appendix.Alph3}% 
-\contentsline {chapter}{\numberline {D}Pruebas}{71}{appendix.Alph4}% 
+\contentsline {section}{\numberline {3.5}Pruebas}{42}{section.3.5}% 
+\contentsline {subsection}{\numberline {3.5.1}Pruebas Funcionales}{42}{subsection.3.5.1}% 
+\contentsline {subsection}{\numberline {3.5.2}Pruebas Unitarias}{42}{subsection.3.5.2}% 
+\contentsline {subsection}{\numberline {3.5.3}Pruebas de Usabilidad}{43}{subsection.3.5.3}% 
+\contentsline {subsection}{\numberline {3.5.4}Precision and Recall}{43}{subsection.3.5.4}% 
+\contentsline {chapter}{\numberline {4}Conclusiones y Trabajos Futuros}{44}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Conclusiones}{44}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Trabajo Futuro}{44}{section.4.2}% 
+\contentsline {chapter}{\numberline {A}Historias de Usuario}{45}{appendix.Alph1}% 
+\contentsline {chapter}{\numberline {B}Plantillas Especificaci\IeC {\'o}n Casos de Uso}{55}{appendix.Alph2}% 
+\contentsline {chapter}{\numberline {C}Diagramas de Secuencia y Colaboraci\IeC {\'o}n}{70}{appendix.Alph3}% 
+\contentsline {chapter}{\numberline {D}Encuesta}{75}{appendix.Alph4}% 
+\contentsline {chapter}{\numberline {E}Pruebas}{77}{appendix.Alph5}% 
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{81}{figure.caption.122}% 

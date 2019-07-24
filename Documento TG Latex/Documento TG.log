@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.9)  14 JUL 2019 13:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.9)  23 JUL 2019 23:44
 entering extended mode
 **"./Documento TG.tex"
 ("Documento TG.tex"
@@ -446,6 +446,10 @@ s
 ("Documento TG.aux"
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
+
+
+LaTeX Warning: Label `aped.C' multiply defined.
+
 )
 \openout1 = `"Documento TG.aux"'.
 
@@ -549,7 +553,7 @@ LaTeX Info: Redefining \nameref on input line 25.
 \@outlinefile=\write3
 \openout3 = `"Documento TG.out"'.
 
-<./imagenes/logo.jpg, id=271, 640.3925pt x 480.79625pt>
+<./imagenes/logo.jpg, id=279, 640.3925pt x 480.79625pt>
 File: ./imagenes/logo.jpg Graphic file (type jpg)
 <use ./imagenes/logo.jpg>
 Package pdftex.def Info: ./imagenes/logo.jpg  used on input line 38.
@@ -647,7 +651,7 @@ LaTeX Info: Redefining \% on input line 245.
 LaTeX Info: Redefining \. on input line 269.
 LaTeX Info: Redefining \% on input line 269.
  [13]
-<./imagenes/tablas/comparacion_metodologias.png, id=635, 434.37282pt x 297.3609
+<./imagenes/tablas/comparacion_metodologias.png, id=708, 434.37282pt x 297.3609
 3pt>
 File: ./imagenes/tablas/comparacion_metodologias.png Graphic file (type png)
 <use ./imagenes/tablas/comparacion_metodologias.png>
@@ -664,7 +668,7 @@ LaTeX Info: Redefining \. on input line 307.
 LaTeX Info: Redefining \% on input line 307.
 
 [16]
-<./imagenes/mapa_politico.png, id=651, 927.465pt x 610.53094pt>
+<./imagenes/mapa_politico.png, id=743, 927.465pt x 610.53094pt>
 File: ./imagenes/mapa_politico.png Graphic file (type png)
 <use ./imagenes/mapa_politico.png>
 Package pdftex.def Info: ./imagenes/mapa_politico.png  used on input line 314.
@@ -672,7 +676,7 @@ Package pdftex.def Info: ./imagenes/mapa_politico.png  used on input line 314.
 LaTeX Info: Redefining \. on input line 324.
 LaTeX Info: Redefining \% on input line 324.
  [17 <./imagenes/mapa_politico.png>]
-<./imagenes/division_corregimientos.png, id=658, 927.465pt x 610.53094pt>
+<./imagenes/division_corregimientos.png, id=750, 927.465pt x 610.53094pt>
 File: ./imagenes/division_corregimientos.png Graphic file (type png)
 <use ./imagenes/division_corregimientos.png>
 Package pdftex.def Info: ./imagenes/division_corregimientos.png  used on input 
@@ -684,14 +688,30 @@ LaTeX Info: Redefining \% on input line 349.
 LaTeX Info: Redefining \. on input line 362.
 LaTeX Info: Redefining \% on input line 362.
  [19]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 369.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 374.
+
 LaTeX Info: Redefining \. on input line 377.
 LaTeX Info: Redefining \% on input line 377.
- [20]
+[20]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 387.
+
 LaTeX Info: Redefining \. on input line 404.
 LaTeX Info: Redefining \% on input line 404.
- [21]
+[21]
 Cap\'{\i }tulo 3.
-<./imagenes/ciclo_desarrollo.png, id=677, 644.4075pt x 212.29312pt>
+<./imagenes/ciclo_desarrollo.png, id=783, 644.4075pt x 212.29312pt>
 File: ./imagenes/ciclo_desarrollo.png Graphic file (type png)
 <use ./imagenes/ciclo_desarrollo.png>
 Package pdftex.def Info: ./imagenes/ciclo_desarrollo.png  used on input line 41
@@ -702,7 +722,7 @@ Overfull \hbox (11.6656pt too wide) in paragraph at lines 418--419
  [] 
  []
 
-<./imagenes/arquitectura.png, id=678, 970.62625pt x 763.85374pt>
+<./imagenes/arquitectura.png, id=784, 970.62625pt x 763.85374pt>
 File: ./imagenes/arquitectura.png Graphic file (type png)
 <use ./imagenes/arquitectura.png>
 Package pdftex.def Info: ./imagenes/arquitectura.png  used on input line 427.
@@ -710,7 +730,7 @@ Package pdftex.def Info: ./imagenes/arquitectura.png  used on input line 427.
 [22
 
  <./imagenes/ciclo_desarrollo.png>]
-<./imagenes/HU/HU1.png, id=683, 439.6425pt x 263.48438pt>
+<./imagenes/HU/HU1.png, id=789, 439.6425pt x 263.48438pt>
 File: ./imagenes/HU/HU1.png Graphic file (type png)
 <use ./imagenes/HU/HU1.png>
 Package pdftex.def Info: ./imagenes/HU/HU1.png  used on input line 436.
@@ -718,12 +738,12 @@ Package pdftex.def Info: ./imagenes/HU/HU1.png  used on input line 436.
 LaTeX Info: Redefining \. on input line 439.
 LaTeX Info: Redefining \% on input line 439.
  [23 <./imagenes/arquitectura.png>]
-<./imagenes/HU/HU9.png, id=689, 436.63126pt x 310.15875pt>
+<./imagenes/HU/HU9.png, id=795, 436.63126pt x 310.15875pt>
 File: ./imagenes/HU/HU9.png Graphic file (type png)
 <use ./imagenes/HU/HU9.png>
 Package pdftex.def Info: ./imagenes/HU/HU9.png  used on input line 442.
 (pdftex.def)             Requested size: 369.88582pt x 262.74644pt.
-<./imagenes/HU/HU14.png, id=690, 437.38406pt x 260.47313pt>
+<./imagenes/HU/HU14.png, id=796, 437.38406pt x 260.47313pt>
 File: ./imagenes/HU/HU14.png Graphic file (type png)
 <use ./imagenes/HU/HU14.png>
 Package pdftex.def Info: ./imagenes/HU/HU14.png  used on input line 448.
@@ -732,796 +752,955 @@ LaTeX Info: Redefining \. on input line 451.
 LaTeX Info: Redefining \% on input line 451.
 
 [24 <./imagenes/HU/HU1.png> <./imagenes/HU/HU9.png>]
-<./imagenes/Diagrama_entidad_relacion.png, id=697, 825.0825pt x 910.90312pt>
+<./imagenes/Diagrama_entidad_relacion.png, id=803, 825.0825pt x 910.90312pt>
 File: ./imagenes/Diagrama_entidad_relacion.png Graphic file (type png)
 <use ./imagenes/Diagrama_entidad_relacion.png>
 Package pdftex.def Info: ./imagenes/Diagrama_entidad_relacion.png  used on inpu
-t line 455.
+t line 457.
 (pdftex.def)             Requested size: 455.24408pt x 502.59668pt.
 
-Overfull \hbox (11.6656pt too wide) in paragraph at lines 455--456
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 457--458
  [] 
  []
 
-LaTeX Info: Redefining \. on input line 459.
-LaTeX Info: Redefining \% on input line 459.
+LaTeX Info: Redefining \. on input line 461.
+LaTeX Info: Redefining \% on input line 461.
 [25 <./imagenes/HU/HU14.png>]
-<./imagenes/diagrama_clases.png, id=703, 1285.05093pt x 384.6872pt>
+<./imagenes/diagrama_clases.png, id=809, 1285.05093pt x 384.6872pt>
 File: ./imagenes/diagrama_clases.png Graphic file (type png)
 <use ./imagenes/diagrama_clases.png>
-Package pdftex.def Info: ./imagenes/diagrama_clases.png  used on input line 463
+Package pdftex.def Info: ./imagenes/diagrama_clases.png  used on input line 465
 .
 (pdftex.def)             Requested size: 455.24408pt x 136.28021pt.
 
-Overfull \hbox (11.6656pt too wide) in paragraph at lines 463--464
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 465--466
  [] 
  []
 
-LaTeX Info: Redefining \. on input line 467.
-LaTeX Info: Redefining \% on input line 467.
+LaTeX Info: Redefining \. on input line 469.
+LaTeX Info: Redefining \% on input line 469.
 [26 <./imagenes/Diagrama_entidad_relacion.png>]
-<./imagenes/diagrama_ventanas.png, id=710, 785.18344pt x 627.84563pt>
+<./imagenes/diagrama_ventanas.png, id=816, 785.18344pt x 627.84563pt>
 File: ./imagenes/diagrama_ventanas.png Graphic file (type png)
 <use ./imagenes/diagrama_ventanas.png>
 Package pdftex.def Info: ./imagenes/diagrama_ventanas.png  used on input line 4
-71.
+73.
 (pdftex.def)             Requested size: 369.88582pt x 295.76767pt.
-<./imagenes/CU/cu_administrador.png, id=711, 470.50781pt x 382.42876pt>
+<./imagenes/CU/cu_administrador.png, id=817, 470.50781pt x 382.42876pt>
 File: ./imagenes/CU/cu_administrador.png Graphic file (type png)
 <use ./imagenes/CU/cu_administrador.png>
 Package pdftex.def Info: ./imagenes/CU/cu_administrador.png  used on input line
- 482.
+ 484.
 (pdftex.def)             Requested size: 284.52756pt x 231.26215pt.
-LaTeX Info: Redefining \. on input line 485.
-LaTeX Info: Redefining \% on input line 485.
+LaTeX Info: Redefining \. on input line 487.
+LaTeX Info: Redefining \% on input line 487.
  [27 <./imagenes/diagrama_clases.png> <./imagenes/diagrama_ventanas.png>]
-<./imagenes/CU/cu_usuario.png, id=718, 453.94594pt x 373.395pt>
+<./imagenes/CU/cu_usuario.png, id=824, 453.94594pt x 373.395pt>
 File: ./imagenes/CU/cu_usuario.png Graphic file (type png)
 <use ./imagenes/CU/cu_usuario.png>
-Package pdftex.def Info: ./imagenes/CU/cu_usuario.png  used on input line 490.
+Package pdftex.def Info: ./imagenes/CU/cu_usuario.png  used on input line 492.
 (pdftex.def)             Requested size: 284.52756pt x 234.0379pt.
-LaTeX Info: Redefining \. on input line 494.
-LaTeX Info: Redefining \% on input line 494.
+LaTeX Info: Redefining \. on input line 496.
+LaTeX Info: Redefining \% on input line 496.
  [28 <./imagenes/CU/cu_administrador.png (PNG copy)>]
-<./imagenes/CU/cu_comerciante.png, id=723, 749.04843pt x 325.96782pt>
+<./imagenes/CU/cu_comerciante.png, id=829, 749.04843pt x 325.96782pt>
 File: ./imagenes/CU/cu_comerciante.png Graphic file (type png)
 <use ./imagenes/CU/cu_comerciante.png>
-Package pdftex.def Info: ./imagenes/CU/cu_comerciante.png  used on input line 4
-98.
+Package pdftex.def Info: ./imagenes/CU/cu_comerciante.png  used on input line 5
+00.
 (pdftex.def)             Requested size: 369.88582pt x 160.96411pt.
-<./imagenes/PCU/login.png, id=724, 452.4403pt x 249.18094pt>
+<./imagenes/PCU/login.png, id=830, 452.4403pt x 249.18094pt>
 File: ./imagenes/PCU/login.png Graphic file (type png)
 <use ./imagenes/PCU/login.png>
-Package pdftex.def Info: ./imagenes/PCU/login.png  used on input line 506.
+Package pdftex.def Info: ./imagenes/PCU/login.png  used on input line 508.
 (pdftex.def)             Requested size: 369.88582pt x 203.71371pt.
-LaTeX Info: Redefining \. on input line 509.
-LaTeX Info: Redefining \% on input line 509.
+LaTeX Info: Redefining \. on input line 511.
+LaTeX Info: Redefining \% on input line 511.
  [29 <./imagenes/CU/cu_usuario.png (PNG copy)> <./imagenes/CU/cu_comerciante.pn
 g (PNG copy)>]
-<./imagenes/PCU/crear_usuario.png, id=729, 450.9347pt x 333.49594pt>
+<./imagenes/PCU/crear_usuario.png, id=835, 450.9347pt x 333.49594pt>
 File: ./imagenes/PCU/crear_usuario.png Graphic file (type png)
 <use ./imagenes/PCU/crear_usuario.png>
 Package pdftex.def Info: ./imagenes/PCU/crear_usuario.png  used on input line 5
-12.
+14.
 (pdftex.def)             Requested size: 369.88582pt x 273.5702pt.
-<./imagenes/PCU/ver_lugares_recomendados.png, id=730, 451.6875pt x 267.24844pt>
+<./imagenes/PCU/ver_lugares_recomendados.png, id=836, 451.6875pt x 267.24844pt>
 
 File: ./imagenes/PCU/ver_lugares_recomendados.png Graphic file (type png)
 <use ./imagenes/PCU/ver_lugares_recomendados.png>
 Package pdftex.def Info: ./imagenes/PCU/ver_lugares_recomendados.png  used on i
-nput line 518.
+nput line 520.
 (pdftex.def)             Requested size: 369.88582pt x 218.85968pt.
-LaTeX Info: Redefining \. on input line 521.
-LaTeX Info: Redefining \% on input line 521.
+LaTeX Info: Redefining \. on input line 523.
+LaTeX Info: Redefining \% on input line 523.
  [30 <./imagenes/PCU/login.png> <./imagenes/PCU/crear_usuario.png>]
-<./imagenes/DS/DS_gestionar_lugar.png, id=737, 544.28343pt x 217.5628pt>
+<./imagenes/DS/DS_gestionar_lugar.png, id=843, 544.28343pt x 217.5628pt>
 File: ./imagenes/DS/DS_gestionar_lugar.png Graphic file (type png)
 <use ./imagenes/DS/DS_gestionar_lugar.png>
 Package pdftex.def Info: ./imagenes/DS/DS_gestionar_lugar.png  used on input li
-ne 527.
+ne 531.
 (pdftex.def)             Requested size: 284.52756pt x 113.73085pt.
-<./imagenes/DS/DS_consultar_lugares.png, id=738, 1040.38687pt x 229.60782pt>
+<./imagenes/DS/DS_consultar_lugares.png, id=844, 1040.38687pt x 229.60782pt>
 File: ./imagenes/DS/DS_consultar_lugares.png Graphic file (type png)
 <use ./imagenes/DS/DS_consultar_lugares.png>
 Package pdftex.def Info: ./imagenes/DS/DS_consultar_lugares.png  used on input 
-line 534.
+line 538.
 (pdftex.def)             Requested size: 398.33858pt x 87.91054pt.
-LaTeX Info: Redefining \. on input line 538.
-LaTeX Info: Redefining \% on input line 538.
+LaTeX Info: Redefining \. on input line 542.
+LaTeX Info: Redefining \% on input line 542.
  [31 <./imagenes/PCU/ver_lugares_recomendados.png> <./imagenes/DS/DS_gestionar_
 lugar.png (PNG copy)>]
-<./imagenes/gui.png, id=744, 361.35pt x 642.90187pt>
+<./imagenes/DC/DC_gestionar_lugar.png, id=850, 741.52031pt x 231.86626pt>
+File: ./imagenes/DC/DC_gestionar_lugar.png Graphic file (type png)
+<use ./imagenes/DC/DC_gestionar_lugar.png>
+Package pdftex.def Info: ./imagenes/DC/DC_gestionar_lugar.png  used on input li
+ne 547.
+(pdftex.def)             Requested size: 398.33858pt x 124.55846pt.
+<./imagenes/DC/DC_consultar_lugar.png, id=851, 843.90282pt x 476.53032pt>
+File: ./imagenes/DC/DC_consultar_lugar.png Graphic file (type png)
+<use ./imagenes/DC/DC_consultar_lugar.png>
+Package pdftex.def Info: ./imagenes/DC/DC_consultar_lugar.png  used on input li
+ne 554.
+(pdftex.def)             Requested size: 398.33858pt x 224.93636pt.
+LaTeX Info: Redefining \. on input line 564.
+LaTeX Info: Redefining \% on input line 564.
+ [32 <./imagenes/DS/DS_consultar_lugares.png (PNG copy)> <./imagenes/DC/DC_gest
+ionar_lugar.png (PNG copy)> <./imagenes/DC/DC_consultar_lugar.png (PNG copy)>]
+<./imagenes/gui.png, id=857, 361.35pt x 642.90187pt>
 File: ./imagenes/gui.png Graphic file (type png)
 <use ./imagenes/gui.png>
-Package pdftex.def Info: ./imagenes/gui.png  used on input line 548.
+Package pdftex.def Info: ./imagenes/gui.png  used on input line 567.
 (pdftex.def)             Requested size: 113.81102pt x 202.48573pt.
-LaTeX Info: Redefining \. on input line 558.
-LaTeX Info: Redefining \% on input line 558.
- [32 <./imagenes/DS/DS_consultar_lugares.png (PNG copy)> <./imagenes/gui.png>]
-<./imagenes/admin/login.png, id=750, 248.42813pt x 234.8775pt>
+<./imagenes/admin/login.png, id=858, 248.42813pt x 234.8775pt>
 File: ./imagenes/admin/login.png Graphic file (type png)
 <use ./imagenes/admin/login.png>
-Package pdftex.def Info: ./imagenes/admin/login.png  used on input line 563.
+Package pdftex.def Info: ./imagenes/admin/login.png  used on input line 582.
 (pdftex.def)             Requested size: 113.81102pt x 107.60413pt.
-<./imagenes/admin/p_principal.png, id=751, 1028.34187pt x 240.14719pt>
+LaTeX Info: Redefining \. on input line 586.
+LaTeX Info: Redefining \% on input line 586.
+ [33 <./imagenes/gui.png>]
+<./imagenes/admin/p_principal.png, id=863, 1028.34187pt x 240.14719pt>
 File: ./imagenes/admin/p_principal.png Graphic file (type png)
 <use ./imagenes/admin/p_principal.png>
 Package pdftex.def Info: ./imagenes/admin/p_principal.png  used on input line 5
-72.
+91.
 (pdftex.def)             Requested size: 369.88582pt x 86.37962pt.
-<./imagenes/admin/crear_lugar.png, id=752, 402.75468pt x 233.37187pt>
+<./imagenes/admin/crear_lugar.png, id=864, 402.75468pt x 233.37187pt>
 File: ./imagenes/admin/crear_lugar.png Graphic file (type png)
 <use ./imagenes/admin/crear_lugar.png>
-Package pdftex.def Info: ./imagenes/admin/crear_lugar.png  used on input line 5
-83.
+Package pdftex.def Info: ./imagenes/admin/crear_lugar.png  used on input line 6
+02.
 (pdftex.def)             Requested size: 256.0748pt x 148.3782pt.
-LaTeX Info: Redefining \. on input line 587.
-LaTeX Info: Redefining \% on input line 587.
- [33 <./imagenes/admin/login.png> <./imagenes/admin/p_principal.png>]
-<./imagenes/admin/r_categoria.png, id=759, 398.99063pt x 313.17pt>
+<./imagenes/admin/r_categoria.png, id=865, 398.99063pt x 313.17pt>
 File: ./imagenes/admin/r_categoria.png Graphic file (type png)
 <use ./imagenes/admin/r_categoria.png>
-Package pdftex.def Info: ./imagenes/admin/r_categoria.png  used on input line 5
-93.
+Package pdftex.def Info: ./imagenes/admin/r_categoria.png  used on input line 6
+12.
 (pdftex.def)             Requested size: 227.62204pt x 178.66165pt.
-<./imagenes/admin/r_tags.png, id=760, 398.99063pt x 119.69719pt>
+LaTeX Info: Redefining \. on input line 615.
+LaTeX Info: Redefining \% on input line 615.
+ [34 <./imagenes/admin/login.png> <./imagenes/admin/p_principal.png> <./imagene
+s/admin/crear_lugar.png>]
+<./imagenes/admin/r_tags.png, id=873, 398.99063pt x 119.69719pt>
 File: ./imagenes/admin/r_tags.png Graphic file (type png)
 <use ./imagenes/admin/r_tags.png>
-Package pdftex.def Info: ./imagenes/admin/r_tags.png  used on input line 604.
+Package pdftex.def Info: ./imagenes/admin/r_tags.png  used on input line 623.
 (pdftex.def)             Requested size: 284.52756pt x 85.36183pt.
-LaTeX Info: Redefining \. on input line 608.
-LaTeX Info: Redefining \% on input line 608.
- [34 <./imagenes/admin/crear_lugar.png> <./imagenes/admin/r_categoria.png>]
-<./imagenes/admin/solicitudes.png, id=767, 1014.79124pt x 460.72125pt>
+<./imagenes/admin/solicitudes.png, id=874, 1014.79124pt x 460.72125pt>
 File: ./imagenes/admin/solicitudes.png Graphic file (type png)
 <use ./imagenes/admin/solicitudes.png>
 Package pdftex.def Info: ./imagenes/admin/solicitudes.png  used on input line 6
-14.
+33.
 (pdftex.def)             Requested size: 284.52756pt x 129.17682pt.
-<./imagenes/1.png, id=768, 3339.47626pt x 909.3975pt>
+LaTeX Info: Redefining \. on input line 637.
+LaTeX Info: Redefining \% on input line 637.
+ [35 <./imagenes/admin/r_categoria.png> <./imagenes/admin/r_tags.png>]
+<./imagenes/1.png, id=881, 3339.47626pt x 909.3975pt>
 File: ./imagenes/1.png Graphic file (type png)
 <use ./imagenes/1.png>
-Package pdftex.def Info: ./imagenes/1.png  used on input line 628.
+Package pdftex.def Info: ./imagenes/1.png  used on input line 647.
 (pdftex.def)             Requested size: 398.33858pt x 108.47081pt.
-LaTeX Info: Redefining \. on input line 632.
-LaTeX Info: Redefining \% on input line 632.
- [35 <./imagenes/admin/r_tags.png> <./imagenes/admin/solicitudes.png>]
-<./imagenes/2.png, id=775, 2535.4725pt x 1388.18625pt>
+<./imagenes/2.png, id=882, 2535.4725pt x 1388.18625pt>
 File: ./imagenes/2.png Graphic file (type png)
 <use ./imagenes/2.png>
-Package pdftex.def Info: ./imagenes/2.png  used on input line 639.
+Package pdftex.def Info: ./imagenes/2.png  used on input line 658.
 (pdftex.def)             Requested size: 284.52756pt x 155.77234pt.
-<./imagenes/3.png, id=776, 813.0375pt x 1327.96124pt>
+LaTeX Info: Redefining \. on input line 662.
+LaTeX Info: Redefining \% on input line 662.
+ [36 <./imagenes/admin/solicitudes.png> <./imagenes/1.png>]
+<./imagenes/3.png, id=889, 813.0375pt x 1327.96124pt>
 File: ./imagenes/3.png Graphic file (type png)
 <use ./imagenes/3.png>
-Package pdftex.def Info: ./imagenes/3.png  used on input line 649.
+Package pdftex.def Info: ./imagenes/3.png  used on input line 668.
 (pdftex.def)             Requested size: 113.81102pt x 185.87277pt.
-LaTeX Info: Redefining \. on input line 653.
-LaTeX Info: Redefining \% on input line 653.
- [36 <./imagenes/1.png> <./imagenes/2.png>]
-<./imagenes/4.png, id=783, 2463.2025pt x 1725.44624pt>
+<./imagenes/4.png, id=890, 2463.2025pt x 1725.44624pt>
 File: ./imagenes/4.png Graphic file (type png)
 <use ./imagenes/4.png>
-Package pdftex.def Info: ./imagenes/4.png  used on input line 661.
+Package pdftex.def Info: ./imagenes/4.png  used on input line 680.
 (pdftex.def)             Requested size: 227.62204pt x 159.44331pt.
-<./imagenes/5.png, id=784, 813.0375pt x 1620.0525pt>
+LaTeX Info: Redefining \. on input line 683.
+LaTeX Info: Redefining \% on input line 683.
+ [37 <./imagenes/2.png> <./imagenes/3.png>]
+<./imagenes/5.png, id=897, 813.0375pt x 1620.0525pt>
 File: ./imagenes/5.png Graphic file (type png)
 <use ./imagenes/5.png>
-Package pdftex.def Info: ./imagenes/5.png  used on input line 671.
+Package pdftex.def Info: ./imagenes/5.png  used on input line 690.
 (pdftex.def)             Requested size: 85.35826pt x 170.07346pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 668--674
-
- []
-
-LaTeX Info: Redefining \. on input line 674.
-LaTeX Info: Redefining \% on input line 674.
-[37 <./imagenes/3.png> <./imagenes/4.png>]
-<./imagenes/6.png, id=791, 1659.19875pt x 1204.5pt>
-File: ./imagenes/6.png Graphic file (type png)
-<use ./imagenes/6.png>
-Package pdftex.def Info: ./imagenes/6.png  used on input line 681.
-(pdftex.def)             Requested size: 199.16928pt x 144.57051pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 678--684
-
- []
-
-<./imagenes/7.png, id=792, 813.0375pt x 1090.0725pt>
-File: ./imagenes/7.png Graphic file (type png)
-<use ./imagenes/7.png>
-Package pdftex.def Info: ./imagenes/7.png  used on input line 690.
-(pdftex.def)             Requested size: 113.81102pt x 152.57584pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 687--693
 
  []
 
-LaTeX Info: Redefining \. on input line 693.
-LaTeX Info: Redefining \% on input line 693.
-[38 <./imagenes/5.png> <./imagenes/6.png>]
-<./imagenes/8.png, id=800, 1626.075pt x 975.645pt>
+LaTeX Info: Redefining \. on input line 696.
+LaTeX Info: Redefining \% on input line 696.
+[38 <./imagenes/4.png> <./imagenes/5.png>]
+<./imagenes/6.png, id=905, 1659.19875pt x 1204.5pt>
+File: ./imagenes/6.png Graphic file (type png)
+<use ./imagenes/6.png>
+Package pdftex.def Info: ./imagenes/6.png  used on input line 700.
+(pdftex.def)             Requested size: 199.16928pt x 144.57051pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 697--703
+
+ []
+
+<./imagenes/7.png, id=906, 813.0375pt x 1090.0725pt>
+File: ./imagenes/7.png Graphic file (type png)
+<use ./imagenes/7.png>
+Package pdftex.def Info: ./imagenes/7.png  used on input line 709.
+(pdftex.def)             Requested size: 113.81102pt x 152.57584pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 706--712
+
+ []
+
+<./imagenes/8.png, id=907, 1626.075pt x 975.645pt>
 File: ./imagenes/8.png Graphic file (type png)
 <use ./imagenes/8.png>
-Package pdftex.def Info: ./imagenes/8.png  used on input line 698.
+Package pdftex.def Info: ./imagenes/8.png  used on input line 717.
 (pdftex.def)             Requested size: 195.12057pt x 117.07234pt.
 
-Overfull \hbox (17.6919pt too wide) in paragraph at lines 698--699
+Overfull \hbox (17.6919pt too wide) in paragraph at lines 717--718
 [][] 
  []
 
-<./imagenes/9.png, id=801, 1800.7275pt x 1981.4025pt>
+<./imagenes/9.png, id=908, 1800.7275pt x 1981.4025pt>
 File: ./imagenes/9.png Graphic file (type png)
 <use ./imagenes/9.png>
-Package pdftex.def Info: ./imagenes/9.png  used on input line 703.
+Package pdftex.def Info: ./imagenes/9.png  used on input line 722.
 (pdftex.def)             Requested size: 180.0833pt x 198.15186pt.
 
-Overfull \hbox (2.65462pt too wide) in paragraph at lines 703--704
+Overfull \hbox (2.65462pt too wide) in paragraph at lines 722--723
 [][] 
  []
 
-<./imagenes/10.png, id=802, 813.0375pt x 1069.74657pt>
+LaTeX Info: Redefining \. on input line 727.
+LaTeX Info: Redefining \% on input line 727.
+[39 <./imagenes/6.png> <./imagenes/7.png>]
+<./imagenes/10.png, id=915, 813.0375pt x 1069.74657pt>
 File: ./imagenes/10.png Graphic file (type png)
 <use ./imagenes/10.png>
-Package pdftex.def Info: ./imagenes/10.png  used on input line 712.
+Package pdftex.def Info: ./imagenes/10.png  used on input line 731.
 (pdftex.def)             Requested size: 121.95036pt x 160.45506pt.
-<./imagenes/11.png, id=803, 813.0375pt x 813.0375pt>
+<./imagenes/11.png, id=916, 813.0375pt x 813.0375pt>
 File: ./imagenes/11.png Graphic file (type png)
 <use ./imagenes/11.png>
-Package pdftex.def Info: ./imagenes/11.png  used on input line 717.
+Package pdftex.def Info: ./imagenes/11.png  used on input line 736.
 (pdftex.def)             Requested size: 121.95036pt x 121.95036pt.
-LaTeX Info: Redefining \. on input line 722.
-LaTeX Info: Redefining \% on input line 722.
-[39 <./imagenes/7.png> <./imagenes/8.png> <./imagenes/9.png>]
-LaTeX Info: Redefining \. on input line 736.
-LaTeX Info: Redefining \% on input line 736.
- [40 <./imagenes/10.png> <./imagenes/11.png>]
-<./imagenes/Test/ConsultasTest.png, id=817, 660.96938pt x 195.73125pt>
-File: ./imagenes/Test/ConsultasTest.png Graphic file (type png)
-<use ./imagenes/Test/ConsultasTest.png>
-Package pdftex.def Info: ./imagenes/Test/ConsultasTest.png  used on input line 
-752.
-(pdftex.def)             Requested size: 284.52756pt x 84.25836pt.
-<./imagenes/Test/ControladorFechasTest.png, id=818, 672.26157pt x 190.46156pt>
+LaTeX Info: Redefining \. on input line 755.
+LaTeX Info: Redefining \% on input line 755.
+ [40 <./imagenes/8.png> <./imagenes/9.png> <./imagenes/10.png> <./imagenes/11.p
+ng>]
+LaTeX Info: Redefining \. on input line 770.
+LaTeX Info: Redefining \% on input line 770.
+ [41]
+<./imagenes/Test/Informe_errores_play_store.png, id=949, 874.26625pt x 360.3462
+5pt>
+File: ./imagenes/Test/Informe_errores_play_store.png Graphic file (type png)
+<use ./imagenes/Test/Informe_errores_play_store.png>
+Package pdftex.def Info: ./imagenes/Test/Informe_errores_play_store.png  used o
+n input line 777.
+(pdftex.def)             Requested size: 284.52756pt x 117.27058pt.
+<./imagenes/Test/ControladorFechasTest.png, id=950, 672.26157pt x 190.46156pt>
 File: ./imagenes/Test/ControladorFechasTest.png Graphic file (type png)
 <use ./imagenes/Test/ControladorFechasTest.png>
 Package pdftex.def Info: ./imagenes/Test/ControladorFechasTest.png  used on inp
-ut line 759.
+ut line 784.
 (pdftex.def)             Requested size: 284.52756pt x 80.6094pt.
-<./imagenes/Test/Backend/Test__lugares_api_test.png, id=819, 459.96844pt x 272.
+<./imagenes/Test/Backend/Test__lugares_api_test.png, id=951, 459.96844pt x 272.
 51813pt>
 File: ./imagenes/Test/Backend/Test__lugares_api_test.png Graphic file (type png
 )
 <use ./imagenes/Test/Backend/Test__lugares_api_test.png>
 Package pdftex.def Info: ./imagenes/Test/Backend/Test__lugares_api_test.png  us
-ed on input line 766.
+ed on input line 791.
 (pdftex.def)             Requested size: 170.71652pt x 101.14615pt.
-LaTeX Info: Redefining \. on input line 770.
-LaTeX Info: Redefining \% on input line 770.
- [41 <./imagenes/Test/ConsultasTest.png> <./imagenes/Test/ControladorFechasTest
-.png>]
-<./imagenes/Test/Backend/Test__opiniones_api_test.png, id=826, 483.30562pt x 29
-4.34969pt>
-File: ./imagenes/Test/Backend/Test__opiniones_api_test.png Graphic file (type p
-ng)
-<use ./imagenes/Test/Backend/Test__opiniones_api_test.png>
-Package pdftex.def Info: ./imagenes/Test/Backend/Test__opiniones_api_test.png  
-used on input line 773.
-(pdftex.def)             Requested size: 170.71652pt x 103.9716pt.
-LaTeX Info: Redefining \. on input line 795.
-LaTeX Info: Redefining \% on input line 795.
- [42 <./imagenes/Test/Backend/Test__lugares_api_test.png> <./imagenes/Test/Back
-end/Test__opiniones_api_test.png>]
+LaTeX Info: Redefining \. on input line 798.
+LaTeX Info: Redefining \% on input line 798.
+ [42 <./imagenes/Test/Informe_errores_play_store.png> <./imagenes/Test/Controla
+dorFechasTest.png> <./imagenes/Test/Backend/Test__lugares_api_test.png>]
+LaTeX Info: Redefining \. on input line 815.
+LaTeX Info: Redefining \% on input line 815.
+ [43]
 Cap\'{\i }tulo 4.
-[43
+[44
 
 ]
 Ap\'{e}ndice A.
-<./imagenes/HU/HU2.png, id=835, 440.39531pt x 265.74281pt>
+<./imagenes/HU/HU2.png, id=967, 440.39531pt x 265.74281pt>
 File: ./imagenes/HU/HU2.png Graphic file (type png)
 <use ./imagenes/HU/HU2.png>
-Package pdftex.def Info: ./imagenes/HU/HU2.png  used on input line 816.
+Package pdftex.def Info: ./imagenes/HU/HU2.png  used on input line 836.
 (pdftex.def)             Requested size: 369.88582pt x 223.20216pt.
-<./imagenes/HU/HU3.png, id=836, 442.65375pt x 358.33875pt>
+<./imagenes/HU/HU3.png, id=968, 442.65375pt x 358.33875pt>
 File: ./imagenes/HU/HU3.png Graphic file (type png)
 <use ./imagenes/HU/HU3.png>
-Package pdftex.def Info: ./imagenes/HU/HU3.png  used on input line 822.
+Package pdftex.def Info: ./imagenes/HU/HU3.png  used on input line 842.
 (pdftex.def)             Requested size: 369.88582pt x 299.44965pt.
-[44
+[45
 
  <./imagenes/HU/HU2.png>]
-<./imagenes/HU/HU4.png, id=843, 444.15938pt x 278.54062pt>
+<./imagenes/HU/HU4.png, id=974, 444.15938pt x 278.54062pt>
 File: ./imagenes/HU/HU4.png Graphic file (type png)
 <use ./imagenes/HU/HU4.png>
-Package pdftex.def Info: ./imagenes/HU/HU4.png  used on input line 828.
+Package pdftex.def Info: ./imagenes/HU/HU4.png  used on input line 848.
 (pdftex.def)             Requested size: 369.88582pt x 231.96217pt.
-<./imagenes/HU/HU5.png, id=844, 443.40656pt x 262.73157pt>
+<./imagenes/HU/HU5.png, id=975, 443.40656pt x 262.73157pt>
 File: ./imagenes/HU/HU5.png Graphic file (type png)
 <use ./imagenes/HU/HU5.png>
-Package pdftex.def Info: ./imagenes/HU/HU5.png  used on input line 834.
+Package pdftex.def Info: ./imagenes/HU/HU5.png  used on input line 854.
 (pdftex.def)             Requested size: 369.88582pt x 219.18163pt.
-LaTeX Info: Redefining \. on input line 837.
-LaTeX Info: Redefining \% on input line 837.
- [45 <./imagenes/HU/HU3.png> <./imagenes/HU/HU4.png>]
-<./imagenes/HU/HU6.png, id=851, 443.40656pt x 277.035pt>
+LaTeX Info: Redefining \. on input line 857.
+LaTeX Info: Redefining \% on input line 857.
+ [46 <./imagenes/HU/HU3.png> <./imagenes/HU/HU4.png>]
+<./imagenes/HU/HU6.png, id=982, 443.40656pt x 277.035pt>
 File: ./imagenes/HU/HU6.png Graphic file (type png)
 <use ./imagenes/HU/HU6.png>
-Package pdftex.def Info: ./imagenes/HU/HU6.png  used on input line 840.
+Package pdftex.def Info: ./imagenes/HU/HU6.png  used on input line 860.
 (pdftex.def)             Requested size: 369.88582pt x 231.11415pt.
-<./imagenes/HU/HU7.png, id=852, 444.91219pt x 405.01312pt>
+<./imagenes/HU/HU7.png, id=983, 444.91219pt x 405.01312pt>
 File: ./imagenes/HU/HU7.png Graphic file (type png)
 <use ./imagenes/HU/HU7.png>
-Package pdftex.def Info: ./imagenes/HU/HU7.png  used on input line 846.
+Package pdftex.def Info: ./imagenes/HU/HU7.png  used on input line 866.
 (pdftex.def)             Requested size: 369.88582pt x 336.717pt.
-LaTeX Info: Redefining \. on input line 849.
-LaTeX Info: Redefining \% on input line 849.
- [46 <./imagenes/HU/HU5.png> <./imagenes/HU/HU6.png>]
-<./imagenes/HU/HU8.png, id=859, 442.65375pt x 278.54062pt>
+LaTeX Info: Redefining \. on input line 869.
+LaTeX Info: Redefining \% on input line 869.
+ [47 <./imagenes/HU/HU5.png> <./imagenes/HU/HU6.png>]
+<./imagenes/HU/HU8.png, id=990, 442.65375pt x 278.54062pt>
 File: ./imagenes/HU/HU8.png Graphic file (type png)
 <use ./imagenes/HU/HU8.png>
-Package pdftex.def Info: ./imagenes/HU/HU8.png  used on input line 852.
+Package pdftex.def Info: ./imagenes/HU/HU8.png  used on input line 872.
 (pdftex.def)             Requested size: 369.88582pt x 232.76546pt.
-<./imagenes/HU/HU10.png, id=860, 435.87843pt x 309.40594pt>
+<./imagenes/HU/HU10.png, id=991, 435.87843pt x 309.40594pt>
 File: ./imagenes/HU/HU10.png Graphic file (type png)
 <use ./imagenes/HU/HU10.png>
-Package pdftex.def Info: ./imagenes/HU/HU10.png  used on input line 858.
+Package pdftex.def Info: ./imagenes/HU/HU10.png  used on input line 878.
 (pdftex.def)             Requested size: 369.88582pt x 262.56194pt.
-LaTeX Info: Redefining \. on input line 861.
-LaTeX Info: Redefining \% on input line 861.
- [47 <./imagenes/HU/HU7.png> <./imagenes/HU/HU8.png>]
-<./imagenes/HU/HU11.png, id=867, 439.6425pt x 233.37187pt>
+LaTeX Info: Redefining \. on input line 881.
+LaTeX Info: Redefining \% on input line 881.
+ [48 <./imagenes/HU/HU7.png> <./imagenes/HU/HU8.png>]
+<./imagenes/HU/HU11.png, id=998, 439.6425pt x 233.37187pt>
 File: ./imagenes/HU/HU11.png Graphic file (type png)
 <use ./imagenes/HU/HU11.png>
-Package pdftex.def Info: ./imagenes/HU/HU11.png  used on input line 864.
+Package pdftex.def Info: ./imagenes/HU/HU11.png  used on input line 884.
 (pdftex.def)             Requested size: 369.88582pt x 196.34795pt.
-<./imagenes/HU/HU12.png, id=868, 438.13687pt x 261.22594pt>
+<./imagenes/HU/HU12.png, id=999, 438.13687pt x 261.22594pt>
 File: ./imagenes/HU/HU12.png Graphic file (type png)
 <use ./imagenes/HU/HU12.png>
-Package pdftex.def Info: ./imagenes/HU/HU12.png  used on input line 870.
+Package pdftex.def Info: ./imagenes/HU/HU12.png  used on input line 890.
 (pdftex.def)             Requested size: 369.88582pt x 220.53638pt.
-LaTeX Info: Redefining \. on input line 873.
-LaTeX Info: Redefining \% on input line 873.
- [48 <./imagenes/HU/HU10.png> <./imagenes/HU/HU11.png>]
-<./imagenes/HU/HU13.png, id=875, 438.8897pt x 215.30438pt>
+LaTeX Info: Redefining \. on input line 893.
+LaTeX Info: Redefining \% on input line 893.
+ [49 <./imagenes/HU/HU10.png> <./imagenes/HU/HU11.png>]
+<./imagenes/HU/HU13.png, id=1006, 438.8897pt x 215.30438pt>
 File: ./imagenes/HU/HU13.png Graphic file (type png)
 <use ./imagenes/HU/HU13.png>
-Package pdftex.def Info: ./imagenes/HU/HU13.png  used on input line 876.
+Package pdftex.def Info: ./imagenes/HU/HU13.png  used on input line 896.
 (pdftex.def)             Requested size: 369.88582pt x 181.45892pt.
-<./imagenes/HU/HU15.png, id=876, 439.6425pt x 232.61906pt>
+<./imagenes/HU/HU15.png, id=1007, 439.6425pt x 232.61906pt>
 File: ./imagenes/HU/HU15.png Graphic file (type png)
 <use ./imagenes/HU/HU15.png>
-Package pdftex.def Info: ./imagenes/HU/HU15.png  used on input line 882.
+Package pdftex.def Info: ./imagenes/HU/HU15.png  used on input line 902.
 (pdftex.def)             Requested size: 369.88582pt x 195.71457pt.
-LaTeX Info: Redefining \. on input line 885.
-LaTeX Info: Redefining \% on input line 885.
- [49 <./imagenes/HU/HU12.png> <./imagenes/HU/HU13.png>]
-<./imagenes/HU/HU16.png, id=883, 438.8897pt x 264.23718pt>
+LaTeX Info: Redefining \. on input line 905.
+LaTeX Info: Redefining \% on input line 905.
+ [50 <./imagenes/HU/HU12.png> <./imagenes/HU/HU13.png>]
+<./imagenes/HU/HU16.png, id=1015, 438.8897pt x 264.23718pt>
 File: ./imagenes/HU/HU16.png Graphic file (type png)
 <use ./imagenes/HU/HU16.png>
-Package pdftex.def Info: ./imagenes/HU/HU16.png  used on input line 888.
+Package pdftex.def Info: ./imagenes/HU/HU16.png  used on input line 908.
 (pdftex.def)             Requested size: 369.88582pt x 222.69958pt.
-<./imagenes/HU/HU17.png, id=884, 437.38406pt x 277.78781pt>
+<./imagenes/HU/HU17.png, id=1016, 437.38406pt x 277.78781pt>
 File: ./imagenes/HU/HU17.png Graphic file (type png)
 <use ./imagenes/HU/HU17.png>
-Package pdftex.def Info: ./imagenes/HU/HU17.png  used on input line 894.
+Package pdftex.def Info: ./imagenes/HU/HU17.png  used on input line 914.
 (pdftex.def)             Requested size: 369.88582pt x 234.92117pt.
-LaTeX Info: Redefining \. on input line 897.
-LaTeX Info: Redefining \% on input line 897.
- [50 <./imagenes/HU/HU15.png> <./imagenes/HU/HU16.png>]
-<./imagenes/HU/HU18.png, id=892, 435.87843pt x 246.1697pt>
+LaTeX Info: Redefining \. on input line 917.
+LaTeX Info: Redefining \% on input line 917.
+ [51 <./imagenes/HU/HU15.png> <./imagenes/HU/HU16.png>]
+<./imagenes/HU/HU18.png, id=1023, 435.87843pt x 246.1697pt>
 File: ./imagenes/HU/HU18.png Graphic file (type png)
 <use ./imagenes/HU/HU18.png>
-Package pdftex.def Info: ./imagenes/HU/HU18.png  used on input line 900.
+Package pdftex.def Info: ./imagenes/HU/HU18.png  used on input line 920.
 (pdftex.def)             Requested size: 369.88582pt x 208.89964pt.
-<./imagenes/HU/HU19.png, id=893, 439.6425pt x 294.34969pt>
+<./imagenes/HU/HU19.png, id=1024, 439.6425pt x 294.34969pt>
 File: ./imagenes/HU/HU19.png Graphic file (type png)
 <use ./imagenes/HU/HU19.png>
-Package pdftex.def Info: ./imagenes/HU/HU19.png  used on input line 906.
+Package pdftex.def Info: ./imagenes/HU/HU19.png  used on input line 926.
 (pdftex.def)             Requested size: 369.88582pt x 247.65176pt.
-LaTeX Info: Redefining \. on input line 909.
-LaTeX Info: Redefining \% on input line 909.
- [51 <./imagenes/HU/HU17.png> <./imagenes/HU/HU18.png>]
-<./imagenes/HU/HU20.png, id=900, 438.8897pt x 262.73157pt>
+LaTeX Info: Redefining \. on input line 929.
+LaTeX Info: Redefining \% on input line 929.
+ [52 <./imagenes/HU/HU17.png> <./imagenes/HU/HU18.png>]
+<./imagenes/HU/HU20.png, id=1031, 438.8897pt x 262.73157pt>
 File: ./imagenes/HU/HU20.png Graphic file (type png)
 <use ./imagenes/HU/HU20.png>
-Package pdftex.def Info: ./imagenes/HU/HU20.png  used on input line 912.
+Package pdftex.def Info: ./imagenes/HU/HU20.png  used on input line 932.
 (pdftex.def)             Requested size: 369.88582pt x 221.43065pt.
-<./imagenes/HU/HU21.png, id=901, 453.19313pt x 260.47313pt>
+<./imagenes/HU/HU21.png, id=1032, 453.19313pt x 260.47313pt>
 File: ./imagenes/HU/HU21.png Graphic file (type png)
 <use ./imagenes/HU/HU21.png>
-Package pdftex.def Info: ./imagenes/HU/HU21.png  used on input line 918.
+Package pdftex.def Info: ./imagenes/HU/HU21.png  used on input line 938.
 (pdftex.def)             Requested size: 369.88582pt x 212.59174pt.
-LaTeX Info: Redefining \. on input line 924.
-LaTeX Info: Redefining \% on input line 924.
- [52 <./imagenes/HU/HU19.png> <./imagenes/HU/HU20.png>]
-LaTeX Info: Redefining \. on input line 928.
-LaTeX Info: Redefining \% on input line 928.
- [53 <./imagenes/HU/HU21.png>]
+LaTeX Info: Redefining \. on input line 944.
+LaTeX Info: Redefining \% on input line 944.
+ [53 <./imagenes/HU/HU19.png> <./imagenes/HU/HU20.png>]
+LaTeX Info: Redefining \. on input line 948.
+LaTeX Info: Redefining \% on input line 948.
+ [54 <./imagenes/HU/HU21.png>]
 Ap\'{e}ndice B.
-<./imagenes/PCU/crear_usuario_google.png, id=913, 453.19313pt x 352.31625pt>
+<./imagenes/PCU/crear_usuario_google.png, id=1044, 453.19313pt x 352.31625pt>
 File: ./imagenes/PCU/crear_usuario_google.png Graphic file (type png)
 <use ./imagenes/PCU/crear_usuario_google.png>
 Package pdftex.def Info: ./imagenes/PCU/crear_usuario_google.png  used on input
- line 931.
+ line 951.
 (pdftex.def)             Requested size: 369.88582pt x 287.55183pt.
-<./imagenes/PCU/ver_lugares_populares.png, id=914, 450.18187pt x 267.24844pt>
+<./imagenes/PCU/ver_lugares_populares.png, id=1045, 450.18187pt x 267.24844pt>
 File: ./imagenes/PCU/ver_lugares_populares.png Graphic file (type png)
 <use ./imagenes/PCU/ver_lugares_populares.png>
 Package pdftex.def Info: ./imagenes/PCU/ver_lugares_populares.png  used on inpu
-t line 937.
+t line 957.
 (pdftex.def)             Requested size: 369.88582pt x 219.58963pt.
-[54
+[55
 
  <./imagenes/PCU/crear_usuario_google.png>]
-<./imagenes/PCU/ver_nuevos_lugares.png, id=920, 452.4403pt x 283.0575pt>
+<./imagenes/PCU/ver_nuevos_lugares.png, id=1051, 452.4403pt x 283.0575pt>
 File: ./imagenes/PCU/ver_nuevos_lugares.png Graphic file (type png)
 <use ./imagenes/PCU/ver_nuevos_lugares.png>
 Package pdftex.def Info: ./imagenes/PCU/ver_nuevos_lugares.png  used on input l
-ine 943.
+ine 963.
 (pdftex.def)             Requested size: 369.88582pt x 231.40894pt.
-<./imagenes/PCU/ver_proximos_eventos.png, id=921, 453.19313pt x 286.06876pt>
+<./imagenes/PCU/ver_proximos_eventos.png, id=1052, 453.19313pt x 286.06876pt>
 File: ./imagenes/PCU/ver_proximos_eventos.png Graphic file (type png)
 <use ./imagenes/PCU/ver_proximos_eventos.png>
 Package pdftex.def Info: ./imagenes/PCU/ver_proximos_eventos.png  used on input
- line 949.
+ line 969.
 (pdftex.def)             Requested size: 369.88582pt x 233.48227pt.
-LaTeX Info: Redefining \. on input line 952.
-LaTeX Info: Redefining \% on input line 952.
- [55 <./imagenes/PCU/ver_lugares_populares.png> <./imagenes/PCU/ver_nuevos_luga
+LaTeX Info: Redefining \. on input line 972.
+LaTeX Info: Redefining \% on input line 972.
+ [56 <./imagenes/PCU/ver_lugares_populares.png> <./imagenes/PCU/ver_nuevos_luga
 res.png>]
-<./imagenes/PCU/ver_lugares_categoria.png, id=928, 450.9347pt x 285.31593pt>
+<./imagenes/PCU/ver_lugares_categoria.png, id=1060, 450.9347pt x 285.31593pt>
 File: ./imagenes/PCU/ver_lugares_categoria.png Graphic file (type png)
 <use ./imagenes/PCU/ver_lugares_categoria.png>
 Package pdftex.def Info: ./imagenes/PCU/ver_lugares_categoria.png  used on inpu
-t line 955.
+t line 975.
 (pdftex.def)             Requested size: 369.88582pt x 234.04764pt.
-<./imagenes/PCU/ver_detalles_lugar.png, id=929, 452.4403pt x 336.50719pt>
+<./imagenes/PCU/ver_detalles_lugar.png, id=1061, 452.4403pt x 336.50719pt>
 File: ./imagenes/PCU/ver_detalles_lugar.png Graphic file (type png)
 <use ./imagenes/PCU/ver_detalles_lugar.png>
 Package pdftex.def Info: ./imagenes/PCU/ver_detalles_lugar.png  used on input l
-ine 961.
+ine 981.
 (pdftex.def)             Requested size: 369.88582pt x 275.10585pt.
-LaTeX Info: Redefining \. on input line 964.
-LaTeX Info: Redefining \% on input line 964.
- [56 <./imagenes/PCU/ver_proximos_eventos.png> <./imagenes/PCU/ver_lugares_cate
+LaTeX Info: Redefining \. on input line 984.
+LaTeX Info: Redefining \% on input line 984.
+ [57 <./imagenes/PCU/ver_proximos_eventos.png> <./imagenes/PCU/ver_lugares_cate
 goria.png>]
-<./imagenes/PCU/ver_detalles_evento.png, id=937, 450.18187pt x 317.68687pt>
+<./imagenes/PCU/ver_detalles_evento.png, id=1068, 450.18187pt x 317.68687pt>
 File: ./imagenes/PCU/ver_detalles_evento.png Graphic file (type png)
 <use ./imagenes/PCU/ver_detalles_evento.png>
 Package pdftex.def Info: ./imagenes/PCU/ver_detalles_evento.png  used on input 
-line 967.
+line 987.
 (pdftex.def)             Requested size: 369.88582pt x 261.03328pt.
-<./imagenes/PCU/ver_detalles_producto.png, id=938, 451.6875pt x 302.63063pt>
+<./imagenes/PCU/ver_detalles_producto.png, id=1069, 451.6875pt x 302.63063pt>
 File: ./imagenes/PCU/ver_detalles_producto.png Graphic file (type png)
 <use ./imagenes/PCU/ver_detalles_producto.png>
 Package pdftex.def Info: ./imagenes/PCU/ver_detalles_producto.png  used on inpu
-t line 973.
+t line 993.
 (pdftex.def)             Requested size: 369.88582pt x 247.83546pt.
-LaTeX Info: Redefining \. on input line 976.
-LaTeX Info: Redefining \% on input line 976.
- [57 <./imagenes/PCU/ver_detalles_lugar.png> <./imagenes/PCU/ver_detalles_event
+LaTeX Info: Redefining \. on input line 996.
+LaTeX Info: Redefining \% on input line 996.
+ [58 <./imagenes/PCU/ver_detalles_lugar.png> <./imagenes/PCU/ver_detalles_event
 o.png>]
-<./imagenes/PCU/modificar_perfil.png, id=945, 451.6875pt x 352.31625pt>
+<./imagenes/PCU/modificar_perfil.png, id=1076, 451.6875pt x 352.31625pt>
 File: ./imagenes/PCU/modificar_perfil.png Graphic file (type png)
 <use ./imagenes/PCU/modificar_perfil.png>
 Package pdftex.def Info: ./imagenes/PCU/modificar_perfil.png  used on input lin
-e 979.
+e 999.
 (pdftex.def)             Requested size: 369.88582pt x 288.52487pt.
-<./imagenes/PCU/modificar_contrasena.png, id=946, 449.42906pt x 351.56343pt>
+<./imagenes/PCU/modificar_contrasena.png, id=1077, 449.42906pt x 351.56343pt>
 File: ./imagenes/PCU/modificar_contrasena.png Graphic file (type png)
 <use ./imagenes/PCU/modificar_contrasena.png>
 Package pdftex.def Info: ./imagenes/PCU/modificar_contrasena.png  used on input
- line 985.
+ line 1005.
 (pdftex.def)             Requested size: 369.88582pt x 289.35138pt.
-LaTeX Info: Redefining \. on input line 988.
-LaTeX Info: Redefining \% on input line 988.
+LaTeX Info: Redefining \. on input line 1008.
+LaTeX Info: Redefining \% on input line 1008.
 
-[58 <./imagenes/PCU/ver_detalles_producto.png> <./imagenes/PCU/modificar_perfil
+[59 <./imagenes/PCU/ver_detalles_producto.png> <./imagenes/PCU/modificar_perfil
 .png>]
-<./imagenes/PCU/solicitar_lugar.png, id=953, 452.4403pt x 351.56343pt>
+<./imagenes/PCU/solicitar_lugar.png, id=1084, 452.4403pt x 351.56343pt>
 File: ./imagenes/PCU/solicitar_lugar.png Graphic file (type png)
 <use ./imagenes/PCU/solicitar_lugar.png>
 Package pdftex.def Info: ./imagenes/PCU/solicitar_lugar.png  used on input line
- 991.
+ 1011.
 (pdftex.def)             Requested size: 369.88582pt x 287.41483pt.
-<./imagenes/PCU/comentar_lugar.png, id=954, 450.9347pt x 301.8778pt>
+<./imagenes/PCU/comentar_lugar.png, id=1085, 450.9347pt x 301.8778pt>
 File: ./imagenes/PCU/comentar_lugar.png Graphic file (type png)
 <use ./imagenes/PCU/comentar_lugar.png>
 Package pdftex.def Info: ./imagenes/PCU/comentar_lugar.png  used on input line 
-997.
+1017.
 (pdftex.def)             Requested size: 369.88582pt x 247.63351pt.
-LaTeX Info: Redefining \. on input line 1000.
-LaTeX Info: Redefining \% on input line 1000.
- [59 <./imagenes/PCU/modificar_contrasena.png> <./imagenes/PCU/solicitar_lugar.
+LaTeX Info: Redefining \. on input line 1020.
+LaTeX Info: Redefining \% on input line 1020.
+ [60 <./imagenes/PCU/modificar_contrasena.png> <./imagenes/PCU/solicitar_lugar.
 png>]
-<./imagenes/PCU/comentar_evento.png, id=961, 451.6875pt x 301.125pt>
+<./imagenes/PCU/comentar_evento.png, id=1092, 451.6875pt x 301.125pt>
 File: ./imagenes/PCU/comentar_evento.png Graphic file (type png)
 <use ./imagenes/PCU/comentar_evento.png>
 Package pdftex.def Info: ./imagenes/PCU/comentar_evento.png  used on input line
- 1003.
+ 1023.
 (pdftex.def)             Requested size: 369.88582pt x 246.60245pt.
-<./imagenes/PCU/seguir_lugar.png, id=962, 451.6875pt x 302.63063pt>
+<./imagenes/PCU/seguir_lugar.png, id=1093, 451.6875pt x 302.63063pt>
 File: ./imagenes/PCU/seguir_lugar.png Graphic file (type png)
 <use ./imagenes/PCU/seguir_lugar.png>
 Package pdftex.def Info: ./imagenes/PCU/seguir_lugar.png  used on input line 10
-09.
+29.
 (pdftex.def)             Requested size: 369.88582pt x 247.83546pt.
-LaTeX Info: Redefining \. on input line 1012.
-LaTeX Info: Redefining \% on input line 1012.
- [60 <./imagenes/PCU/comentar_lugar.png> <./imagenes/PCU/comentar_evento.png>]
-<./imagenes/PCU/registrar_visita.png, id=969, 451.6875pt x 283.81032pt>
+LaTeX Info: Redefining \. on input line 1032.
+LaTeX Info: Redefining \% on input line 1032.
+ [61 <./imagenes/PCU/comentar_lugar.png> <./imagenes/PCU/comentar_evento.png>]
+<./imagenes/PCU/registrar_visita.png, id=1100, 451.6875pt x 283.81032pt>
 File: ./imagenes/PCU/registrar_visita.png Graphic file (type png)
 <use ./imagenes/PCU/registrar_visita.png>
 Package pdftex.def Info: ./imagenes/PCU/registrar_visita.png  used on input lin
-e 1015.
+e 1035.
 (pdftex.def)             Requested size: 369.88582pt x 232.42282pt.
-<./imagenes/PCU/crear_evento.png, id=970, 453.19313pt x 352.31625pt>
+<./imagenes/PCU/crear_evento.png, id=1101, 453.19313pt x 352.31625pt>
 File: ./imagenes/PCU/crear_evento.png Graphic file (type png)
 <use ./imagenes/PCU/crear_evento.png>
 Package pdftex.def Info: ./imagenes/PCU/crear_evento.png  used on input line 10
-21.
+41.
 (pdftex.def)             Requested size: 369.88582pt x 287.55183pt.
-LaTeX Info: Redefining \. on input line 1024.
-LaTeX Info: Redefining \% on input line 1024.
- [61 <./imagenes/PCU/seguir_lugar.png> <./imagenes/PCU/registrar_visita.png>]
-<./imagenes/PCU/ver_suscriptores.png, id=977, 450.9347pt x 317.68687pt>
+LaTeX Info: Redefining \. on input line 1044.
+LaTeX Info: Redefining \% on input line 1044.
+ [62 <./imagenes/PCU/seguir_lugar.png> <./imagenes/PCU/registrar_visita.png>]
+<./imagenes/PCU/ver_suscriptores.png, id=1109, 450.9347pt x 317.68687pt>
 File: ./imagenes/PCU/ver_suscriptores.png Graphic file (type png)
 <use ./imagenes/PCU/ver_suscriptores.png>
 Package pdftex.def Info: ./imagenes/PCU/ver_suscriptores.png  used on input lin
-e 1027.
+e 1047.
 (pdftex.def)             Requested size: 369.88582pt x 260.60185pt.
-<./imagenes/PCU/modificar_lugar.png, id=978, 453.19313pt x 386.19281pt>
+<./imagenes/PCU/modificar_lugar.png, id=1110, 453.19313pt x 386.19281pt>
 File: ./imagenes/PCU/modificar_lugar.png Graphic file (type png)
 <use ./imagenes/PCU/modificar_lugar.png>
 Package pdftex.def Info: ./imagenes/PCU/modificar_lugar.png  used on input line
- 1033.
+ 1053.
 (pdftex.def)             Requested size: 369.88582pt x 315.20103pt.
-LaTeX Info: Redefining \. on input line 1036.
-LaTeX Info: Redefining \% on input line 1036.
- [62 <./imagenes/PCU/crear_evento.png> <./imagenes/PCU/ver_suscriptores.png>]
-<./imagenes/PCU/crear_productos.png, id=986, 450.9347pt x 386.94562pt>
+LaTeX Info: Redefining \. on input line 1056.
+LaTeX Info: Redefining \% on input line 1056.
+ [63 <./imagenes/PCU/crear_evento.png> <./imagenes/PCU/ver_suscriptores.png>]
+<./imagenes/PCU/crear_productos.png, id=1117, 450.9347pt x 386.94562pt>
 File: ./imagenes/PCU/crear_productos.png Graphic file (type png)
 <use ./imagenes/PCU/crear_productos.png>
 Package pdftex.def Info: ./imagenes/PCU/crear_productos.png  used on input line
- 1039.
+ 1059.
 (pdftex.def)             Requested size: 369.88582pt x 317.41554pt.
-LaTeX Info: Redefining \. on input line 1042.
-LaTeX Info: Redefining \% on input line 1042.
- [63 <./imagenes/PCU/modificar_lugar.png>]
-<./imagenes/PCU/modificar_producto.png, id=992, 452.4403pt x 353.82187pt>
+LaTeX Info: Redefining \. on input line 1062.
+LaTeX Info: Redefining \% on input line 1062.
+ [64 <./imagenes/PCU/modificar_lugar.png>]
+<./imagenes/PCU/modificar_producto.png, id=1123, 452.4403pt x 353.82187pt>
 File: ./imagenes/PCU/modificar_producto.png Graphic file (type png)
 <use ./imagenes/PCU/modificar_producto.png>
 Package pdftex.def Info: ./imagenes/PCU/modificar_producto.png  used on input l
-ine 1045.
+ine 1065.
 (pdftex.def)             Requested size: 369.88582pt x 289.26118pt.
-LaTeX Info: Redefining \. on input line 1048.
-LaTeX Info: Redefining \% on input line 1048.
- [64 <./imagenes/PCU/crear_productos.png>]
-<./imagenes/PCU/ver_fotos.png, id=998, 451.6875pt x 302.63063pt>
+LaTeX Info: Redefining \. on input line 1068.
+LaTeX Info: Redefining \% on input line 1068.
+ [65 <./imagenes/PCU/crear_productos.png>]
+<./imagenes/PCU/ver_fotos.png, id=1129, 451.6875pt x 302.63063pt>
 File: ./imagenes/PCU/ver_fotos.png Graphic file (type png)
 <use ./imagenes/PCU/ver_fotos.png>
-Package pdftex.def Info: ./imagenes/PCU/ver_fotos.png  used on input line 1051.
+Package pdftex.def Info: ./imagenes/PCU/ver_fotos.png  used on input line 1071.
 
 (pdftex.def)             Requested size: 369.88582pt x 247.83546pt.
-<./imagenes/PCU/ver_productos.png, id=999, 450.9347pt x 335.00156pt>
+<./imagenes/PCU/ver_productos.png, id=1130, 450.9347pt x 335.00156pt>
 File: ./imagenes/PCU/ver_productos.png Graphic file (type png)
 <use ./imagenes/PCU/ver_productos.png>
 Package pdftex.def Info: ./imagenes/PCU/ver_productos.png  used on input line 1
-057.
+077.
 (pdftex.def)             Requested size: 369.88582pt x 274.80528pt.
-LaTeX Info: Redefining \. on input line 1060.
-LaTeX Info: Redefining \% on input line 1060.
- [65 <./imagenes/PCU/modificar_producto.png> <./imagenes/PCU/ver_fotos.png>]
-<./imagenes/PCU/ver_eventos.png, id=1006, 451.6875pt x 335.75438pt>
+LaTeX Info: Redefining \. on input line 1080.
+LaTeX Info: Redefining \% on input line 1080.
+ [66 <./imagenes/PCU/modificar_producto.png> <./imagenes/PCU/ver_fotos.png>]
+<./imagenes/PCU/ver_eventos.png, id=1137, 451.6875pt x 335.75438pt>
 File: ./imagenes/PCU/ver_eventos.png Graphic file (type png)
 <use ./imagenes/PCU/ver_eventos.png>
-Package pdftex.def Info: ./imagenes/PCU/ver_eventos.png  used on input line 106
+Package pdftex.def Info: ./imagenes/PCU/ver_eventos.png  used on input line 108
 3.
 (pdftex.def)             Requested size: 369.88582pt x 274.96175pt.
-<./imagenes/PCU/ubicacion_lugar.png, id=1007, 451.6875pt x 403.5075pt>
+<./imagenes/PCU/ubicacion_lugar.png, id=1138, 451.6875pt x 403.5075pt>
 File: ./imagenes/PCU/ubicacion_lugar.png Graphic file (type png)
 <use ./imagenes/PCU/ubicacion_lugar.png>
 Package pdftex.def Info: ./imagenes/PCU/ubicacion_lugar.png  used on input line
- 1069.
+ 1089.
 (pdftex.def)             Requested size: 369.88582pt x 330.4473pt.
-LaTeX Info: Redefining \. on input line 1072.
-LaTeX Info: Redefining \% on input line 1072.
- [66 <./imagenes/PCU/ver_productos.png> <./imagenes/PCU/ver_eventos.png>]
-<./imagenes/PCU/ubicacion_lugar_categoria.png, id=1014, 450.9347pt x 351.56343p
+LaTeX Info: Redefining \. on input line 1092.
+LaTeX Info: Redefining \% on input line 1092.
+ [67 <./imagenes/PCU/ver_productos.png> <./imagenes/PCU/ver_eventos.png>]
+<./imagenes/PCU/ubicacion_lugar_categoria.png, id=1145, 450.9347pt x 351.56343p
 t>
 File: ./imagenes/PCU/ubicacion_lugar_categoria.png Graphic file (type png)
 <use ./imagenes/PCU/ubicacion_lugar_categoria.png>
 Package pdftex.def Info: ./imagenes/PCU/ubicacion_lugar_categoria.png  used on 
-input line 1075.
+input line 1095.
 (pdftex.def)             Requested size: 369.88582pt x 288.39116pt.
-LaTeX Info: Redefining \. on input line 1081.
-LaTeX Info: Redefining \% on input line 1081.
- [67 <./imagenes/PCU/ubicacion_lugar.png>]
-LaTeX Info: Redefining \. on input line 1085.
-LaTeX Info: Redefining \% on input line 1085.
- [68 <./imagenes/PCU/ubicacion_lugar_categoria.png>]
+LaTeX Info: Redefining \. on input line 1101.
+LaTeX Info: Redefining \% on input line 1101.
+ [68 <./imagenes/PCU/ubicacion_lugar.png>]
+LaTeX Info: Redefining \. on input line 1105.
+LaTeX Info: Redefining \% on input line 1105.
+ [69 <./imagenes/PCU/ubicacion_lugar_categoria.png>]
 Ap\'{e}ndice C.
-<./imagenes/DS/DS_crear_categoria.png, id=1026, 448.67625pt x 186.6975pt>
+<./imagenes/DS/DS_crear_categoria.png, id=1157, 448.67625pt x 186.6975pt>
 File: ./imagenes/DS/DS_crear_categoria.png Graphic file (type png)
 <use ./imagenes/DS/DS_crear_categoria.png>
 Package pdftex.def Info: ./imagenes/DS/DS_crear_categoria.png  used on input li
-ne 1089.
+ne 1109.
 (pdftex.def)             Requested size: 284.52756pt x 118.39775pt.
-<./imagenes/DS/DS_crear_tag.png, id=1027, 448.67625pt x 186.6975pt>
+<./imagenes/DS/DS_crear_tag.png, id=1158, 448.67625pt x 186.6975pt>
 File: ./imagenes/DS/DS_crear_tag.png Graphic file (type png)
 <use ./imagenes/DS/DS_crear_tag.png>
-Package pdftex.def Info: ./imagenes/DS/DS_crear_tag.png  used on input line 109
+Package pdftex.def Info: ./imagenes/DS/DS_crear_tag.png  used on input line 111
 6.
 (pdftex.def)             Requested size: 284.52756pt x 118.39775pt.
-<./imagenes/DS/DS_crear_lugar.png, id=1028, 697.8572pt x 215.30438pt>
+<./imagenes/DS/DS_crear_lugar.png, id=1159, 697.8572pt x 215.30438pt>
 File: ./imagenes/DS/DS_crear_lugar.png Graphic file (type png)
 <use ./imagenes/DS/DS_crear_lugar.png>
 Package pdftex.def Info: ./imagenes/DS/DS_crear_lugar.png  used on input line 1
-103.
+123.
 (pdftex.def)             Requested size: 284.52756pt x 87.78256pt.
-[69
+[70
 
  <./imagenes/DS/DS_crear_categoria.png (PNG copy)> <./imagenes/DS/DS_crear_tag.
 png (PNG copy)>]
-<./imagenes/DS/DS_gestionar_eventos.png, id=1033, 884.55469pt x 265.74281pt>
+<./imagenes/DS/DS_gestionar_eventos.png, id=1164, 884.55469pt x 265.74281pt>
 File: ./imagenes/DS/DS_gestionar_eventos.png Graphic file (type png)
 <use ./imagenes/DS/DS_gestionar_eventos.png>
 Package pdftex.def Info: ./imagenes/DS/DS_gestionar_eventos.png  used on input 
-line 1110.
+line 1130.
 (pdftex.def)             Requested size: 284.52756pt x 85.47736pt.
-<./imagenes/DS/DS_gestionar_producto.png, id=1034, 888.31876pt x 265.74281pt>
+<./imagenes/DS/DS_gestionar_producto.png, id=1165, 888.31876pt x 265.74281pt>
 File: ./imagenes/DS/DS_gestionar_producto.png Graphic file (type png)
 <use ./imagenes/DS/DS_gestionar_producto.png>
 Package pdftex.def Info: ./imagenes/DS/DS_gestionar_producto.png  used on input
- line 1117.
+ line 1137.
 (pdftex.def)             Requested size: 284.52756pt x 85.11647pt.
-<./imagenes/DS/DS_gestionar_solicitud.png, id=1035, 616.55344pt x 253.69781pt>
+<./imagenes/DS/DS_gestionar_solicitud.png, id=1166, 616.55344pt x 253.69781pt>
 File: ./imagenes/DS/DS_gestionar_solicitud.png Graphic file (type png)
 <use ./imagenes/DS/DS_gestionar_solicitud.png>
 Package pdftex.def Info: ./imagenes/DS/DS_gestionar_solicitud.png  used on inpu
-t line 1124.
+t line 1144.
 (pdftex.def)             Requested size: 284.52756pt x 117.0779pt.
-LaTeX Info: Redefining \. on input line 1131.
-LaTeX Info: Redefining \% on input line 1131.
- [70 <./imagenes/DS/DS_crear_lugar.png (PNG copy)> <./imagenes/DS/DS_gestionar_
+<./imagenes/DS/DS_modificar_perfil.png, id=1167, 520.94624pt x 207.02344pt>
+File: ./imagenes/DS/DS_modificar_perfil.png Graphic file (type png)
+<use ./imagenes/DS/DS_modificar_perfil.png>
+Package pdftex.def Info: ./imagenes/DS/DS_modificar_perfil.png  used on input l
+ine 1151.
+(pdftex.def)             Requested size: 284.52756pt x 113.07034pt.
+LaTeX Info: Redefining \. on input line 1155.
+LaTeX Info: Redefining \% on input line 1155.
+ [71 <./imagenes/DS/DS_crear_lugar.png (PNG copy)> <./imagenes/DS/DS_gestionar_
 eventos.png (PNG copy)> <./imagenes/DS/DS_gestionar_producto.png (PNG copy)> <.
 /imagenes/DS/DS_gestionar_solicitud.png (PNG copy)>]
+<./imagenes/DS/DS_opciones_usuario.png, id=1172, 572.1375pt x 267.24844pt>
+File: ./imagenes/DS/DS_opciones_usuario.png Graphic file (type png)
+<use ./imagenes/DS/DS_opciones_usuario.png>
+Package pdftex.def Info: ./imagenes/DS/DS_opciones_usuario.png  used on input l
+ine 1158.
+(pdftex.def)             Requested size: 284.52756pt x 132.90617pt.
+<./imagenes/DC/DC_crear_categoria.png, id=1173, 703.12688pt x 177.66376pt>
+File: ./imagenes/DC/DC_crear_categoria.png Graphic file (type png)
+<use ./imagenes/DC/DC_crear_categoria.png>
+Package pdftex.def Info: ./imagenes/DC/DC_crear_categoria.png  used on input li
+ne 1165.
+(pdftex.def)             Requested size: 284.52756pt x 71.89107pt.
+<./imagenes/DC/DC_crear_tag.png, id=1174, 727.96968pt x 141.52875pt>
+File: ./imagenes/DC/DC_crear_tag.png Graphic file (type png)
+<use ./imagenes/DC/DC_crear_tag.png>
+Package pdftex.def Info: ./imagenes/DC/DC_crear_tag.png  used on input line 117
+2.
+(pdftex.def)             Requested size: 284.52756pt x 55.31691pt.
+<./imagenes/DC/DC_crear_lugar.png, id=1175, 769.37437pt x 269.50688pt>
+File: ./imagenes/DC/DC_crear_lugar.png Graphic file (type png)
+<use ./imagenes/DC/DC_crear_lugar.png>
+Package pdftex.def Info: ./imagenes/DC/DC_crear_lugar.png  used on input line 1
+179.
+(pdftex.def)             Requested size: 284.52756pt x 99.67075pt.
+LaTeX Info: Redefining \. on input line 1183.
+LaTeX Info: Redefining \% on input line 1183.
+
+[72 <./imagenes/DS/DS_modificar_perfil.png (PNG copy)> <./imagenes/DS/DS_opcion
+es_usuario.png (PNG copy)> <./imagenes/DC/DC_crear_categoria.png (PNG copy)> <.
+/imagenes/DC/DC_crear_tag.png (PNG copy)>]
+<./imagenes/DC/DC_gestionar_evento.png, id=1180, 716.6775pt x 404.26031pt>
+File: ./imagenes/DC/DC_gestionar_evento.png Graphic file (type png)
+<use ./imagenes/DC/DC_gestionar_evento.png>
+Package pdftex.def Info: ./imagenes/DC/DC_gestionar_evento.png  used on input l
+ine 1186.
+(pdftex.def)             Requested size: 284.52756pt x 160.4984pt.
+<./imagenes/DC/DC_gestionar_producto.png, id=1181, 730.98094pt x 517.935pt>
+File: ./imagenes/DC/DC_gestionar_producto.png Graphic file (type png)
+<use ./imagenes/DC/DC_gestionar_producto.png>
+Package pdftex.def Info: ./imagenes/DC/DC_gestionar_producto.png  used on input
+ line 1193.
+(pdftex.def)             Requested size: 284.52756pt x 201.59868pt.
+<./imagenes/DC/DC_gestionar_solicitud.png, id=1182, 731.73375pt x 342.5297pt>
+File: ./imagenes/DC/DC_gestionar_solicitud.png Graphic file (type png)
+<use ./imagenes/DC/DC_gestionar_solicitud.png>
+Package pdftex.def Info: ./imagenes/DC/DC_gestionar_solicitud.png  used on inpu
+t line 1200.
+(pdftex.def)             Requested size: 284.52756pt x 133.18881pt.
+LaTeX Info: Redefining \. on input line 1204.
+LaTeX Info: Redefining \% on input line 1204.
+ [73 <./imagenes/DC/DC_crear_lugar.png (PNG copy)> <./imagenes/DC/DC_gestionar_
+evento.png (PNG copy)> <./imagenes/DC/DC_gestionar_producto.png (PNG copy)>]
+<./imagenes/DC/DC_modificar_perfil.png, id=1187, 703.12688pt x 230.36063pt>
+File: ./imagenes/DC/DC_modificar_perfil.png Graphic file (type png)
+<use ./imagenes/DC/DC_modificar_perfil.png>
+Package pdftex.def Info: ./imagenes/DC/DC_modificar_perfil.png  used on input l
+ine 1207.
+(pdftex.def)             Requested size: 284.52756pt x 93.21469pt.
+<./imagenes/DC/DC_opciones_usuario.png, id=1188, 531.48563pt x 301.125pt>
+File: ./imagenes/DC/DC_opciones_usuario.png Graphic file (type png)
+<use ./imagenes/DC/DC_opciones_usuario.png>
+Package pdftex.def Info: ./imagenes/DC/DC_opciones_usuario.png  used on input l
+ine 1214.
+(pdftex.def)             Requested size: 284.52756pt x 161.20825pt.
+LaTeX Info: Redefining \. on input line 1227.
+LaTeX Info: Redefining \% on input line 1227.
+ [74 <./imagenes/DC/DC_gestionar_solicitud.png (PNG copy)> <./imagenes/DC/DC_mo
+dificar_perfil.png (PNG copy)> <./imagenes/DC/DC_opciones_usuario.png (PNG copy
+)>]
 Ap\'{e}ndice D.
-<./imagenes/Test/OperacionesTest.png, id=1040, 669.2503pt x 172.39406pt>
+<./imagenes/Encuesta1.png, id=1194, 429.10312pt x 514.92375pt>
+File: ./imagenes/Encuesta1.png Graphic file (type png)
+<use ./imagenes/Encuesta1.png>
+Package pdftex.def Info: ./imagenes/Encuesta1.png  used on input line 1230.
+(pdftex.def)             Requested size: 341.43306pt x 409.72385pt.
+<./imagenes/Encuesta2.png, id=1195, 429.10312pt x 514.92375pt>
+File: ./imagenes/Encuesta2.png Graphic file (type png)
+<use ./imagenes/Encuesta2.png>
+Package pdftex.def Info: ./imagenes/Encuesta2.png  used on input line 1237.
+(pdftex.def)             Requested size: 341.43306pt x 409.72385pt.
+[75
+
+ <./imagenes/Encuesta1.png>]
+LaTeX Info: Redefining \. on input line 1252.
+LaTeX Info: Redefining \% on input line 1252.
+ [76 <./imagenes/Encuesta2.png>]
+Ap\'{e}ndice E.
+<./imagenes/Test/Informe_movile_play_console.png, id=1206, 868.24374pt x 517.93
+5pt>
+File: ./imagenes/Test/Informe_movile_play_console.png Graphic file (type png)
+<use ./imagenes/Test/Informe_movile_play_console.png>
+Package pdftex.def Info: ./imagenes/Test/Informe_movile_play_console.png  used 
+on input line 1256.
+(pdftex.def)             Requested size: 284.52756pt x 169.73361pt.
+<./imagenes/Test/ConsultasTest.png, id=1207, 660.96938pt x 195.73125pt>
+File: ./imagenes/Test/ConsultasTest.png Graphic file (type png)
+<use ./imagenes/Test/ConsultasTest.png>
+Package pdftex.def Info: ./imagenes/Test/ConsultasTest.png  used on input line 
+1263.
+(pdftex.def)             Requested size: 284.52756pt x 84.25836pt.
+<./imagenes/Test/Backend/Test__opiniones_api_test.png, id=1208, 483.30562pt x 2
+94.34969pt>
+File: ./imagenes/Test/Backend/Test__opiniones_api_test.png Graphic file (type p
+ng)
+<use ./imagenes/Test/Backend/Test__opiniones_api_test.png>
+Package pdftex.def Info: ./imagenes/Test/Backend/Test__opiniones_api_test.png  
+used on input line 1270.
+(pdftex.def)             Requested size: 170.71652pt x 103.9716pt.
+[77
+
+ <./imagenes/Test/Informe_movile_play_console.png> <./imagenes/Test/ConsultasTe
+st.png>]
+<./imagenes/Test/OperacionesTest.png, id=1215, 669.2503pt x 172.39406pt>
 File: ./imagenes/Test/OperacionesTest.png Graphic file (type png)
 <use ./imagenes/Test/OperacionesTest.png>
 Package pdftex.def Info: ./imagenes/Test/OperacionesTest.png  used on input lin
-e 1135.
+e 1277.
 (pdftex.def)             Requested size: 284.52756pt x 73.29411pt.
-<./imagenes/Test/Backend/Test__categorias_api_test.png, id=1041, 493.845pt x 19
+<./imagenes/Test/Backend/Test__categorias_api_test.png, id=1216, 493.845pt x 19
 0.46156pt>
 File: ./imagenes/Test/Backend/Test__categorias_api_test.png Graphic file (type 
 png)
 <use ./imagenes/Test/Backend/Test__categorias_api_test.png>
 Package pdftex.def Info: ./imagenes/Test/Backend/Test__categorias_api_test.png 
- used on input line 1142.
+ used on input line 1284.
 (pdftex.def)             Requested size: 170.71652pt x 65.84007pt.
-<./imagenes/Test/Backend/Test__comentarios_api_test.png, id=1042, 505.89pt x 21
+<./imagenes/Test/Backend/Test__comentarios_api_test.png, id=1217, 505.89pt x 21
 0.03468pt>
 File: ./imagenes/Test/Backend/Test__comentarios_api_test.png Graphic file (type
  png)
 <use ./imagenes/Test/Backend/Test__comentarios_api_test.png>
 Package pdftex.def Info: ./imagenes/Test/Backend/Test__comentarios_api_test.png
-  used on input line 1149.
+  used on input line 1291.
 (pdftex.def)             Requested size: 170.71652pt x 70.87883pt.
-<./imagenes/Test/Backend/Test__eventos_api_test.png, id=1043, 463.7325pt x 255.
+<./imagenes/Test/Backend/Test__eventos_api_test.png, id=1218, 463.7325pt x 255.
 95625pt>
 File: ./imagenes/Test/Backend/Test__eventos_api_test.png Graphic file (type png
 )
 <use ./imagenes/Test/Backend/Test__eventos_api_test.png>
 Package pdftex.def Info: ./imagenes/Test/Backend/Test__eventos_api_test.png  us
-ed on input line 1156.
+ed on input line 1298.
 (pdftex.def)             Requested size: 170.71652pt x 94.22585pt.
-[71
-
- <./imagenes/Test/OperacionesTest.png> <./imagenes/Test/Backend/Test__categoria
-s_api_test.png> <./imagenes/Test/Backend/Test__comentarios_api_test.png>]
-<./imagenes/Test/Backend/Test__preferencias_api_test.png, id=1049, 519.44063pt 
+LaTeX Info: Redefining \. on input line 1302.
+LaTeX Info: Redefining \% on input line 1302.
+ [78 <./imagenes/Test/Backend/Test__opiniones_api_test.png> <./imagenes/Test/Op
+eracionesTest.png> <./imagenes/Test/Backend/Test__categorias_api_test.png> <./i
+magenes/Test/Backend/Test__comentarios_api_test.png>]
+<./imagenes/Test/Backend/Test__preferencias_api_test.png, id=1224, 519.44063pt 
 x 213.79875pt>
 File: ./imagenes/Test/Backend/Test__preferencias_api_test.png Graphic file (typ
 e png)
 <use ./imagenes/Test/Backend/Test__preferencias_api_test.png>
 Package pdftex.def Info: ./imagenes/Test/Backend/Test__preferencias_api_test.pn
-g  used on input line 1163.
+g  used on input line 1305.
 (pdftex.def)             Requested size: 170.71652pt x 70.26346pt.
-<./imagenes/Test/Backend/Test__productos_api_test.png, id=1050, 490.83376pt x 2
+<./imagenes/Test/Backend/Test__productos_api_test.png, id=1225, 490.83376pt x 2
 95.85532pt>
 File: ./imagenes/Test/Backend/Test__productos_api_test.png Graphic file (type p
 ng)
 <use ./imagenes/Test/Backend/Test__productos_api_test.png>
 Package pdftex.def Info: ./imagenes/Test/Backend/Test__productos_api_test.png  
-used on input line 1170.
+used on input line 1312.
 (pdftex.def)             Requested size: 170.71652pt x 102.90083pt.
-<./imagenes/Test/Backend/Test__solicitudes_api_test.png, id=1051, 496.10344pt x
+<./imagenes/Test/Backend/Test__solicitudes_api_test.png, id=1226, 496.10344pt x
  231.86626pt>
 File: ./imagenes/Test/Backend/Test__solicitudes_api_test.png Graphic file (type
  png)
 <use ./imagenes/Test/Backend/Test__solicitudes_api_test.png>
 Package pdftex.def Info: ./imagenes/Test/Backend/Test__solicitudes_api_test.png
-  used on input line 1177.
+  used on input line 1319.
 (pdftex.def)             Requested size: 170.71652pt x 79.78873pt.
-<./imagenes/Test/Backend/Test__suscripciones_api_test.png, id=1052, 521.69907pt
+<./imagenes/Test/Backend/Test__suscripciones_api_test.png, id=1227, 521.69907pt
  x 292.84406pt>
 File: ./imagenes/Test/Backend/Test__suscripciones_api_test.png Graphic file (ty
 pe png)
 <use ./imagenes/Test/Backend/Test__suscripciones_api_test.png>
 Package pdftex.def Info: ./imagenes/Test/Backend/Test__suscripciones_api_test.p
-ng  used on input line 1184.
+ng  used on input line 1326.
 (pdftex.def)             Requested size: 170.71652pt x 95.82558pt.
-LaTeX Info: Redefining \. on input line 1188.
-LaTeX Info: Redefining \% on input line 1188.
-
-[72 <./imagenes/Test/Backend/Test__eventos_api_test.png> <./imagenes/Test/Backe
-nd/Test__preferencias_api_test.png> <./imagenes/Test/Backend/Test__productos_ap
-i_test.png> <./imagenes/Test/Backend/Test__solicitudes_api_test.png>]
-<./imagenes/Test/Backend/Test__tags_api_test.png, id=1057, 426.84468pt x 211.54
+LaTeX Info: Redefining \. on input line 1330.
+LaTeX Info: Redefining \% on input line 1330.
+ [79 <./imagenes/Test/Backend/Test__eventos_api_test.png> <./imagenes/Test/Back
+end/Test__preferencias_api_test.png> <./imagenes/Test/Backend/Test__productos_a
+pi_test.png> <./imagenes/Test/Backend/Test__solicitudes_api_test.png>]
+<./imagenes/Test/Backend/Test__tags_api_test.png, id=1232, 426.84468pt x 211.54
 031pt>
 File: ./imagenes/Test/Backend/Test__tags_api_test.png Graphic file (type png)
 <use ./imagenes/Test/Backend/Test__tags_api_test.png>
 Package pdftex.def Info: ./imagenes/Test/Backend/Test__tags_api_test.png  used 
-on input line 1191.
+on input line 1333.
 (pdftex.def)             Requested size: 170.71652pt x 84.60815pt.
-<./imagenes/Test/Backend/Test__usuarios_api_test.png, id=1058, 467.49657pt x 21
+<./imagenes/Test/Backend/Test__usuarios_api_test.png, id=1233, 467.49657pt x 21
 1.54031pt>
 File: ./imagenes/Test/Backend/Test__usuarios_api_test.png Graphic file (type pn
 g)
 <use ./imagenes/Test/Backend/Test__usuarios_api_test.png>
 Package pdftex.def Info: ./imagenes/Test/Backend/Test__usuarios_api_test.png  u
-sed on input line 1198.
+sed on input line 1340.
 (pdftex.def)             Requested size: 170.71652pt x 77.24869pt.
-<./imagenes/Test/Backend/Test__visitas_api_test.png, id=1059, 461.47406pt x 289
+<./imagenes/Test/Backend/Test__visitas_api_test.png, id=1234, 461.47406pt x 289
 .83281pt>
 File: ./imagenes/Test/Backend/Test__visitas_api_test.png Graphic file (type png
 )
 <use ./imagenes/Test/Backend/Test__visitas_api_test.png>
 Package pdftex.def Info: ./imagenes/Test/Backend/Test__visitas_api_test.png  us
-ed on input line 1205.
+ed on input line 1347.
 (pdftex.def)             Requested size: 170.71652pt x 107.21877pt.
-LaTeX Info: Redefining \. on input line 1218.
-LaTeX Info: Redefining \% on input line 1218.
- [73 <./imagenes/Test/Backend/Test__suscripciones_api_test.png> <./imagenes/Tes
+LaTeX Info: Redefining \. on input line 1355.
+LaTeX Info: Redefining \% on input line 1355.
+ [80 <./imagenes/Test/Backend/Test__suscripciones_api_test.png> <./imagenes/Tes
 t/Backend/Test__tags_api_test.png> <./imagenes/Test/Backend/Test__usuarios_api_
 test.png> <./imagenes/Test/Backend/Test__visitas_api_test.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1223.
- [74
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1385
+.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1385.
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 1385--1386
+[]\OT1/cmr/m/n/12 M. D. Eks-trand, \Co-lla-bo-ra-ti-ve Fil-te-ring Re-com-men-d
+er Sys-tems," Found.
+ []
+
+[81
+
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1223.
+Underfull \hbox (badness 10000) in paragraph at lines 1419--1420
+[]\OT1/cmr/m/n/12 \ReactJS," 2019. [On-li-ne]. Avai-la-ble: https://es.reactjs.
+org/docs/getting-
+ []
+
+LaTeX Info: Redefining \. on input line 1430.
+LaTeX Info: Redefining \% on input line 1430.
+[82]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1433.
+LaTeX Info: Redefining \. on input line 1433.
+LaTeX Info: Redefining \% on input line 1433.
+ [83]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1433.
  ("Documento TG.aux"
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1223.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1223.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1433.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1433.
 
 Package rerunfilecheck Info: File `"Documento TG".out' has not changed.
-(rerunfilecheck)             Checksum: 7A24F5521E48709A4A97644E233B2FDD;5068.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1223.
+(rerunfilecheck)             Checksum: 9F12E22642A405F61C2E60FACB3171E8;5171.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1433.
  ) 
 Here is how much of TeX's memory you used:
- 10488 strings out of 492945
- 161612 string characters out of 3135514
+ 10694 strings out of 492945
+ 165780 string characters out of 3135514
  265965 words of memory out of 3000000
- 13876 multiletter control sequences out of 15000+200000
+ 14002 multiletter control sequences out of 15000+200000
  13107 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,17n,43p,1108b,686s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,17n,43p,1127b,688s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mti12.pfb>
-Output written on "Documento TG.pdf" (79 pages, 12366055 bytes).
+ 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "Documento TG.pdf" (88 pages, 12779187 bytes).
 PDF statistics:
- 1156 PDF objects out of 1200 (max. 8388607)
- 258 named destinations out of 1000 (max. 500000)
- 1047 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1358 PDF objects out of 1440 (max. 8388607)
+ 318 named destinations out of 1000 (max. 500000)
+ 1143 words of extra memory for PDF output out of 10000 (max. 10000000)
 
