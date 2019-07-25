@@ -420,6 +420,31 @@ La metodología Mobile-D consta de 5 fases: exploración, iniciación, producci�
 \end{center}
 \end{figure}
 
+En la fase de \textbf{exploracion},  se levantan requerimientos y se realiza un diseño general del sistema mediante el diseño de la arquitectura del sistema de alto nivel y los casos de uso.
+\\
+En la fase de \textbf{inicializacion}, de acuerdo a los requerimientos levantados, se realizan las historias de usuario y los diagramas de colaboracion y secuencia en base a los casos de uso realizados. De igual manera, se realiza el diagrama de entidad-relacion de la base de datos, y el diagrama de clases de la aplicación movil.
+\\
+En la fase de \textbf{produccion}, se comienza a desarrollar los modulos que se requieren para cumplir con los requerimientos levantados. En el backend, se crean las APIs de acuerdo al modelo de la base de datos y sus peticiones HTTP, según su requerimiento (GET, POST, PUT, DELETE, etc). En el frontend, se realiza la aplicacion movil de acuerdo al diseño planteado.
+\\
+En la fase de \textbf{estabilizacion}, se integran los modulos desarrollados tanto del Backend como del Frontend, utilizando el sistema de version de controles github mediante peticiones pull request.
+\\
+En la fase de \textbf{pruebas} se realizan pruebas de aceptacion de acuerdo a las historias de usuario, pruebas unitarios al backend y a la aplicación, y pruebas de usabilidad en el frontend.
+\\
+La evidencia del trabajo realizado se puede observar en las siguientes figuras:
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=13cm]{./imagenes/commitsApp}
+\caption{Commits realizados en GitHub para la Aplicación Móvil.}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=13cm]{./imagenes/commitsBackend}
+\caption{Commits realizados en GitHub para el Backend.}
+\end{center}
+\end{figure}
+
 \section{Arquitectura del Sistema Implementado}
 La siguiente figura describe el esquema o funcionamiento de la aplicación y evidencia cada uno de los componentes que se relacionan entre sí, la arquitectura utilizada fue de tipo cliente – servidor. Para la generación de recomendación automática se hizo la utilización de otro lenguaje de programación diferente a JAVA, en este caso Python fue el seleccionado, usando el framework Django y Django-Rest-Full.
 \begin{figure}[H]
@@ -743,35 +768,49 @@ El usuario tipo comerciante dispone de las mismas funcionalidades de un usuario 
 Para lograr el primer objetivo \textbf{(Caracterizar los sitios y eventos del municipio de Ginebra)}, se utilizó el diseño de una encuesta a los dueños/administradores de los diferentes sitios para la recolección y formalización de los datos \textbf{(Ver Apendice D)}.
 Una vez recolectado de datos, se analizó la información obtenida para extraer datos que sean de utilidad para la aplicación, y se alimentó la base de datos con la información de los sitios consultados.
 \vspace{5mm}\newline
-Para lograr el segundo objetivo \textbf{(Determinar el tipo de sistema de recomendación y los algoritmos a utilizar)}, se realizó una investigación acerca de la funcionalidad y estructura de las técnicas y algoritmos para hacer recomendaciones, y se eligió implementar un Sistema de Recomendación Basado en Contenido, con el algoritmo TF-IDF, ya que es de utilidad para poder analizar datasets pequeños y es conveniente para aplicaciones nuevas, ayudando a evitar problemas de coldstar.
+Para lograr el segundo objetivo \textbf{(Determinar el tipo de sistema de recomendación y los algoritmos a utilizar)}, se realizó una investigación acerca de la funcionalidad y estructura de las técnicas y algoritmos para hacer recomendaciones, y se eligió implementar un Sistema de Recomendación Basado en Contenido, con el algoritmo TF-IDF, ya que es de utilidad para poder analizar datasets pequeños y es conveniente para aplicaciones nuevas, ayudando a evitar problemas de coldstart. El desarrollo de esta elección se puede evidenciar en el \textbf{Apendice ?}.
 \vspace{5mm}\newline
 Para lograr el tercer objetivo \textbf{(Implementar un prototipo de una aplicación móvil que permita consumir y ofrecer la información sobre los sitios y eventos de la ciudad de Ginebra.)}.........
 \vspace{5mm}\newline
 Para lograr el cuarto objetivo \textbf{(Implementar un prototipo de sistema de recomendación para los sitios y eventos del municipio de Ginebra.)}.........
 \vspace{5mm}\newline
-Para lograr el quinto objetivo \textbf{(Evaluar las recomendaciones emitidas por el sistema de recomendación conforme a la realimentación de los usuarios de la aplicación..)}.........
+Para lograr el quinto objetivo \textbf{(Evaluar las recomendaciones emitidas por el sistema de recomendación conforme a la realimentación de los usuarios de la aplicación.)}, se hizo de la siguiente manera:\\
+El sistema de recomendación lanza una predicción, la cual es un valor que va de 0 a 1, mientras el valor sea mayor a 0, se muestra como una recomendación, sin embargo, en la evaluación, se toma un valor de 0.35 en adelante para considerarlo como recomendado. \\
+Se evaluaron las recomendaciones con  los datos recogidos gracias a los habitantes de Ginebra y con colaboración de los estudiantes de la Universidad del Valle sede Tuluá, de los cuales se obtuvieron 81 registros, y, de esta manera, se obtuvieron los siguientes resultados:
+\begin{table}[H]
+\centering
+\includegraphics[width=10cm]{./imagenes/PrecisionRecall}
+\caption{Matriz de Confusión.}
+\end{table}
+
+Un verdadero positivo es un resultado en el que el modelo predice correctamente la clase positiva. De manera similar, un verdadero negativo es un resultado en el que el modelo predice correctamente la clase negativa.\\
+Un falso positivo es un resultado en el que el modelo predice incorrectamente la clase positiva. Y un falso negativo es un resultado en el que el modelo predice incorrectamente la clase negativa.\\
+La precisión intenta responder a la siguiente pregunta: ¿Qué proporción de identificaciones positivas fue correcta?\\
+La exhaustividad intenta responder a la siguiente pregunta: ¿Qué proporción de positivos reales se identificó correctamente?\cite{13}\cite{26}
+\vspace{5mm}\newline
+Precision = $\frac{VP}{VP+FP}$ = 0.79 \\
+Recall = $\frac{VP}{VP+FN}$ = 0.47\\
+\newline
+Se obtuvo una precisión de 0.79, por que el 79\% de las recomendaciones fueron de agrado para los usuarios, y se obtuvo una exhaustividad de 0.47, por lo que recomienda el 47\% lugares que les gustan a los usuarios
 \vspace{5mm}\newline
 \textbf{Las tecnologías usadas en el desarrollo del proyecto fueron:}
 \begin{itemize}
-    \item Android: Android \cite{26} es un sistema operativo móvil desarrollado por Google, basado en el Kernel de Linux y otros software de código abierto.
-    \item Java: Java \cite{27} es un lenguaje de programación de propósito general, concurrente y orientado a objetos.
-    \item Python: Python \cite{28} es un lenguaje de programación interpretado, usa tipado dinámico y es multiplataforma.
-    \item PostgreSQL: PostgreSQL \cite{29} es un motor de base de datos libre, robusto y proporciona buenos niveles de seguridad.
-    \item Django: Django \cite{30} es un framework de aplicaciones web de alto nivel que fomenta el desarrollo rápido y el diseño limpio y pragmático.
-    \item ReactJS: React \cite{31} es una biblioteca Javascript para crear interfaces de usuario.
-    \item Scikit-learn: Scikit-learn \cite{32} es una biblioteca para machine learning, para el lenguaje de programación Python.
-    \item Numpy: Numpy \cite{33} es una extensión de Python, que le agrega mayor soporte para vectores y matrices, constituyendo una biblioteca de funciones matemáticas de alto nivel para operar con esos vectores o matrices.
-    \item Firebase: Firebase \cite{34} es una plataforma para el desarrollo de aplicaciones web y aplicaciones móviles.
-    \item Pusher: Pusher \cite{35} permite a los desarrolladores con APIs crear funciones de colaboración y comunicación en sus aplicaciones web y móviles.
+    \item Android: Android \cite{27} es un sistema operativo móvil desarrollado por Google, basado en el Kernel de Linux y otros software de código abierto.
+    \item Java: Java \cite{28} es un lenguaje de programación de propósito general, concurrente y orientado a objetos.
+    \item Python: Python \cite{29} es un lenguaje de programación interpretado, usa tipado dinámico y es multiplataforma.
+    \item PostgreSQL: PostgreSQL \cite{30} es un motor de base de datos libre, robusto y proporciona buenos niveles de seguridad.
+    \item Django: Django \cite{31} es un framework de aplicaciones web de alto nivel que fomenta el desarrollo rápido y el diseño limpio y pragmático.
+    \item ReactJS: React \cite{32} es una biblioteca Javascript para crear interfaces de usuario.
+    \item Scikit-learn: Scikit-learn \cite{33} es una biblioteca para machine learning, para el lenguaje de programación Python.
+    \item Numpy: Numpy \cite{34} es una extensión de Python, que le agrega mayor soporte para vectores y matrices, constituyendo una biblioteca de funciones matemáticas de alto nivel para operar con esos vectores o matrices.
+    \item Firebase: Firebase \cite{35} es una plataforma para el desarrollo de aplicaciones web y aplicaciones móviles.
+    \item Pusher: Pusher \cite{36} permite a los desarrolladores con APIs crear funciones de colaboración y comunicación en sus aplicaciones web y móviles.
 \end{itemize}
 
 \section{Pruebas}
-Las pruebas realizadas para verificar el correcto comportamiento del sistema fueron pruebas funcionales, pruebas unitarias, pruebas de usabilidad y pruebas de precision and recall.
+Las pruebas realizadas para verificar el correcto comportamiento del sistema fueron pruebas funcionales, pruebas unitarias, pruebas de usabilidad y pruebas de precision and recall. Ademas, informe de errores y funcionalidad de la aplicación móvil en distintos emuladores móviles que presta la herramienta de Google.
 
-\subsection{Pruebas Funcionales}
-Los demás pruebas de sistema realizados las puede detallar en el documento Anexo, Apéndice D.
-
-\subsection{Pruebas Unitarias}
+\subsection{Pruebas de la tienda de aplicación}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=10cm]{./imagenes/Test/Informe_errores_play_store}
@@ -779,6 +818,17 @@ Los demás pruebas de sistema realizados las puede detallar en el documento Anex
 \end{center}
 \end{figure}
 
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=10cm]{./imagenes/Test/Informe_movile_play_console}
+\caption{Informe Móvil Play Store.}
+\end{center}
+\end{figure}
+
+\subsection{Pruebas Funcionales}
+Las demás pruebas funcionales realizadas las puede detallar en el documento Anexo, Apéndice D.
+
+\subsection{Pruebas Unitarias}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=10cm]{./imagenes/Test/ControladorFechasTest}
@@ -793,13 +843,10 @@ Los demás pruebas de sistema realizados las puede detallar en el documento Anex
 \end{center}
 \end{figure}
 
-Los demás pruebas de sistema realizados las puede detallar en el documento Anexo, Apéndice D.
+Los demás pruebas unitarias realizadas las puede detallar en el documento Anexo, Apéndice D.
 
 \subsection{Pruebas de Usabilidad}
-Los demás pruebas de sistema realizados las puede detallar en el documento Anexo, Apéndice D.
-
-\subsection{Precision and Recall}
-Los demás pruebas de sistema realizados las puede detallar en el documento Anexo, Apéndice D.
+Las demás pruebas de usabilidad realizados las puede detallar en el documento Anexo, Apéndice D.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%						FIN DESARROLLO DEL PROYECTO
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1253,13 +1300,6 @@ A continuación se exponen algunos de los artefactos diseñados para la realizac
 Este anexo contiene pruebas realizadas para validar funcionalidades del sistema.	
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=10cm]{./imagenes/Test/Informe_movile_play_console}
-\caption{Informe Móvil Play Store.}
-\end{center}
-\end{figure}
-
-\begin{figure}[H]
-\begin{center}
 \includegraphics[width=10cm]{./imagenes/Test/ConsultasTest}
 \caption{Prueba Unitaria Metodo Consultas App Movil.}
 \end{center}
@@ -1406,25 +1446,27 @@ Este anexo contiene pruebas realizadas para validar funcionalidades del sistema.
 
 \bibitem{25} Dennis Crowley y Naveen Selvadurai, “Foursquare, red social basada en servicios de localización que incorpora elementos de juego.,” 2009.
 
-\bibitem{26} Google, “Android,” 2019.
+\bibitem{26} “Clasificación: Precisión y exhaustividad.” [Online]. Available: https://developers.google.com/machine-learning/crash-course/classification/precision-and-recall?hl=es-419 . [Accessed: 21-Jul-2019].
 
-\bibitem{27} ORACLE, “Java,” 2019. [Online]. Available: https://www.oracle.com/es/java/.
+\bibitem{27} Google, “Android,” 2019.
 
-\bibitem{28} “Python,” 2019. [Online]. Available: https://www.python.org/.
+\bibitem{28} ORACLE, “Java,” 2019. [Online]. Available: https://www.oracle.com/es/java/.
 
-\bibitem{29} “PosgreSQL,” 2019. [Online]. Available: https://www.postgresql.org/.
+\bibitem{29} “Python,” 2019. [Online]. Available: https://www.python.org/.
 
-\bibitem{30} “Django,” 2019. [Online]. Available: https://www.djangoproject.com/.
+\bibitem{30} “PosgreSQL,” 2019. [Online]. Available: https://www.postgresql.org/.
 
-\bibitem{31} “ReactJS,” 2019. [Online]. Available: https://es.reactjs.org/docs/getting-started.html/ .
+\bibitem{31} “Django,” 2019. [Online]. Available: https://www.djangoproject.com/.
 
-\bibitem{32} “Scikit-learn,” 2019. [Online]. Available: https://scikit-learn.org/.
+\bibitem{32} “ReactJS,” 2019. [Online]. Available: https://es.reactjs.org/docs/getting-started.html/ .
 
-\bibitem{33} “Numpy,” 2019. [Online]. Available: http://www.numpy.org/.
+\bibitem{33} “Scikit-learn,” 2019. [Online]. Available: https://scikit-learn.org/.
 
-\bibitem{34} “Firebase,” 2019. [Online]. Available: https://firebase.google.com/.
+\bibitem{34} “Numpy,” 2019. [Online]. Available: http://www.numpy.org/.
 
-\bibitem{35} “Pusher,” 2019. [Online]. Available: https://pusher.com/.
+\bibitem{35} “Firebase,” 2019. [Online]. Available: https://firebase.google.com/.
+
+\bibitem{36} “Pusher,” 2019. [Online]. Available: https://pusher.com/.
 
 
 \end{thebibliography}
