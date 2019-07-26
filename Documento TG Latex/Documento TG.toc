@@ -54,17 +54,17 @@
 \contentsline {subsubsection}{\numberline {3.3.3.6}Solicitudes}{40}{subsubsection.3.3.3.6}% 
 \contentsline {subsection}{\numberline {3.3.4}Comerciante}{40}{subsection.3.3.4}% 
 \contentsline {section}{\numberline {3.4}Detalles de la Implementaci\IeC {\'o}n}{41}{section.3.4}% 
-\contentsline {section}{\numberline {3.5}Pruebas}{43}{section.3.5}% 
+\contentsline {section}{\numberline {3.5}Pruebas}{44}{section.3.5}% 
 \contentsline {subsection}{\numberline {3.5.1}Pruebas de la tienda de aplicaci\IeC {\'o}n}{44}{subsection.3.5.1}% 
-\contentsline {subsection}{\numberline {3.5.2}Pruebas Funcionales}{44}{subsection.3.5.2}% 
-\contentsline {subsection}{\numberline {3.5.3}Pruebas Unitarias}{44}{subsection.3.5.3}% 
-\contentsline {subsection}{\numberline {3.5.4}Pruebas de Usabilidad}{45}{subsection.3.5.4}% 
-\contentsline {chapter}{\numberline {4}Conclusiones y Trabajos Futuros}{46}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Conclusiones}{46}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Trabajo Futuro}{46}{section.4.2}% 
-\contentsline {chapter}{\numberline {A}Historias de Usuario}{47}{appendix.Alph1}% 
-\contentsline {chapter}{\numberline {B}Plantillas Especificaci\IeC {\'o}n Casos de Uso}{57}{appendix.Alph2}% 
-\contentsline {chapter}{\numberline {C}Diagramas de Secuencia y Colaboraci\IeC {\'o}n}{72}{appendix.Alph3}% 
-\contentsline {chapter}{\numberline {D}Encuesta}{77}{appendix.Alph4}% 
-\contentsline {chapter}{\numberline {E}Pruebas}{79}{appendix.Alph5}% 
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{83}{figure.caption.125}% 
+\contentsline {subsection}{\numberline {3.5.2}Pruebas Funcionales}{45}{subsection.3.5.2}% 
+\contentsline {subsection}{\numberline {3.5.3}Pruebas Unitarias}{45}{subsection.3.5.3}% 
+\contentsline {subsection}{\numberline {3.5.4}Pruebas de Usabilidad}{46}{subsection.3.5.4}% 
+\contentsline {chapter}{\numberline {4}Conclusiones y Trabajos Futuros}{47}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Conclusiones}{47}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Trabajo Futuro}{47}{section.4.2}% 
+\contentsline {chapter}{\numberline {A}Historias de Usuario}{48}{appendix.Alph1}% 
+\contentsline {chapter}{\numberline {B}Plantillas Especificaci\IeC {\'o}n Casos de Uso}{58}{appendix.Alph2}% 
+\contentsline {chapter}{\numberline {C}Diagramas de Secuencia y Colaboraci\IeC {\'o}n}{73}{appendix.Alph3}% 
+\contentsline {chapter}{\numberline {D}Encuesta}{78}{appendix.Alph4}% 
+\contentsline {chapter}{\numberline {E}Pruebas}{80}{appendix.Alph5}% 
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{85}{figure.caption.126}% 

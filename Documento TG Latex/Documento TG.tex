@@ -765,14 +765,24 @@ El usuario tipo comerciante dispone de las mismas funcionalidades de un usuario 
 \end{figure}
 
 \section{Detalles de la Implementación}
-Para lograr el primer objetivo \textbf{(Caracterizar los sitios y eventos del municipio de Ginebra)}, se utilizó el diseño de una encuesta a los dueños/administradores de los diferentes sitios para la recolección y formalización de los datos \textbf{(Ver Apendice D)}.
-Una vez recolectado de datos, se analizó la información obtenida para extraer datos que sean de utilidad para la aplicación, y se alimentó la base de datos con la información de los sitios consultados.
+En un principio se diseñó una encuesta para poder llevar a cabo la caracterización de los sitios \textbf{(Ver Apendice D)} para lograr el primer objetivo \textbf{(Caracterizar los sitios y eventos del municipio de Ginebra)}, sin embargo, debido a la disponibilidad de los dueños o administradores de estos sitios, está encuesta no pudo ser aplicada en su totalidad formalmente, por lo que fue necesario llevar a cabo la recoleccion de datos a traves de un trabajo de campo realizado, y difusión del trabajo por medio de redes sociales.\\
+Tanto en el trabajo de campo realizado como en la difusión a través de redes sociales, las preguntas del cuestionario se aplicaron para lograr la recolección de datos.\\
+Una vez recolectado los datos, se analizó la información obtenida para extraer datos que sean de utilidad para la aplicación, y se alimentó la base de datos con la información de los sitios consultados.
 \vspace{5mm}\newline
-Para lograr el segundo objetivo \textbf{(Determinar el tipo de sistema de recomendación y los algoritmos a utilizar)}, se realizó una investigación acerca de la funcionalidad y estructura de las técnicas y algoritmos para hacer recomendaciones, y se eligió implementar un Sistema de Recomendación Basado en Contenido, con el algoritmo TF-IDF, ya que es de utilidad para poder analizar datasets pequeños y es conveniente para aplicaciones nuevas, ayudando a evitar problemas de coldstart. El desarrollo de esta elección se puede evidenciar en el \textbf{Apendice ?}.
+Para lograr el segundo objetivo \textbf{(Determinar el tipo de sistema de recomendación y los algoritmos a utilizar)}, se realizó una investigación acerca de la funcionalidad y estructura de las técnicas y algoritmos para hacer recomendaciones, y se eligió implementar un Sistema de Recomendación Basado en Contenido, con el algoritmo Vector Space Model (VSM) con ponderación TF-IDF y similitud coseno, ya que es de utilidad para poder analizar datasets pequeños y es conveniente para aplicaciones nuevas, ayudando a evitar problemas de coldstart. El desarrollo de esta elección se puede evidenciar en el \textbf{Apendice ?}.
 \vspace{5mm}\newline
-Para lograr el tercer objetivo \textbf{(Implementar un prototipo de una aplicación móvil que permita consumir y ofrecer la información sobre los sitios y eventos de la ciudad de Ginebra.)}.........
+Actualmente, se encuentra disponible en versión beta dentro de la Google Play Store, la aplicacion movil desarrollada en lenguaje JAVA, la cual tiene como nombre "GuideMe",  teniendo más de 50 descargas, evidencia de este desarrollo se observa en el apartado Diseño y Descripcion General del Sistema. De esta manera se logra cumplir con el objetivo \textbf{(Implementar un prototipo de una aplicación móvil que permita consumir y ofrecer la información sobre los sitios y eventos de la ciudad de Ginebra.)}.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=7cm]{./imagenes/gm}
+\caption{Aplicacion en la Play Store.}
+\end{center}
+\end{figure}
+Videos referentes a la aplicacion movil: \\
+\url{https://www.youtube.com/watch?v=ihaKEdw0NQM}\\
+\url{https://www.youtube.com/watch?v=QLt4tpqouJM}
 \vspace{5mm}\newline
-Para lograr el cuarto objetivo \textbf{(Implementar un prototipo de sistema de recomendación para los sitios y eventos del municipio de Ginebra.)}.........
+Se implementó un prototipo de sistema de recomendación, el cual se encuentra en el Backend dentro del modulo de lugares, para dar cumplimiento al objetivo \textbf{(Implementar un prototipo de sistema de recomendación para los sitios y eventos del municipio de Ginebra.)}. De esta manera, desde la aplicacion movil se realiza el llamado a este algoritmo por medio de una peticion HTTP GET para poder obtener recomendaciones de acuerdo a las preferencias del usuario y a los tags de los sitios.
 \vspace{5mm}\newline
 Para lograr el quinto objetivo \textbf{(Evaluar las recomendaciones emitidas por el sistema de recomendación conforme a la realimentación de los usuarios de la aplicación.)}, se hizo de la siguiente manera:\\
 El sistema de recomendación lanza una predicción, la cual es un valor que va de 0 a 1, mientras el valor sea mayor a 0, se muestra como una recomendación, sin embargo, en la evaluación, se toma un valor de 0.35 en adelante para considerarlo como recomendado. \\
@@ -793,7 +803,7 @@ Recall = $\frac{VP}{VP+FN}$ = 0.47\\
 \newline
 Se obtuvo una precisión de 0.79, por que el 79\% de las recomendaciones fueron de agrado para los usuarios, y se obtuvo una exhaustividad de 0.47, por lo que recomienda el 47\% lugares que les gustan a los usuarios
 \vspace{5mm}\newline
-\textbf{Las tecnologías usadas en el desarrollo del proyecto fueron:}
+Por otro lado, \textbf{las tecnologías usadas en el desarrollo del proyecto fueron:}
 \begin{itemize}
     \item Android: Android \cite{27} es un sistema operativo móvil desarrollado por Google, basado en el Kernel de Linux y otros software de código abierto.
     \item Java: Java \cite{28} es un lenguaje de programación de propósito general, concurrente y orientado a objetos.
