@@ -30,7 +30,7 @@
 \BOOKMARK [1][-]{section.3.1}{Arquitectura del Sistema Implementado}{chapter.3}% 30
 \BOOKMARK [1][-]{section.3.2}{Dise\361o}{chapter.3}% 31
 \BOOKMARK [2][-]{subsection.3.2.1}{Historias de Usuarios}{section.3.2}% 32
-\BOOKMARK [2][-]{subsection.3.2.2}{Diagrama Entidad - Relacion}{section.3.2}% 33
+\BOOKMARK [2][-]{subsection.3.2.2}{Diagrama Entidad - Relaci\363n}{section.3.2}% 33
 \BOOKMARK [2][-]{subsection.3.2.3}{Diagrama de Clases}{section.3.2}% 34
 \BOOKMARK [2][-]{subsection.3.2.4}{Diagrama de Ventanas}{section.3.2}% 35
 \BOOKMARK [2][-]{subsection.3.2.5}{Diagramas de Casos de Uso}{section.3.2}% 36
@@ -57,7 +57,7 @@
 \BOOKMARK [2][-]{subsection.3.5.1}{Pruebas de la tienda de aplicaci\363n}{section.3.5}% 57
 \BOOKMARK [2][-]{subsection.3.5.2}{Pruebas Funcionales}{section.3.5}% 58
 \BOOKMARK [2][-]{subsection.3.5.3}{Pruebas Unitarias}{section.3.5}% 59
-\BOOKMARK [2][-]{subsection.3.5.4}{Pruebas de Usabilidad}{section.3.5}% 60
+\BOOKMARK [2][-]{subsection.3.5.4}{Prueba de Usabilidad}{section.3.5}% 60
 \BOOKMARK [0][-]{chapter.4}{Conclusiones y Trabajos Futuros}{}% 61
 \BOOKMARK [1][-]{section.4.1}{Conclusiones}{chapter.4}% 62
 \BOOKMARK [1][-]{section.4.2}{Trabajo Futuro}{chapter.4}% 63
@@ -65,5 +65,6 @@
 \BOOKMARK [0][-]{appendix.Alph2}{Plantillas Especificaci\363n Casos de Uso}{}% 65
 \BOOKMARK [0][-]{appendix.Alph3}{Diagramas de Secuencia y Colaboraci\363n}{}% 66
 \BOOKMARK [0][-]{appendix.Alph4}{Encuesta}{}% 67
-\BOOKMARK [0][-]{appendix.Alph5}{Pruebas}{}% 68
-\BOOKMARK [0][-]{figure.caption.126}{Bibliograf\355a}{}% 69
+\BOOKMARK [0][-]{appendix.Alph5}{Tipo de Sistema de Recomendaci\363n y Algoritmo}{}% 68
+\BOOKMARK [0][-]{appendix.Alph6}{Pruebas}{}% 69
+\BOOKMARK [0][-]{figure.caption.158}{Bibliograf\355a}{}% 70
