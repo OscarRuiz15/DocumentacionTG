@@ -163,7 +163,11 @@ Joshua David Triana. \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter*{Resumen} % si no queremos que añada la palabra "Capitulo"
 \addcontentsline{toc}{chapter}{Resumen} % si queremos que aparezca en el índice
-Hoy, en te lo resumo así no más.
+El municipio de Ginebra, ubicado en el Valle del Cauca, cuenta con una cantidad considerable de turistas cada fin de semana y festividades, lo que hace que el turismo sea uno de los grandes atractivos que posee el municipio, siendo un destino gastronómico, cultural y natural. Con este proyecto se quiere lograr dar mayor visibilidad a toda la variedad de destinos que tiene el municipio mediante un sistema de recomendación incorporado en una aplicación móvil para que las personas, tanto locales y turistas, tengan la posibilidad de ver todos los sitios disponibles, calificarlos y recibir recomendaciones automatizadas.\\
+En el presente documento se expone la manera de llevar a cabo el desarrollo de esta aplicación móvil, como también la implementación del sistema de recomendación y su funcionamiento, además de la revisión literaria que se usó como fuente de apoyo, y los demás componentes de desarrollo utilizados en el transcurso del proyecto.
+\vspace{5mm}\newline
+\textbf{Palabras claves:} Aplicación Móvil, Ginebra, Sistema de Recomendación, Turismo.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%						FIN RESUMEN
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -446,13 +450,14 @@ La evidencia del trabajo realizado se puede observar en las siguientes figuras:
 \end{figure}
 
 \section{Arquitectura del Sistema Implementado}
-La siguiente figura describe el esquema o funcionamiento de la aplicación y evidencia cada uno de los componentes que se relacionan entre sí, la arquitectura utilizada fue de tipo cliente – servidor. Para la generación de recomendación automática se hizo la utilización de otro lenguaje de programación diferente a JAVA, en este caso Python fue el seleccionado, usando el framework Django y Django-Rest-Full.
+La siguiente figura describe el esquema o funcionamiento de la aplicación y evidencia cada uno de los componentes que se relacionan entre sí, la arquitectura utilizada fue de tipo cliente – servidor. Para la generación de recomendación automática se hizo la utilización de otro lenguaje de programación diferente a JAVA, en este caso Python fue el seleccionado, usando el framework Django y Django-Rest-Framework.
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=13cm]{./imagenes/arquitectura}
 \caption{Arquitectura del Sistema.}
 \end{center}
 \end{figure}
+
 
 \section{Diseño}
 \subsection{Historias de Usuarios}
@@ -595,9 +600,9 @@ La interfaz gráfica de usuario pone a disposición los métodos y funcionalidad
 \end{figure}
 
 \subsection{Administrador}
-Para la administración de la aplicación móvil, se implementó un servicio web el cual permite al administrador, la creación de los sitios que aparecerán dentro del app, las diferentes categorías y los tags, como también revisar las solicitudes recibidas para registrar nuevos lugares por parte de los usuarios.
+Para la administración de la aplicación móvil, se implementó un \textbf{servicio web} el cual permite al administrador, la creación de los sitios que aparecerán dentro del app, las diferentes categorías y los tags, como también revisar las solicitudes recibidas para registrar nuevos lugares por parte de los usuarios.
 \vspace{5mm}\newline
-Para el desarrollo del servicio web, se hizo uso de React, una biblioteca Javascript de código abierto, la cual fue diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola pagina.
+Para el desarrollo del servicio web, se hizo uso de ReactJS, una biblioteca Javascript de código abierto, la cual fue diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página.
 
 \subsubsection{Autenticación}
 En la siguiente pantalla, el administrador ingresa su usuario y contraseña en el servicio web para identificarse como tal y poder realizar alguna de las funciones previamente mencionadas.
@@ -675,7 +680,7 @@ Por ultimo, en caso de existir eventos disponibles realizados por los lugares a 
 \end{figure}
 
 \subsubsection{Buscar Lugares}
-En la sección de búsquedas, es posible filtrar lugares por categorías (Vida Nocturna, Desayuno, Entretenimiento, Restaurante, Comida Rápida, Hospedaje), así como también filtrarlos por parte de su nombre
+En la sección de búsquedas, es posible filtrar lugares por categorías (Vida Nocturna, Desayuno, Entretenimiento, Restaurante, Comida Rápida, Hospedaje), así como también filtrarlos por parte de su nombre.
 \vspace{5mm}\newline
 Una vez ejecutada la búsqueda, aparece en pantalla los lugares que coincidan con el criterio establecido, y un botón para poder ver su ubicación en el mapa.
 \begin{figure}[H]
@@ -719,7 +724,7 @@ Dentro de la sección Mi perfil, el usuario podrá visualizar la información re
 También, se brindan opciones para realizar la modificación de datos personales, de contraseña de inicio de sesión, y de preferencias de las cuales recibirá recomendaciones.
 
 \subsubsection{Solicitudes}
-Los usuarios pueden realizar solicitudes para poder obtener su sitio registrado en la aplicación para disposición de los demás usuarios. Esta solicitud se realiza desde la sección Mi Perfil\\
+Los usuarios pueden realizar solicitudes para registrar su sitio en la aplicación para que sea visible dentro de esta. Las solicitudes se realizan desde la sección Mi Perfil.\\
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=7cm]{./imagenes/6}
@@ -728,7 +733,7 @@ Los usuarios pueden realizar solicitudes para poder obtener su sitio registrado 
 \end{figure}
 
 \subsection{Comerciante}
-El usuario tipo comerciante dispone de las mismas funcionalidades de un usuario normal, mencionadas en la sección anterior, pero ademas, el usuario tipo comerciante podrá administrar su negocio, al cual es posible crearle productos, eventos, y ver los suscriptores a sus lugares.\\
+El usuario tipo comerciante dispone de las mismas funcionalidades de un usuario normal, mencionadas en la sección anterior, pero ademas, el usuario tipo comerciante podrá administrar su negocio, al cual es posible añadirle productos, eventos, y ver los suscriptores a sus lugares.\\
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=4cm]{./imagenes/7}
@@ -767,9 +772,9 @@ El usuario tipo comerciante dispone de las mismas funcionalidades de un usuario 
 \section{Detalles de la Implementación}
 En un principio se diseñó una encuesta para poder llevar a cabo la caracterización de los sitios \textbf{(Ver Apéndice D)} para lograr el primer objetivo \textbf{(Caracterizar los sitios y eventos del municipio de Ginebra)}, sin embargo, debido a la disponibilidad de los dueños o administradores de estos sitios, está encuesta no pudo ser aplicada en su totalidad formalmente, por lo que fue necesario llevar a cabo la recoleccion de datos a través de un trabajo de campo realizado, y difusión del trabajo por medio de redes sociales.\\
 Tanto en el trabajo de campo realizado como en la difusión a través de redes sociales, las preguntas del cuestionario se aplicaron para lograr la recolección de datos.\\
-Una vez recolectado los datos, se analizó la información obtenida para extraer datos que sean de utilidad para la aplicación, y se alimentó la base de datos con la información de los sitios consultados.
+Una vez recolectados los datos, se analizó la información obtenida para extraer aquellos que sea de utilidad para la aplicación, y se alimentó la base de datos con la información de los sitios consultados.
 \vspace{5mm}\newline
-Para lograr el segundo objetivo \textbf{(Determinar el tipo de sistema de recomendación y los algoritmos a utilizar)}, se realizó una investigación acerca de la funcionalidad y estructura de las técnicas y algoritmos para hacer recomendaciones, y se eligió implementar un Sistema de Recomendación Basado en Contenido, con el algoritmo Vector Space Model (VSM) con ponderación TF-IDF y similitud coseno, ya que es de utilidad para poder analizar datasets pequeños y es conveniente para aplicaciones nuevas, ayudando a evitar problemas de coldstart. El desarrollo de esta elección se puede evidenciar en el \textbf{Apéndice E}.
+Para lograr el segundo objetivo \textbf{(Determinar el tipo de sistema de recomendación y los algoritmos a utilizar)}, se realizó una investigación acerca de la funcionalidad y estructura de las técnicas y algoritmos para hacer recomendaciones, y se eligió implementar un Sistema de Recomendación Basado en Contenido, con el algoritmo Vector Space Model (VSM) con ponderación TF-IDF y similitud coseno, ya que es de utilidad para poder analizar datasets pequeños y es conveniente para aplicaciones nuevas, ayudando a evitar problemas de coldstart. El desarrollo de la técnica elegida se puede evidenciar en el \textbf{Apéndice E}.
 \vspace{5mm}\newline
 Actualmente, se encuentra disponible en versión beta dentro de la Google Play Store, la aplicación movil desarrollada en lenguaje JAVA, la cual tiene como nombre "GuideMe",  teniendo más de 50 descargas, evidencia de este desarrollo se observa en el apartado Diseño y Descripción General del Sistema. De esta manera se logra cumplir con el objetivo \textbf{(Implementar un prototipo de una aplicación móvil que permita consumir y ofrecer la información sobre los sitios y eventos de la ciudad de Ginebra.)}.
 \begin{figure}[H]
@@ -908,16 +913,17 @@ datos de los sitios nuevos del municipio y actualizar los ya existentes de los e
 Ademas, debido a la falta de disponibilidad de las personas administradoras de algunos de los sitios consultados, fue necesario contactar estas mediante sus redes sociales.
 \item La mejor opción para el sistema de recomendación implementada fue VSM, ya que evita el coldstart y puede hacer recomendaciones de lugares a los usuarios en su primer ingreso, además de que tiene un costo computacional razonable para el proyecto que se realizó.
 \item Haciendo uso de la metodología Mobile-D, y a los conocimientos adquiridos a lo largo de los años académicos en la Universidad sobre el lenguaje de programación JAVA, se logró implementar la aplicación móvil en el tiempo estipulado para el desarrollo del trabajo.
+\item Se desarrolló una aplicación web para que la administración de la aplicación pueda ser realizada no necesariamente por una persona experta.
    \item Al obtener una precisión del 79\%, se puede concluir que las recomendaciones generadas fueron de agrado para los usuarios, sin embargo, al tener un recall del 47\%, no se están tomando en cuenta todos los sitios que podrían llegar a gustar a los usuarios.
 \end{itemize}
 
 
 \section{Trabajo Futuro}
 \begin{itemize}
-\item Una vez la aplicación posea mayor cantidad de datos, se puede realizar un estudio más a fondo, con el objetivo de cambiar el enfoque del sistema de recomendación basado en contenido, por un sistema de recomendación basado en filtrado colaborativo, ya que un sistema de recomendación basado en contenido presenta problemas sobre especialización y no puede brindar diversidad en las recomendaciones, un aspecto que es importante en las recomendaciones para el sector turístico.
+\item Una vez la aplicación posea mayor cantidad de datos, se puede realizar un estudio más a fondo, con el objetivo de complementar el enfoque del sistema de recomendación basado en contenido, por un sistema de recomendación basado en filtrado colaborativo, ya que un sistema de recomendación basado en contenido presenta problemas sobre especialización y no puede brindar diversidad en las recomendaciones, un aspecto que es importante en las recomendaciones para el sector turístico.
 \item Expandir el alcance de la aplicación móvil para que contenga sitios característicos de otros municipios.
 \item Desarrollar una aplicación en iOS para dispositivos Apple.
-\item Permitir consumir la información de los sitios mediante una aplicación web, y no necesariamente por la aplicación móvil.
+\item Complementar la aplicación web, para permitir le consumo de la información de los sitios.
 \end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%						FIN CONCLUSIONES Y TRABAJO FUTURO
