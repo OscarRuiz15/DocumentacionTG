@@ -1,81 +1,47 @@
 \babel@toc {spanish}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Mapa Pol\IeC {\'\i }tico Valle del Cauca.\relax }}{19}{figure.caption.8}% 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Divisi\IeC {\'o}n por corregimientos, municipio de Ginebra.\relax }}{20}{figure.caption.9}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Mapa Pol\IeC {\'\i }tico Valle del Cauca.\relax }}{16}{figure.caption.8}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Divisi\IeC {\'o}n por corregimientos, municipio de Ginebra.\relax }}{17}{figure.caption.9}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Ciclo de desarrollo Mobile-D.\relax }}{24}{figure.caption.11}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Commits realizados en GitHub para la Aplicaci\IeC {\'o}n M\IeC {\'o}vil.\relax }}{25}{figure.caption.12}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Commits realizados en GitHub para el Backend.\relax }}{25}{figure.caption.13}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Arquitectura del Sistema.\relax }}{26}{figure.caption.14}% 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Diagrama Entidad - Relaci\IeC {\'o}n.\relax }}{28}{figure.caption.18}% 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Diagrama de clases.\relax }}{29}{figure.caption.19}% 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Diagrama de Ventanas.\relax }}{29}{figure.caption.20}% 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Caso de Uso Administrador.\relax }}{30}{figure.caption.21}% 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Caso de Uso Usuario.\relax }}{31}{figure.caption.22}% 
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Caso de Uso Comerciante.\relax }}{31}{figure.caption.23}% 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Diagrama de Secuencia Gestionar Lugar.\relax }}{33}{figure.caption.27}% 
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Diagrama de Secuencia Consultar Lugares.\relax }}{34}{figure.caption.28}% 
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Diagrama de Colaboraci\IeC {\'o}n Gestionar Lugar.\relax }}{34}{figure.caption.29}% 
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Diagrama de Colaboraci\IeC {\'o}n Consultar Lugares.\relax }}{34}{figure.caption.30}% 
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Aspecto Inicial de la Aplicaci\IeC {\'o}n para un usuario logeado.\relax }}{35}{figure.caption.31}% 
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Login Web Service.\relax }}{36}{figure.caption.32}% 
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Pantalla Principal Men\IeC {\'u} Administrador.\relax }}{36}{figure.caption.33}% 
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Registrar Lugar.\relax }}{36}{figure.caption.34}% 
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Registrar Categor\IeC {\'\i }a.\relax }}{37}{figure.caption.35}% 
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Registrar Tag.\relax }}{37}{figure.caption.36}% 
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Solicitudes Recibidas.\relax }}{38}{figure.caption.37}% 
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Secciones Pantalla Principal.\relax }}{38}{figure.caption.38}% 
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Pantalla b\IeC {\'u}squedas, resultados obtenidos filtrados por categor\IeC {\'\i }a y ubicaci\IeC {\'o}n en el mapa.\relax }}{39}{figure.caption.39}% 
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Lugares Favoritos.\relax }}{39}{figure.caption.40}% 
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Detalles lugar y ruta/ubicaci\IeC {\'o}n.\relax }}{40}{figure.caption.41}% 
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Mi Perfil.\relax }}{40}{figure.caption.42}% 
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Realizar Solicitud.\relax }}{41}{figure.caption.43}% 
-\contentsline {figure}{\numberline {3.28}{\ignorespaces Opciones Lugar Propio.\relax }}{41}{figure.caption.44}% 
-\contentsline {figure}{\numberline {3.29}{\ignorespaces Opciones Comerciante 1\relax }}{42}{figure.caption.45}% 
-\contentsline {figure}{\numberline {3.30}{\ignorespaces Opciones Comerciante 2\relax }}{42}{figure.caption.46}% 
-\contentsline {figure}{\numberline {3.31}{\ignorespaces Aplicaci\IeC {\'o}n en la Play Store.\relax }}{43}{figure.caption.47}% 
-\contentsline {figure}{\numberline {3.32}{\ignorespaces Informe Errores Play Store.\relax }}{45}{figure.caption.49}% 
-\contentsline {figure}{\numberline {3.33}{\ignorespaces Informe M\IeC {\'o}vil Play Store.\relax }}{46}{figure.caption.50}% 
-\contentsline {figure}{\numberline {3.34}{\ignorespaces Prueba Unitaria M\IeC {\'e}todo Controlador Fechas App Movil.\relax }}{47}{figure.caption.54}% 
-\contentsline {figure}{\numberline {3.35}{\ignorespaces Prueba Unitaria Modulo Lugar - Backend.\relax }}{48}{figure.caption.55}% 
-\contentsline {figure}{\numberline {3.36}{\ignorespaces Evaluaci\IeC {\'o}n heur\IeC {\'\i }stica para aplicaci\IeC {\'o}n m\IeC {\'o}vil P1.\relax }}{48}{figure.caption.56}% 
-\contentsline {figure}{\numberline {3.37}{\ignorespaces Evaluaci\IeC {\'o}n heur\IeC {\'\i }stica para aplicaci\IeC {\'o}n m\IeC {\'o}vil P2.\relax }}{49}{figure.caption.57}% 
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Ciclo de desarrollo Mobile-D.\relax }}{21}{figure.caption.11}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Commits realizados en GitHub para la Aplicaci\IeC {\'o}n M\IeC {\'o}vil.\relax }}{22}{figure.caption.12}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Commits realizados en GitHub para el Backend.\relax }}{22}{figure.caption.13}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Arquitectura del Sistema.\relax }}{23}{figure.caption.14}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Diagrama Entidad - Relaci\IeC {\'o}n.\relax }}{26}{figure.caption.18}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Diagrama de clases.\relax }}{27}{figure.caption.19}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Diagrama de Ventanas.\relax }}{27}{figure.caption.20}% 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Caso de Uso Administrador.\relax }}{28}{figure.caption.21}% 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Caso de Uso Usuario.\relax }}{29}{figure.caption.22}% 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Caso de Uso Comerciante.\relax }}{29}{figure.caption.23}% 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces DS1: Diagrama de Secuencia Gestionar Lugar.\relax }}{31}{figure.caption.27}% 
+\contentsline {figure}{\numberline {3.12}{\ignorespaces DS2: Diagrama de Secuencia Consultar Lugares.\relax }}{32}{figure.caption.28}% 
+\contentsline {figure}{\numberline {3.13}{\ignorespaces DC1: Diagrama de Colaboraci\IeC {\'o}n Gestionar Lugar.\relax }}{32}{figure.caption.29}% 
+\contentsline {figure}{\numberline {3.14}{\ignorespaces DC2: Diagrama de Colaboraci\IeC {\'o}n Consultar Lugares.\relax }}{32}{figure.caption.30}% 
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Aspecto Inicial de la Aplicaci\IeC {\'o}n para un usuario logeado.\relax }}{33}{figure.caption.31}% 
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Login Web Service.\relax }}{34}{figure.caption.32}% 
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Pantalla Principal Men\IeC {\'u} Administrador.\relax }}{34}{figure.caption.33}% 
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Registrar Lugar.\relax }}{34}{figure.caption.34}% 
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Registrar Categor\IeC {\'\i }a.\relax }}{35}{figure.caption.35}% 
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Registrar Tag.\relax }}{35}{figure.caption.36}% 
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Solicitudes Recibidas.\relax }}{36}{figure.caption.37}% 
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Secciones Pantalla Principal.\relax }}{36}{figure.caption.38}% 
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Pantalla b\IeC {\'u}squedas, resultados obtenidos filtrados por categor\IeC {\'\i }a y ubicaci\IeC {\'o}n en el mapa.\relax }}{37}{figure.caption.39}% 
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Lugares Favoritos.\relax }}{37}{figure.caption.40}% 
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Detalles lugar y ruta/ubicaci\IeC {\'o}n.\relax }}{38}{figure.caption.41}% 
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Mi Perfil.\relax }}{38}{figure.caption.42}% 
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Realizar Solicitud.\relax }}{39}{figure.caption.43}% 
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Opciones Lugar Propio.\relax }}{39}{figure.caption.44}% 
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Opciones Comerciante 1\relax }}{40}{figure.caption.45}% 
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Opciones Comerciante 2\relax }}{40}{figure.caption.46}% 
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Aplicaci\IeC {\'o}n en la Play Store.\relax }}{41}{figure.caption.47}% 
+\contentsline {figure}{\numberline {3.32}{\ignorespaces PT1: Informe Errores Play Store.\relax }}{43}{figure.caption.49}% 
+\contentsline {figure}{\numberline {3.33}{\ignorespaces PT2: Informe M\IeC {\'o}vil en la Play Store.\relax }}{44}{figure.caption.50}% 
+\contentsline {figure}{\numberline {3.34}{\ignorespaces PU1: Prueba Unitaria M\IeC {\'e}todo Controlador Fechas App Movil.\relax }}{45}{figure.caption.54}% 
+\contentsline {figure}{\numberline {3.35}{\ignorespaces PU2: Prueba Unitaria Modulo Lugar - Backend.\relax }}{46}{figure.caption.55}% 
+\contentsline {figure}{\numberline {3.36}{\ignorespaces Evaluaci\IeC {\'o}n heur\IeC {\'\i }stica para aplicaci\IeC {\'o}n m\IeC {\'o}vil P1.\relax }}{46}{figure.caption.56}% 
+\contentsline {figure}{\numberline {3.37}{\ignorespaces Evaluaci\IeC {\'o}n heur\IeC {\'\i }stica para aplicaci\IeC {\'o}n m\IeC {\'o}vil P2.\relax }}{47}{figure.caption.57}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Diagrama de Secuencia Crear Categoria.\relax }}{71}{figure.caption.101}% 
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Diagrama de Secuencia Crear Tags.\relax }}{71}{figure.caption.102}% 
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Diagrama de Secuencia Crear Lugar.\relax }}{72}{figure.caption.103}% 
-\contentsline {figure}{\numberline {C.4}{\ignorespaces Diagrama de Secuencia Gestionar Eventos.\relax }}{72}{figure.caption.104}% 
-\contentsline {figure}{\numberline {C.5}{\ignorespaces Diagrama de Secuencia Gestionar Productos.\relax }}{72}{figure.caption.105}% 
-\contentsline {figure}{\numberline {C.6}{\ignorespaces Diagrama de Secuencia Gestionar Solicitud.\relax }}{72}{figure.caption.106}% 
-\contentsline {figure}{\numberline {C.7}{\ignorespaces Diagrama de Secuencia Modificar Perfil.\relax }}{73}{figure.caption.107}% 
-\contentsline {figure}{\numberline {C.8}{\ignorespaces Diagrama de Secuencia Opciones Usuario.\relax }}{73}{figure.caption.108}% 
-\contentsline {figure}{\numberline {C.9}{\ignorespaces Diagrama de Colaboraci\IeC {\'o}n Crear Categoria.\relax }}{73}{figure.caption.109}% 
-\contentsline {figure}{\numberline {C.10}{\ignorespaces Diagrama de Colaboraci\IeC {\'o}n Crear Tags.\relax }}{73}{figure.caption.110}% 
-\contentsline {figure}{\numberline {C.11}{\ignorespaces Diagrama de Colaboraci\IeC {\'o}n Crear Lugar.\relax }}{74}{figure.caption.111}% 
-\contentsline {figure}{\numberline {C.12}{\ignorespaces Diagrama de Colaboraci\IeC {\'o}n Gestionar Eventos.\relax }}{74}{figure.caption.112}% 
-\contentsline {figure}{\numberline {C.13}{\ignorespaces Diagrama de Colaboraci\IeC {\'o}n Gestionar Productos.\relax }}{74}{figure.caption.113}% 
-\contentsline {figure}{\numberline {C.14}{\ignorespaces Diagrama de Colaboraci\IeC {\'o}n Gestionar Solicitud.\relax }}{75}{figure.caption.114}% 
-\contentsline {figure}{\numberline {C.15}{\ignorespaces Diagrama de Colaboraci\IeC {\'o}n Modificar Perfil.\relax }}{75}{figure.caption.115}% 
-\contentsline {figure}{\numberline {C.16}{\ignorespaces Diagrama de Colaboraci\IeC {\'o}n Opciones Usuario.\relax }}{75}{figure.caption.116}% 
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {D.1}{\ignorespaces Encuesta P\IeC {\'a}gina 1.\relax }}{76}{figure.caption.117}% 
-\contentsline {figure}{\numberline {D.2}{\ignorespaces Encuesta P\IeC {\'a}gina 2.\relax }}{77}{figure.caption.118}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {F.1}{\ignorespaces Prueba Unitaria Metodo Consultas App Movil.\relax }}{91}{figure.caption.146}% 
-\contentsline {figure}{\numberline {F.2}{\ignorespaces Prueba Unitaria Modulo Opinion - Backend.\relax }}{92}{figure.caption.147}% 
-\contentsline {figure}{\numberline {F.3}{\ignorespaces Prueba Unitaria Metodo Operaciones App Movil.\relax }}{92}{figure.caption.148}% 
-\contentsline {figure}{\numberline {F.4}{\ignorespaces Prueba Unitaria Modulo Categoria - Backend.\relax }}{92}{figure.caption.149}% 
-\contentsline {figure}{\numberline {F.5}{\ignorespaces Prueba Unitaria Modulo Comentario - Backend.\relax }}{92}{figure.caption.150}% 
-\contentsline {figure}{\numberline {F.6}{\ignorespaces Prueba Unitaria Modulo Evento - Backend.\relax }}{93}{figure.caption.151}% 
-\contentsline {figure}{\numberline {F.7}{\ignorespaces Prueba Unitaria Modulo Preferencia - Backend.\relax }}{93}{figure.caption.152}% 
-\contentsline {figure}{\numberline {F.8}{\ignorespaces Prueba Unitaria Modulo Producto - Backend.\relax }}{93}{figure.caption.153}% 
-\contentsline {figure}{\numberline {F.9}{\ignorespaces Prueba Unitaria Modulo Solicitud - Backend.\relax }}{93}{figure.caption.154}% 
-\contentsline {figure}{\numberline {F.10}{\ignorespaces Prueba Unitaria Modulo Suscripcion - Backend.\relax }}{94}{figure.caption.155}% 
-\contentsline {figure}{\numberline {F.11}{\ignorespaces Prueba Unitaria Modulo Tags - Backend.\relax }}{94}{figure.caption.156}% 
-\contentsline {figure}{\numberline {F.12}{\ignorespaces Prueba Unitaria Modulo Usuario - Backend.\relax }}{94}{figure.caption.157}% 
-\contentsline {figure}{\numberline {F.13}{\ignorespaces Prueba Unitaria Modulo Visita - Backend.\relax }}{94}{figure.caption.158}% 
