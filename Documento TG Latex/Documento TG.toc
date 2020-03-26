@@ -1,68 +1,78 @@
 \babel@toc {spanish}{}
 \contentsline {chapter}{Dedicatorias}{II}{chapter*.4}% 
 \contentsline {chapter}{Agradecimientos}{III}{chapter*.5}% 
-\contentsline {chapter}{Resumen}{6}{chapter*.6}% 
-\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{7}{chapter.1}% 
-\contentsline {section}{\numberline {1.1}Descripci\IeC {\'o}n del Problema}{7}{section.1.1}% 
-\contentsline {section}{\numberline {1.2}Formulaci\IeC {\'o}n del Problema}{8}{section.1.2}% 
-\contentsline {section}{\numberline {1.3}Objetivos}{8}{section.1.3}% 
-\contentsline {subsection}{\numberline {1.3.1}Objetivo General}{8}{subsection.1.3.1}% 
-\contentsline {subsection}{\numberline {1.3.2}Objetivos Espec\IeC {\'\i }ficos}{8}{subsection.1.3.2}% 
-\contentsline {section}{\numberline {1.4}Estructura del Documento}{9}{section.1.4}% 
-\contentsline {chapter}{\numberline {2}Marco de Referencia}{10}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}Marco Te\IeC {\'o}rico}{10}{section.2.1}% 
-\contentsline {subsection}{\numberline {2.1.1}Gesti\IeC {\'o}n Tur\IeC {\'\i }stica}{10}{subsection.2.1.1}% 
-\contentsline {subsection}{\numberline {2.1.2}Gesti\IeC {\'o}n Tur\IeC {\'\i }stica y las TIC}{10}{subsection.2.1.2}% 
-\contentsline {subsection}{\numberline {2.1.3}Dispositivos M\IeC {\'o}viles}{11}{subsection.2.1.3}% 
-\contentsline {subsubsection}{\numberline {2.1.3.1}Aplicaciones M\IeC {\'o}viles}{12}{subsubsection.2.1.3.1}% 
-\contentsline {subsubsection}{\numberline {2.1.3.2}Metodolog\IeC {\'\i }as de desarrollo de aplicaciones m\IeC {\'o}viles}{13}{subsubsection.2.1.3.2}% 
-\contentsline {subsection}{\numberline {2.1.4}Sistemas recomendaci\IeC {\'o}n}{13}{subsection.2.1.4}% 
-\contentsline {subsubsection}{\numberline {2.1.4.1}T\IeC {\'e}cnicas de recomendaci\IeC {\'o}n}{14}{subsubsection.2.1.4.1}% 
-\contentsline {subsubsection}{\numberline {2.1.4.2}Sistemas de recomendaci\IeC {\'o}n para Turismo}{15}{subsubsection.2.1.4.2}% 
-\contentsline {subsubsection}{\numberline {2.1.4.3}Sistemas de recomendaci\IeC {\'o}n para Turismo en aplicaciones m\IeC {\'o}viles}{16}{subsubsection.2.1.4.3}% 
-\contentsline {subsection}{\numberline {2.1.5}Ginebra \IeC {\textendash } Valle del Cauca}{16}{subsection.2.1.5}% 
-\contentsline {subsubsection}{\numberline {2.1.5.1}Aspectos Generales}{16}{subsubsection.2.1.5.1}% 
-\contentsline {subsubsection}{\numberline {2.1.5.2}Gesti\IeC {\'o}n del Turismo en Ginebra}{18}{subsubsection.2.1.5.2}% 
-\contentsline {section}{\numberline {2.2}Antecedentes}{19}{section.2.2}% 
-\contentsline {subsection}{\numberline {2.2.1}DataEco\cite {22}}{19}{subsection.2.2.1}% 
-\contentsline {subsection}{\numberline {2.2.2}Google Maps\cite {23}}{20}{subsection.2.2.2}% 
-\contentsline {subsection}{\numberline {2.2.3}Foursquare\cite {24}, \cite {25}}{20}{subsection.2.2.3}% 
-\contentsline {chapter}{\numberline {3}Desarrollo del Proyecto}{21}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Arquitectura del Sistema Implementado}{22}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}Dise\IeC {\~n}o}{24}{section.3.2}% 
-\contentsline {subsection}{\numberline {3.2.1}Historias de Usuarios}{24}{subsection.3.2.1}% 
-\contentsline {subsection}{\numberline {3.2.2}Diagrama Entidad - Relaci\IeC {\'o}n}{26}{subsection.3.2.2}% 
-\contentsline {subsection}{\numberline {3.2.3}Diagrama de Clases}{27}{subsection.3.2.3}% 
-\contentsline {subsection}{\numberline {3.2.4}Diagrama de Ventanas}{27}{subsection.3.2.4}% 
-\contentsline {subsection}{\numberline {3.2.5}Diagramas de Casos de Uso}{28}{subsection.3.2.5}% 
-\contentsline {subsection}{\numberline {3.2.6}Plantillas Especificaci\IeC {\'o}n Casos de Uso}{30}{subsection.3.2.6}% 
-\contentsline {subsection}{\numberline {3.2.7}Diagramas de Secuencia y Colaboraci\IeC {\'o}n}{31}{subsection.3.2.7}% 
-\contentsline {section}{\numberline {3.3}Descripci\IeC {\'o}n General del Sistema}{33}{section.3.3}% 
-\contentsline {subsection}{\numberline {3.3.1}Interfaz Gr\IeC {\'a}fica de Usuario}{33}{subsection.3.3.1}% 
-\contentsline {subsection}{\numberline {3.3.2}Administrador}{33}{subsection.3.3.2}% 
-\contentsline {subsubsection}{\numberline {3.3.2.1}Autenticaci\IeC {\'o}n}{33}{subsubsection.3.3.2.1}% 
-\contentsline {subsubsection}{\numberline {3.3.2.2}Registrar Lugar}{34}{subsubsection.3.3.2.2}% 
-\contentsline {subsubsection}{\numberline {3.3.2.3}Registrar Categor\IeC {\'\i }a}{35}{subsubsection.3.3.2.3}% 
-\contentsline {subsubsection}{\numberline {3.3.2.4}Registrar Tag}{35}{subsubsection.3.3.2.4}% 
-\contentsline {subsubsection}{\numberline {3.3.2.5}Ver Solicitudes}{35}{subsubsection.3.3.2.5}% 
-\contentsline {subsection}{\numberline {3.3.3}Usuario}{36}{subsection.3.3.3}% 
-\contentsline {subsubsection}{\numberline {3.3.3.1}Pantalla Principal}{36}{subsubsection.3.3.3.1}% 
-\contentsline {subsubsection}{\numberline {3.3.3.2}Buscar Lugares}{36}{subsubsection.3.3.3.2}% 
-\contentsline {subsubsection}{\numberline {3.3.3.3}Lugares favoritos}{37}{subsubsection.3.3.3.3}% 
-\contentsline {subsubsection}{\numberline {3.3.3.4}Detalles de un lugar}{37}{subsubsection.3.3.3.4}% 
-\contentsline {subsubsection}{\numberline {3.3.3.5}Mi perfil}{38}{subsubsection.3.3.3.5}% 
-\contentsline {subsubsection}{\numberline {3.3.3.6}Solicitudes}{39}{subsubsection.3.3.3.6}% 
-\contentsline {subsection}{\numberline {3.3.4}Comerciante}{39}{subsection.3.3.4}% 
-\contentsline {section}{\numberline {3.4}Detalles de la Implementaci\IeC {\'o}n}{40}{section.3.4}% 
-\contentsline {section}{\numberline {3.5}Pruebas}{43}{section.3.5}% 
-\contentsline {subsection}{\numberline {3.5.1}Pruebas de la tienda de aplicaci\IeC {\'o}n}{43}{subsection.3.5.1}% 
-\contentsline {subsection}{\numberline {3.5.2}Pruebas Funcionales}{44}{subsection.3.5.2}% 
-\contentsline {subsection}{\numberline {3.5.3}Pruebas Unitarias}{45}{subsection.3.5.3}% 
-\contentsline {subsection}{\numberline {3.5.4}Prueba de Usabilidad}{46}{subsection.3.5.4}% 
-\contentsline {chapter}{\numberline {4}Conclusiones y Trabajos Futuros}{48}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Conclusiones}{48}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Trabajo Futuro}{48}{section.4.2}% 
-\contentsline {chapter}{\numberline {A}Anexos}{50}{appendix.Alph1}% 
-\contentsline {chapter}{\numberline {B}Cuestionario}{51}{appendix.Alph2}% 
-\contentsline {chapter}{\numberline {C}Tipo de Sistema de Recomendaci\IeC {\'o}n y Algoritmo}{52}{appendix.Alph3}% 
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{53}{appendix.Alph3}% 
+\contentsline {chapter}{Resumen}{7}{chapter*.6}% 
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{8}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Descripci\IeC {\'o}n del Problema}{8}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Formulaci\IeC {\'o}n del Problema}{9}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}Objetivos}{9}{section.1.3}% 
+\contentsline {subsection}{\numberline {1.3.1}Objetivo General}{9}{subsection.1.3.1}% 
+\contentsline {subsection}{\numberline {1.3.2}Objetivos Espec\IeC {\'\i }ficos}{9}{subsection.1.3.2}% 
+\contentsline {subsection}{\numberline {1.3.3}Evidencia de Objetivos Espec\IeC {\'\i }ficos}{10}{subsection.1.3.3}% 
+\contentsline {section}{\numberline {1.4}Estructura del Documento}{10}{section.1.4}% 
+\contentsline {chapter}{\numberline {2}Marco de Referencia}{11}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Marco Te\IeC {\'o}rico}{11}{section.2.1}% 
+\contentsline {subsection}{\numberline {2.1.1}Gesti\IeC {\'o}n Tur\IeC {\'\i }stica}{11}{subsection.2.1.1}% 
+\contentsline {subsection}{\numberline {2.1.2}Gesti\IeC {\'o}n Tur\IeC {\'\i }stica y las TIC}{11}{subsection.2.1.2}% 
+\contentsline {subsection}{\numberline {2.1.3}Dispositivos M\IeC {\'o}viles}{12}{subsection.2.1.3}% 
+\contentsline {subsubsection}{\numberline {2.1.3.1}Aplicaciones M\IeC {\'o}viles}{13}{subsubsection.2.1.3.1}% 
+\contentsline {subsubsection}{\numberline {2.1.3.2}Metodolog\IeC {\'\i }as de desarrollo de aplicaciones m\IeC {\'o}viles}{14}{subsubsection.2.1.3.2}% 
+\contentsline {subsection}{\numberline {2.1.4}Sistemas recomendaci\IeC {\'o}n}{14}{subsection.2.1.4}% 
+\contentsline {subsubsection}{\numberline {2.1.4.1}T\IeC {\'e}cnicas de recomendaci\IeC {\'o}n}{15}{subsubsection.2.1.4.1}% 
+\contentsline {subsubsection}{\numberline {2.1.4.2}Sistemas de recomendaci\IeC {\'o}n para Turismo}{16}{subsubsection.2.1.4.2}% 
+\contentsline {subsubsection}{\numberline {2.1.4.3}Sistemas de recomendaci\IeC {\'o}n para Turismo en aplicaciones m\IeC {\'o}viles}{17}{subsubsection.2.1.4.3}% 
+\contentsline {subsection}{\numberline {2.1.5}Ginebra \IeC {\textendash } Valle del Cauca}{17}{subsection.2.1.5}% 
+\contentsline {subsubsection}{\numberline {2.1.5.1}Aspectos Generales}{17}{subsubsection.2.1.5.1}% 
+\contentsline {subsubsection}{\numberline {2.1.5.2}Gesti\IeC {\'o}n del Turismo en Ginebra}{19}{subsubsection.2.1.5.2}% 
+\contentsline {section}{\numberline {2.2}Antecedentes}{20}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}DataEco\cite {22}}{20}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.2}Google Maps\cite {23}}{21}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.3}Foursquare\cite {24}, \cite {25}}{21}{subsection.2.2.3}% 
+\contentsline {chapter}{\numberline {3}Desarrollo del Proyecto}{22}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Arquitectura del Sistema Implementado}{23}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Dise\IeC {\~n}o}{25}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}Historias de Usuarios}{25}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.2}Diagrama Entidad - Relaci\IeC {\'o}n}{27}{subsection.3.2.2}% 
+\contentsline {subsection}{\numberline {3.2.3}Diagrama de Clases}{29}{subsection.3.2.3}% 
+\contentsline {subsection}{\numberline {3.2.4}Diagrama de Ventanas}{30}{subsection.3.2.4}% 
+\contentsline {subsection}{\numberline {3.2.5}Diagramas de Casos de Uso}{30}{subsection.3.2.5}% 
+\contentsline {subsection}{\numberline {3.2.6}Plantillas Especificaci\IeC {\'o}n Casos de Uso}{32}{subsection.3.2.6}% 
+\contentsline {subsection}{\numberline {3.2.7}Diagramas de Secuencia y Colaboraci\IeC {\'o}n}{34}{subsection.3.2.7}% 
+\contentsline {section}{\numberline {3.3}Descripci\IeC {\'o}n General del Sistema}{35}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}Interfaz Gr\IeC {\'a}fica de Usuario}{35}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}Administrador}{36}{subsection.3.3.2}% 
+\contentsline {subsubsection}{\numberline {3.3.2.1}Autenticaci\IeC {\'o}n}{36}{subsubsection.3.3.2.1}% 
+\contentsline {subsubsection}{\numberline {3.3.2.2}Registrar Lugar}{37}{subsubsection.3.3.2.2}% 
+\contentsline {subsubsection}{\numberline {3.3.2.3}Registrar Categor\IeC {\'\i }a}{37}{subsubsection.3.3.2.3}% 
+\contentsline {subsubsection}{\numberline {3.3.2.4}Registrar Tag}{38}{subsubsection.3.3.2.4}% 
+\contentsline {subsubsection}{\numberline {3.3.2.5}Ver Solicitudes}{38}{subsubsection.3.3.2.5}% 
+\contentsline {subsection}{\numberline {3.3.3}Usuario}{39}{subsection.3.3.3}% 
+\contentsline {subsubsection}{\numberline {3.3.3.1}Pantalla Principal}{39}{subsubsection.3.3.3.1}% 
+\contentsline {subsubsection}{\numberline {3.3.3.2}Buscar Lugares}{39}{subsubsection.3.3.3.2}% 
+\contentsline {subsubsection}{\numberline {3.3.3.3}Lugares favoritos}{40}{subsubsection.3.3.3.3}% 
+\contentsline {subsubsection}{\numberline {3.3.3.4}Detalles de un lugar}{40}{subsubsection.3.3.3.4}% 
+\contentsline {subsubsection}{\numberline {3.3.3.5}Mi perfil}{41}{subsubsection.3.3.3.5}% 
+\contentsline {subsubsection}{\numberline {3.3.3.6}Solicitudes}{42}{subsubsection.3.3.3.6}% 
+\contentsline {subsection}{\numberline {3.3.4}Comerciante}{42}{subsection.3.3.4}% 
+\contentsline {section}{\numberline {3.4}Detalles de la Implementaci\IeC {\'o}n}{43}{section.3.4}% 
+\contentsline {subsection}{\numberline {3.4.1}Caracterizaci\IeC {\'o}n de los Sitios de Ginebra}{43}{subsection.3.4.1}% 
+\contentsline {subsection}{\numberline {3.4.2}Elecci\IeC {\'o}n del Sistema de Recomendaci\IeC {\'o}n}{46}{subsection.3.4.2}% 
+\contentsline {subsubsection}{\numberline {3.4.2.1}Filtro Colaborativo Usuario-Usuario \cite {23}}{46}{subsubsection.3.4.2.1}% 
+\contentsline {subsubsection}{\numberline {3.4.2.2}Filtro Colaborativo Item-Item \cite {23}}{47}{subsubsection.3.4.2.2}% 
+\contentsline {subsubsection}{\numberline {3.4.2.3}Modelo de Espacio Vectorial basado en palabras clave \cite {13}}{47}{subsubsection.3.4.2.3}% 
+\contentsline {subsubsection}{\numberline {3.4.2.4}Slope One \cite {27}}{49}{subsubsection.3.4.2.4}% 
+\contentsline {subsubsection}{\numberline {3.4.2.5}Resultados}{49}{subsubsection.3.4.2.5}% 
+\contentsline {subsection}{\numberline {3.4.3}Implementaci\IeC {\'o}n de la Aplicaci\IeC {\'o}n M\IeC {\'o}vil}{50}{subsection.3.4.3}% 
+\contentsline {subsection}{\numberline {3.4.4}Dise\IeC {\~n}o e Implementaci\IeC {\'o}n del Sistema de Recomendaci\IeC {\'o}n}{51}{subsection.3.4.4}% 
+\contentsline {subsection}{\numberline {3.4.5}Evaluaci\IeC {\'o}n del Sistema de Recomendaci\IeC {\'o}n}{52}{subsection.3.4.5}% 
+\contentsline {subsection}{\numberline {3.4.6}Tecnolog\IeC {\'\i }as usadas}{53}{subsection.3.4.6}% 
+\contentsline {section}{\numberline {3.5}Pruebas}{54}{section.3.5}% 
+\contentsline {subsection}{\numberline {3.5.1}Pruebas de la tienda de aplicaci\IeC {\'o}n}{54}{subsection.3.5.1}% 
+\contentsline {subsection}{\numberline {3.5.2}Pruebas Funcionales}{55}{subsection.3.5.2}% 
+\contentsline {subsection}{\numberline {3.5.3}Pruebas Unitarias}{56}{subsection.3.5.3}% 
+\contentsline {subsection}{\numberline {3.5.4}Prueba de Usabilidad}{57}{subsection.3.5.4}% 
+\contentsline {chapter}{\numberline {4}Conclusiones y Trabajos Futuros}{59}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Conclusiones}{59}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Trabajo Futuro}{60}{section.4.2}% 
+\contentsline {chapter}{\numberline {A}Anexos}{61}{appendix.Alph1}% 
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{63}{Item.13}% 

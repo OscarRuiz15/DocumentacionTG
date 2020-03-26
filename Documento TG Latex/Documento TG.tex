@@ -176,7 +176,7 @@ Y finalmente, a todos los demás profesores que de una u otra manera fueron de a
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter*{Resumen} % si no queremos que añada la palabra "Capitulo"
 \addcontentsline{toc}{chapter}{Resumen} % si queremos que aparezca en el índice
-El municipio de Ginebra, ubicado en el Valle del Cauca, cuenta con una cantidad considerable de turistas cada fin de semana y festividades, lo que hace que el turismo sea uno de los grandes atractivos que posee el municipio, siendo un destino gastronómico, cultural y natural. Con este proyecto se quiere lograr dar mayor visibilidad a toda la variedad de destinos que tiene el municipio mediante un sistema de recomendación incorporado en una aplicación móvil para que las personas, tanto locales y turistas, tengan la posibilidad de ver todos los sitios disponibles, calificarlos y recibir recomendaciones automatizadas.\\
+El municipio de Ginebra, ubicado en el Valle del Cauca, cuenta con una cantidad considerable de turistas cada fin de semana y festividades, lo que hace que el turismo sea uno de los grandes atractivos que posee el municipio, siendo un destino gastronómico, cultural y natural. Con este proyecto se quiere lograr dar mayor visibilidad a toda la variedad de destinos que tiene el municipio mediante un sistema de recomendación incorporado en una aplicación móvil, para que las personas, tanto locales y turistas, tengan la posibilidad de ver todos los sitios disponibles, calificarlos y recibir recomendaciones automatizadas.\\
 En el presente documento se expone la manera de llevar a cabo el desarrollo de esta aplicación móvil, como también la implementación del sistema de recomendación y su funcionamiento, además de la revisión literaria que se usó como fuente de apoyo, y los demás componentes de desarrollo utilizados en el transcurso del proyecto.
 \vspace{5mm}\newline
 \textbf{Palabras claves:} Aplicación Móvil, Ginebra, Sistema de Recomendación, Turismo.
@@ -219,6 +219,15 @@ Desarrollar un prototipo de sistema de recomendación que pueda ser usado por me
     \item Evaluar las recomendaciones emitidas por el sistema de recomendación conforme a la realimentación de los usuarios de la aplicación.
 \end{enumerate}
 
+\subsection{Evidencia de Objetivos Específicos}
+En la siguiente tabla se evidencia la sección con el cumplimiento de cada objetivo específico.
+\begin{table}[H]
+\centering
+\includegraphics[width=10cm]{./imagenes/tabla_evidencia}
+\caption{Sección evidencia de los objetivos específicos.}
+\centering Fuente: Elaboración propia.
+\end{table}
+
 \section{Estructura del Documento}
 El presente documento se compone de 4 capítulos en donde el primero de ellos concluye en este punto después de citar aspectos generales, objetivos y alcance del proyecto. El capitulo 2 denominado Marco de referencia reúne aportes teóricos, conceptuales y un grupo de antecedentes que tienen como objetivo contextualizar al lector en relación al tema principal de este proyecto, por otro lado, el capitulo 3 describe el proceso de ingeniería de software llevado a cabo para el desarrollo del proyecto, así como también expone brevemente la metodología usada, los artefactos utilizados y las pruebas realizadas; entre otros elementos. Por último, el capitulo 4 expone las conclusiones y trabajos futuros que podrían presentarse.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -249,8 +258,8 @@ El uso de las TIC permite obtener fácilmente información referente a productos
 \vspace{5mm}\newline
 Las TIC han permitido llevar la globalidad del mundo de la comunicación, facilitando la interconexión entre las personas e instituciones a nivel mundial, y eliminando barreras espaciales y temporales. 
 \vspace{5mm}\newline
-\textit{"El uso intensivo por parte del turista de las Nuevas Tecnologías de la Información y las Comunicaciones (NTIC), tanto en la organización como en el desarrollo del viaje, han revolucionado la forma de promocionar un territorio turístico ya que, cualquier destino que pretenda ser competitivo debe actualizar continuamente toda aquella información que pueda ser de interés para el visitante (localización e interpretación de los recursos, horarios de equipamientos y servicios, etc.), especialmente si este pertenece al segmento del turismo cultural, tipología de usuario que demanda gran cantidad de información sobre los recursos de un destino y cuya motivación principal es el disfrute de los bienes culturales.
-Este turista, consumidor de TIC, se ha transformando en un usuario 2.0, caracterizado por estar altamente conectado y, por tanto, hacer un uso constante de la red mediante su dispositivo móvil, junto a esto ha pasado de ser un mero visualizador a un generador de información en redes sociales, blogs, etc., y colabora de forma activa aportando su opinión sobre el destino mediante los sistemas de reputación on-line. En consecuencia, surge el turista 2.0, que requiere de información del territorio turístico, en el proceso de anticipación (promoción y marketing), experiencia (comunicación) y recreación (búsqueda de más información, publicaciones y recomendaciones) del viaje turístico.”} \cite{9}.
+\textit{``El uso intensivo por parte del turista de las Nuevas Tecnologías de la Información y las Comunicaciones (NTIC), tanto en la organización como en el desarrollo del viaje, han revolucionado la forma de promocionar un territorio turístico ya que, cualquier destino que pretenda ser competitivo debe actualizar continuamente toda aquella información que pueda ser de interés para el visitante (localización e interpretación de los recursos, horarios de equipamientos y servicios, etc.), especialmente si este pertenece al segmento del turismo cultural, tipología de usuario que demanda gran cantidad de información sobre los recursos de un destino y cuya motivación principal es el disfrute de los bienes culturales.
+Este turista, consumidor de TIC, se ha transformando en un usuario 2.0, caracterizado por estar altamente conectado y, por tanto, hacer un uso constante de la red mediante su dispositivo móvil, junto a esto ha pasado de ser un mero visualizador a un generador de información en redes sociales, blogs, etc., y colabora de forma activa aportando su opinión sobre el destino mediante los sistemas de reputación on-line. En consecuencia, surge el turista 2.0, que requiere de información del territorio turístico, en el proceso de anticipación (promoción y marketing), experiencia (comunicación) y recreación (búsqueda de más información, publicaciones y recomendaciones) del viaje turístico.''} \cite{9}.
 
 \subsection{Dispositivos Móviles}
 Un dispositivo móvil se puede definir como un aparato de pequeño tamaño, con algunas capacidades de procesamiento, con conexión permanente o intermitente a una red, con memoria limitada, que ha sido diseñado específicamente para una función, pero que puede llevar a cabo otras funciones más generales\cite{10}.
@@ -287,13 +296,13 @@ Las metodologías de desarrollo de software están clasificadas en 2 tipos de me
 \begin{table}[H]
 \centering
 \includegraphics[width=13cm]{./imagenes/tablas/comparacion_metodologias}
-\caption{Comparación de metodologías.}
+\caption{Comparación de metodologías. \cite{12}}
 \end{table}
 
 El uso de una metodología ágil es una excelente alternativa para guiar proyectos de desarrollo de software de tamaño reducido, como es el caso de las aplicaciones móviles. 
 
 \subsection{Sistemas recomendación}
-Se puede definir los sistemas de recomendación como "el conjunto de herramientas de software y técnicas que ofrecen sugerencias útiles al usuario.” Hoy en día con el crecimiento que ha tenido internet en los últimos años y la creación de sitios que ofrecen servicios de todo tipo, ya sea para ver películas o escuchar música como son el caso de Netflix y Spotify, los usuarios muchas veces al tener tanta información y tal vez poca experiencia no saben que elegir y se dejan guiar por lo que digan otras personas, ya sea mediante conversaciones con personas conocidas, artículos de revistas, internet o la televisión.
+Se puede definir los sistemas de recomendación como ``el conjunto de herramientas de software y técnicas que ofrecen sugerencias útiles al usuario.'' Hoy en día con el crecimiento que ha tenido internet en los últimos años y la creación de sitios que ofrecen servicios de todo tipo, ya sea para ver películas o escuchar música como son el caso de Netflix y Spotify, los usuarios muchas veces al tener tanta información y tal vez poca experiencia no saben que elegir y se dejan guiar por lo que digan otras personas, ya sea mediante conversaciones con personas conocidas, artículos de revistas, internet o la televisión.
 \vspace{5mm}\newline
 Los sistemas de recomendación se crean para que los usuarios tengan sugerencias personalizadas de acuerdo a sus gustos y preferencias, esto se realiza para que el usuario tenga una visión amplia de que puede explorar alternativas que le puedan gustar, los sitios webs para compras como Amazon utilizan estas técnicas para que todos los productos de calidad que ofrecen puedan ser visualizados por los usuarios de acuerdo a sus gustos y le pueda ser de utilidad a los usuarios. "Los sistemas de recomendación intentan predecir cuales son los productos o servicios más adecuados para el usuario de acuerdo a sus preferencias y restricciones".
 \vspace{5mm}\newline
@@ -307,7 +316,7 @@ Los sistemas de recomendación tratan de predecir la calificación a un artícul
 Existen una gran variedad de técnicas a la hora de realizar un sistema de recomendación el éxito o no de este dependen del diseño. Por lo cual es esencial tener en cuenta los usuarios, los ítems y las transacciones entre estos, por ejemplo, las calificaciones\cite{13}.
 \vspace{5mm}\newline
 \textbf{Filtro Colaborativo}\newline
-Los sistemas de recomendación con filtro colaborativo es una de las técnicas más utilizadas a la hora de realizar sugerencias en aplicaciones con bastantes usuarios. Según Michael D. Ekstrand, John T. Riedl y Joseph A. Konstan \textit{"Es un algoritmo de recomendación popular que basa sus predicciones y recomendaciones en calificaciones o comportamientos de otros usuarios en el sistema"}\cite{14}. Para este proceso es necesario tener en cuenta la comunidad que forma parte del sistema tomando la retroalimentación que estos usuarios le dan con sus opiniones y calificaciones encontrando así características en común que puedan ser de utilidad para los usuarios\cite{15}.
+Los sistemas de recomendación con filtro colaborativo es una de las técnicas más utilizadas a la hora de realizar sugerencias en aplicaciones con bastantes usuarios. Según Michael D. Ekstrand, John T. Riedl y Joseph A. Konstan \textit{``Es un algoritmo de recomendación popular que basa sus predicciones y recomendaciones en calificaciones o comportamientos de otros usuarios en el sistema''}\cite{14}. Para este proceso es necesario tener en cuenta la comunidad que forma parte del sistema tomando la retroalimentación que estos usuarios le dan con sus opiniones y calificaciones encontrando así características en común que puedan ser de utilidad para los usuarios\cite{15}.
 Para el filtro colaborativo se tienen dos tipos esencialmente que son los que tienen información de los usuarios de forma explícita ya sea mediante las calificaciones que les dé a los artículos de su interés o ya que ingresa sus gustos directamente. Por otro lado, están los usuarios que no le otorgan tanta información al sistema de manera tan directa, es decir, se obtiene de manera implícita, de estos usuarios la información se toma por número de clics, historial de navegación, historial de compras en caso de e-commerce, son algunas de las maneras que se extrae información de estos a la hora de realizar recomendaciones\cite{13}.
 \vspace{5mm}\newline
 \textbf{Filtro Basado en Contenido}\newline
@@ -324,12 +333,12 @@ Con el rápido desarrollo de las tecnologías móviles, varios tipos de aplicaci
 
 \subsection{Ginebra – Valle del Cauca}
 \subsubsection{Aspectos Generales}
-Según la alcaldía de Ginebra, \textit{"El Municipio de Ginebra se encuentra localizado en el piedemonte de la cordillera central, a 60 Km. de la ciudad de Santiago de Cali, capital del Departamento}.
+Según la alcaldía de Ginebra, \textit{``El Municipio de Ginebra se encuentra localizado en el piedemonte de la cordillera central, a 60 Km. de la ciudad de Santiago de Cali, capital del Departamento}.
 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=10.7cm]{./imagenes/mapa_politico}
-\caption{Mapa Político Valle del Cauca.}
+\caption{Mapa Político Valle del Cauca. \cite{4}}
 \end{center}
 \end{figure}
 
@@ -342,7 +351,7 @@ Según la alcaldía de Ginebra, \textit{"El Municipio de Ginebra se encuentra lo
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=10.7cm]{./imagenes/division_corregimientos}
-\caption{División por corregimientos, municipio de Ginebra.}
+\caption{División por corregimientos, municipio de Ginebra. \cite{4}}
 \end{center}
 \end{figure}
 
@@ -360,22 +369,22 @@ Según la alcaldía de Ginebra, \textit{"El Municipio de Ginebra se encuentra lo
 \textbf{LOS MEDIOS}     & Los Medios                                                                                               \\ \midrule
 \textbf{SABALETAS}      & \begin{tabular}[c]{@{}c@{}}El Guabito,  \\ Mosoco\end{tabular}                                           \\ \bottomrule
 \end{tabular}
-\caption{Listado de Corregimientos y Veredas del Municipio de Ginebra.}
+\caption{Listado de Corregimientos y Veredas del Municipio de Ginebra. \cite{4}}
 \end{center}
 \end{table}
 
-\textit{El Municipio de Ginebra, según proyecciones realizadas por el DANE con base en censo 2005 corregido, tiene en 2008 una población de 18.762 habitantes, ubicando en la cabecera municipal 7.915 (42\% urbana) y 10.893 (58\%) en el área rural."}\cite{4}.
+\textit{El Municipio de Ginebra, según proyecciones realizadas por el DANE con base en censo 2005 corregido, tiene en 2008 una población de 18.762 habitantes, ubicando en la cabecera municipal 7.915 (42\% urbana) y 10.893 (58\%) en el área rural.''}\cite{4}.
 
 \subsubsection{Gestión del Turismo en Ginebra}
 El municipio de Ginebra es reconocido a nivel nacional por el festival de música andina más reconocido del país, el Mono Núñez, en el cual se congregan en promedio 50.000 personas por día. El festival Mono Núñez es el atractivo turístico más reconocido del municipio, pero no el único, también se le reconoce por gastronomía típica vallecaucana lo cual genera que personas de municipios aledaños, sobre todo de la ciudad de Cali\cite{3}. Al ser un municipio con un área rural tan grande también los turistas se acercan para realizar ecoturismo y agroturismo\cite{3}\cite{18} la alcaldía de Ginebra clasifica el turismo del municipio de la siguiente forma:
 \vspace{5mm}\newline
-\textbf{"Turismo Urbano:} \textit{Es el que se realiza con fines culturales, educativos y recreativos, que da lugar a la conservación y divulgación del patrimonio histórico y cultural, a la creación de espacios públicos de esparcimiento comunitario, y al disfrute de eventos y fiestas culturales, populares y tradicionales. Hacen parte de estas el Festival del Mono Núñez, Las fiestas del Retorno, de la Mora, el Maracuyá entre otras.}
+\textbf{Turismo Urbano:} \textit{``Es el que se realiza con fines culturales, educativos y recreativos, que da lugar a la conservación y divulgación del patrimonio histórico y cultural, a la creación de espacios públicos de esparcimiento comunitario, y al disfrute de eventos y fiestas culturales, populares y tradicionales. Hacen parte de estas el Festival del Mono Núñez, Las fiestas del Retorno, de la Mora, el Maracuyá entre otras.''}
 \vspace{5mm}\newline
-\textbf{Turismo Gastronómico:} \textit{Es aquel relacionado con la conservación y transmisión de los valores culturales a partir de la tradición regional de la comida. Se desarrolla en los restaurantes y corredores suburbanos Crucero-Ginebra, Crucero la Medina, puente sobre el río Sabaletas; Ginebra-Costa Rica.}
+\textbf{Turismo Gastronómico:} \textit{``Es aquel relacionado con la conservación y transmisión de los valores culturales a partir de la tradición regional de la comida. Se desarrolla en los restaurantes y corredores suburbanos Crucero-Ginebra, Crucero la Medina, puente sobre el río Sabaletas; Ginebra-Costa Rica.''}
 \vspace{5mm}\newline
-\textbf{Ecoturismo:} \textit{Aquella forma de turismo especializado y dirigido, que se desarrolla en áreas con un atractivo natural especial que se enmarca dentro de los parámetros del desarrollo humano sostenible, en busca de la recreación, esparcimiento y la educación del visitante a través de la observación, el estudio de los valores naturales y los aspectos culturales relacionados con ellos. Franjas del río Guabas desde Flautas hasta las Hermosas; franjas forestales de los Medios y Novillera; Franjas de la vereda La Selva.}
+\textbf{Ecoturismo:} \textit{``Aquella forma de turismo especializado y dirigido, que se desarrolla en áreas con un atractivo natural especial que se enmarca dentro de los parámetros del desarrollo humano sostenible, en busca de la recreación, esparcimiento y la educación del visitante a través de la observación, el estudio de los valores naturales y los aspectos culturales relacionados con ellos. Franjas del río Guabas desde Flautas hasta las Hermosas; franjas forestales de los Medios y Novillera; Franjas de la vereda La Selva.''}
 \vspace{5mm}\newline
-\textbf{Agroturismo:} \textit{El agroturismo es un tipo de turismo especializado en el cual el turista se involucra con el campesino en las labores agrícolas. Franja de la vereda La Floresta, corredor suburbano Ginebra- Santa Helena."\cite{18}.}
+\textbf{Agroturismo:} \textit{``El agroturismo es un tipo de turismo especializado en el cual el turista se involucra con el campesino en las labores agrícolas. Franja de la vereda La Floresta, corredor suburbano Ginebra- Santa Helena.''\cite{18}.}
 
 \section{Antecedentes}
 La creciente importancia de las nuevas tecnologías y el marketing digital hace necesario el estudio del impacto que tendrán estos aspectos en el negocio empresarial, más concretamente en aquellos sectores que son más importantes, en este trabajo nos enfocaremos en el área del turismo.
@@ -433,7 +442,7 @@ La metodología Mobile-D consta de 5 fases: exploración, iniciación, producci�
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=16cm]{./imagenes/ciclo_desarrollo}
-\caption{Ciclo de desarrollo Mobile-D.}
+\caption{Ciclo de desarrollo Mobile-D. \cite{26}}
 \end{center}
 \end{figure}
 
@@ -468,6 +477,7 @@ La siguiente figura describe el esquema o funcionamiento de la aplicación y evi
 \begin{center}
 \includegraphics[width=13cm]{./imagenes/arquitectura}
 \caption{Arquitectura del Sistema.}
+\centering Fuente: Elaboración propia.
 \end{center}
 \end{figure}
 
@@ -490,43 +500,73 @@ Una vez un usuario comerciante añada un evento o un producto, a través del Bac
 \centering
 \includegraphics[width=9cm]{./imagenes/HU/HU1}
 \caption{HU1: Login y creación de usuarios con E-mail.}
+\centering Fuente: Elaboración propia.
 \end{table}
 
 \begin{table}[H]
 \centering
 \includegraphics[width=9cm]{./imagenes/HU/HU9}
 \caption{HU9 Detalles Lugar Activity.}
+\centering Fuente: Elaboración propia.
 \end{table}
 
 \begin{table}[H]
 \centering
 \includegraphics[width=9cm]{./imagenes/HU/HU14}
 \caption{HU14 Mapa Activity.}
+\centering Fuente: Elaboración propia.
 \end{table}
 
-Las Historias de Usuario se encuentran disponibles en un drive, se pueden detallar en el Apéndice A, sección 1.
+Las Historias de Usuario se encuentran disponibles en los anexos del trabajo, se pueden detallar en el Apéndice A, sección 1.
 
 \subsection{Diagrama Entidad - Relación}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=16cm]{./imagenes/Diagrama_entidad_relacion}
-\caption{Diagrama Entidad - Relación.}
+\caption{Diagrama Entidad - Relación}
+\centering Fuente: Elaboración propia.
 \end{center}
 \end{figure}
+
+La entidad principal es lugar, por lo cual, la mayoría de relaciones la incluyen. Estas relaciones se presentan de la siguiente manera:
+\vspace{5mm}\newline
+La entidad lugar tiene una relación 1 a 1 con la entidad categorías para poder separar los lugares dependiendo del tipo de servicio que ofrece. De igual manera, tiene una relación 1 a 1 con la entidad usuario, la cual permite determinar dentro de la aplicación quien administra el lugar. Este usuario puede crear productos y eventos para el lugar que administra, por eso también se presenta una relación de 1 a muchos con las entidades eventos y productos.
+\vspace{5mm}\newline
+Cada lugar tiene diferentes tags los cuales identifican a los lugares y son utilizados para el sistema de recomendación, por lo que se presenta una relación muchos a muchos entre las entidades lugar y tags, por lo cual es necesario crear la tabla lugar\_tag.
+\vspace{5mm}\newline
+Los usuarios que no son propietarios de un lugar pueden realizar las siguientes interacciones con estos: 
+\begin{itemize}
+    \item Suscribirse a un lugar para poder recibir notificaciones sobre las novedades de este, por lo que la entidad suscripción tiene una relación muchos a 1 con la entidad lugar, y una relación 1 a 1 con la entidad usuario.
+    \item Realizar varias visitas a los lugares, por lo que la entidad visita tiene una relación de muchos a 1 con la entidad lugar, y una relación de muchos a 1 con la entidad usuario.
+    \item Comentar y dejar una calificación tanto en un evento como en un lugar, por lo que la entidad comentario tiene una relación de muchos a 1 con la entidad usuario, y una relación de muchos a muchos con las entidades lugar y evento, por lo cual es necesario crear las tablas lugar\_comentario y evento\_comentario.
+\end{itemize}
+
+\vspace{5mm}
+En cuanto al sistema de recomendación:
+\begin{itemize}
+    \item Para que se puedan realizar recomendaciones, es necesario que los usuarios tengan preferencias para que el sistema los relacione con los tags de los lugares y así poder recibir recomendaciones, por eso la entidad preferencia tiene una relación 1 a 1 con la entidad usuario.
+    \item Una vez el sistema de recomendación realiza una recomendación y el usuario interactúa con ella, la aplicación pregunta si la recomendación realizada fue del agrado del usuario con el fin de calificarla. Esta calificación se guarda en la entidad opinión, guardando también el lugar que se recomendó y el usuario al que se le recomendó, por lo cual la entidad opinión tiene una relación de 1 a muchos con la entidad lugar y con la entidad usuario.
+\end{itemize}
+
+Un usuario también puede hacer una solicitud para que aparezca un lugar en la aplicación, para esto debe ingresar los datos de la solicitud dentro de la aplicación, por esto la entidad solicitud tiene una relación de 1 a muchos con la entidad usuario.
 
 \subsection{Diagrama de Clases}
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=16cm]{./imagenes/diagrama_clases}
-\caption{Diagrama de clases.}
+\includegraphics[width=17cm]{./imagenes/diagrama_clases_modelo2}
+\caption{Diagrama de clases Modelo.}
+\centering Fuente: Elaboración propia.
 \end{center}
 \end{figure}
+
+Los demas Diagramas de Clases se encuentran disponibles en los anexos del trabajo, se pueden detallar en el Apéndice A, sección 7.
 
 \subsection{Diagrama de Ventanas}
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=13cm]{./imagenes/diagrama_ventanas}
+\includegraphics[width=17cm]{./imagenes/diagrama_ventanas}
 \caption{Diagrama de Ventanas.}
+\centering Fuente: Elaboración propia.
 \end{center}
 \end{figure}
 
@@ -538,6 +578,7 @@ Un caso de uso representa un proceso común e importante. Los casos de uso const
 \begin{center}
 \includegraphics[width=10cm]{./imagenes/CU/cu_administrador}
 \caption{Caso de Uso Administrador.}
+\centering Fuente: Elaboración propia.
 \end{center}
 \end{figure}
 
@@ -546,6 +587,7 @@ Un caso de uso representa un proceso común e importante. Los casos de uso const
 \begin{center}
 \includegraphics[width=10cm]{./imagenes/CU/cu_usuario}
 \caption{Caso de Uso Usuario.}
+\centering Fuente: Elaboración propia.
 \end{center}
 \end{figure}
 
@@ -554,6 +596,7 @@ Un caso de uso representa un proceso común e importante. Los casos de uso const
 \begin{center}
 \includegraphics[width=13cm]{./imagenes/CU/cu_comerciante}
 \caption{Caso de Uso Comerciante.}
+\centering Fuente: Elaboración propia.
 \end{center}
 \end{figure}
 
@@ -562,21 +605,24 @@ Un caso de uso representa un proceso común e importante. Los casos de uso const
 \centering
 \includegraphics[width=13cm]{./imagenes/PCU/login}
 \caption{PE1: Plantilla Especificación Caso de Uso Login.}
+\centering Fuente: Elaboración propia.
 \end{table}
 
 \begin{table}[H]
 \centering
 \includegraphics[width=13cm]{./imagenes/PCU/crear_usuario}
 \caption{PE2: Plantilla Especificación Caso de Uso Crear Usuario.}
+\centering Fuente: Elaboración propia.
 \end{table}
 
 \begin{table}[H]
 \centering
 \includegraphics[width=13cm]{./imagenes/PCU/ver_lugares_recomendados}
 \caption{PE5: Plantilla Especificación Caso de Uso Ver lugares recomendados.}
+\centering Fuente: Elaboración propia.
 \end{table}
 
-Las Plantillas de Especificación de Casos de Uso realizadas se encuentran disponibles en un drive, se pueden detallar en el Apéndice A, sección 2.
+Las Plantillas de Especificación de Casos de Uso realizadas se encuentran disponibles en los anexos del proyecto, se pueden detallar en el Apéndice A, sección 2.
 
 \subsection{Diagramas de Secuencia y Colaboración}
 Los diagramas de secuencia permiten visualizar la interacción de los diferentes objetos y actores a través del tiempo. Los diagramas de colaboración contienen la misma información que los diagramas de secuencia, solo que se centran en las responsabilidades de cada objeto, en lugar del tiempo. En las siguientes figuras se encontraran algunos de los diagramas de secuencia y colaboración de los casos de uso descritos anteriormente.
@@ -585,6 +631,7 @@ Los diagramas de secuencia permiten visualizar la interacción de los diferentes
 \begin{center}
 \includegraphics[width=10cm]{./imagenes/DS/DS_gestionar_lugar}
 \caption{DS1: Diagrama de Secuencia Gestionar Lugar.}
+\centering Fuente: Elaboración propia.
 \end{center}
 \end{figure}
 
@@ -592,6 +639,7 @@ Los diagramas de secuencia permiten visualizar la interacción de los diferentes
 \begin{center}
 \includegraphics[width=14cm]{./imagenes/DS/DS_consultar_lugares}
 \caption{DS2: Diagrama de Secuencia Consultar Lugares.}
+\centering Fuente: Elaboración propia.
 \end{center}
 \end{figure}
 
@@ -601,6 +649,7 @@ Los diagramas de secuencia permiten visualizar la interacción de los diferentes
 \begin{center}
 \includegraphics[width=14cm]{./imagenes/DC/DC_gestionar_lugar}
 \caption{DC1: Diagrama de Colaboración Gestionar Lugar.}
+\centering Fuente: Elaboración propia.
 \end{center}
 \end{figure}
 
@@ -608,10 +657,11 @@ Los diagramas de secuencia permiten visualizar la interacción de los diferentes
 \begin{center}
 \includegraphics[width=14cm]{./imagenes/DC/DC_consultar_lugar}
 \caption{DC2: Diagrama de Colaboración Consultar Lugares.}
+\centering Fuente: Elaboración propia.
 \end{center}
 \end{figure}
 
-Los Diagramas de Secuencia y Colaboración realizados se encuentran disponibles en un drive, se pueden detallar en el Apéndice A, sección 3.
+Los Diagramas de Secuencia y Colaboración realizados se encuentran disponibles en los anexos del proyecto, se pueden detallar en el Apéndice A, sección 3.
 
 \section{Descripción General del Sistema}
 \subsection{Interfaz Gráfica de Usuario}
@@ -795,11 +845,168 @@ El usuario tipo comerciante dispone de las mismas funcionalidades de un usuario 
 \end{figure}
 
 \section{Detalles de la Implementación}
-En un principio se diseñó un cuestionario para poder llevar a cabo la caracterización de los sitios \textbf{(Ver Apéndice B)} para lograr el primer objetivo \textbf{(Caracterizar los sitios y eventos del municipio de Ginebra)}, sin embargo, debido a la disponibilidad de los dueños o administradores de estos sitios, este cuestionario no pudo ser aplicada en su totalidad formalmente, por lo que fue necesario llevar a cabo la recolección de datos a través de un trabajo de campo realizado, y difusión del trabajo por medio de redes sociales, utilizando en ambos casos las mismas preguntas del cuestionario elaborado para lograr la recolección de datos.\\
-Una vez recolectados los datos, se analizó la información obtenida para extraer aquellos que sea de utilidad para la aplicación, y se alimentó la base de datos con la información de los sitios consultados.
+\subsection{Caracterización de los Sitios de Ginebra}
+Para la obtención de la información, inicialmente se consultó en el Portal de Datos Abiertos, pero no se encontró información respecto a sitios en el municipio. Seguido, se consultó directamente a la Alcaldía Municipal de Ginebra, donde no se obtuvo respuesta alguna ya que estos datos son confidenciales para el municipio. Es por esto que se diseñó un cuestionario para poder llevar a cabo la caracterización de los sitios, sin embargo, debido a la disponibilidad de los dueños o administradores de estos sitios, este cuestionario no pudo ser aplicada en su totalidad formalmente, por lo que fue necesario llevar a cabo la recolección de datos a través de un trabajo de campo realizado, y difusión del trabajo por medio de redes sociales, utilizando en ambos casos las mismas preguntas del cuestionario elaborado para lograr la recolección de datos.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=13cm]{./imagenes/cuest1}
+\caption{Cuestionario Elaborado.}
+\end{center}
+\end{figure}
+
+Una vez recolectados los datos, se analizó la información obtenida para extraer aquellos que sea de utilidad para la aplicación, y se alimentó la base de datos con la información de los sitios consultados.\\
+
+Se definieron los siguientes tags de acuerdo a los lugares que accedieron a estar en la aplicación para compararlos entre sí y hacer las recomendaciones de acuerdo a estos mismos: \\
+Restaurante Gourmet, Restaurante de Especialidad, Restaurante Familiar, Restaurante Buffet, Restaurante Temático, Comida Internacional, Platos Tradicionales, Restaurante Campestre, Comida de Mar, Hotel Urbano, Hotel de Naturaleza, Hotel Familiar, Hotel Posada, Hotel Rural,  Urbana, Crossover, Discoteca Tipo Fonda, Bar Tradicional, Cantina, Taberna, Bar Restaurante, Bar Karaoke, Comida Rápida, Restaurante, Almuerzo, Desayuno, Heladería, Discoteca Bar, Panadería, Cafetería.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=17cm]{./imagenes/caracterizacion}
+\caption{Caracterización de los Sitios Obtenidos.}
+\centering Fuente: Elaboración propia.
+\end{center}
+\end{figure}
+
+Los demás detalles sobre la caracterización de los Sitios se encuentran dentro de los anexos del trabajo, se pueden detallar en el Apéndice A, sección 8.
+
+\subsection{Elección del Sistema de Recomendación}
+Para elegir la técnica de recomendación para usar en la aplicación móvil se consulta la literatura para examinar cuál de las técnicas es apropiada para el sistema de recomendación que se plantea realizar, y se realiza una prueba de concepto de estas técnicas con datos generados aleatoriamente.
 \vspace{5mm}\newline
-Para lograr el segundo objetivo \textbf{(Determinar el tipo de sistema de recomendación y los algoritmos a utilizar)}, se realizó una investigación acerca de la funcionalidad y estructura de las técnicas y algoritmos para hacer recomendaciones, y se eligió implementar un Sistema de Recomendación Basado en Contenido, con el algoritmo Vector Space Model (VSM) con ponderación TF-IDF y similitud coseno, ya que es de utilidad para poder analizar datasets pequeños y es conveniente para aplicaciones nuevas, ayudando a evitar problemas de coldstart. El desarrollo de la técnica elegida se puede evidenciar en el \textbf{Apéndice C}.
+Se busca en las técnicas teniendo en cuenta que la aplicación en un inicio no tendrá usuarios, pero si tendrá ítems (lugares).
+
+\subsubsection{Filtro Colaborativo Usuario-Usuario \cite{23}}
+También conocido como filtro colaborativo k-NN, es una interpretación algorítmica sencilla de la premisa del filtro colaborativo: encontrar otros usuarios cuyos gustos sean similar al del usuario actual usando las calificaciones de ellos en otros ítems para predecir que le gustaría al usuario actual.
 \vspace{5mm}\newline
+Además de la matriz de calificaciones R, un sistema de filtro colaborativo usuario-usuario requiere una función de similitud \textit{s: U x U$\rightarrow{R}$} computando la similitud entre dos usuarios y un método para usar las similitudes y las calificaciones para generar predicciones.
+\vspace{5mm}\newline
+Para generar predicciones o recomendaciones para un usuario \textit{u}, esta técnica usa s para computar una vecindad \textit{N $\subseteq{U}$} vecinos de \textit{u}. Una vez \textit{N} ha sido computado, el sistema combina las calificaciones de los usuarios en \textit{N} para generar la predicción de las preferencias de un usuario u por un ítem \textit{i}. Esto se hace típicamente computando el peso promedio de las calificaciones que los vecinos le dan a \textit{i}, usando la similitud como los pesos:
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=7cm]{./imagenes/formulas/form1}
+\end{center}
+\end{figure}
+
+Para calcular la similitud se puede utilizar la similitud de coseno el cual tiene un enfoque vectorial, en donde los usuarios son representados como vectores $\vert{I}\vert$-dimensionales y la similitud es medida por la distancia coseno entre los vectores de calificaciones. Este puede ser computado eficientemente tomando su producto punto dividiéndolo por de sus normas:
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=5cm]{./imagenes/formulas/form2}
+\end{center}
+\end{figure}
+
+\subsubsection{Filtro Colaborativo Item-Item \cite{23}}
+Esta técnica en vez de usar similitudes entre las calificaciones de los usuarios para predecir preferencias, ítem-ítem usa las similitudes entre los patrones de calificación de los ítems. Si dos ítems tienden a tener los mismos usuarios que les gusta y los que no les gusta, entonces son similares y los usuarios se espera tener preferencias similares para ítems similares.
+\vspace{5mm}\newline
+El filtro colaborativo ítem–ítem genera predicciones utilizando las calificaciones del usuario para otros ítems combinados con las similitudes de esos ítems con el ítem objetivo, en lugar de las calificaciones y similitudes de otros usuarios como en usuario - usuario. Similar al usuario-usuario, el sistema de recomendación necesita una función de similitud, esta vez \textit{s: I x I $\rightarrow{R}$}, y un método para generar predicciones a partir de valoraciones y similitudes.
+\vspace{5mm}\newline
+En los dominios de calificación de valor real, las puntuaciones de similitud se pueden utilizar para generar predicciones utilizando un promedio ponderado, similar al procedimiento utilizado en usuario-usuario CF. Las recomendaciones son luego generadas tomando los ítems candidatos con las predicciones más altas.
+\vspace{5mm}\newline
+Después de recoger un conjunto S de ítems similares a \textit{i}, $p_{u,i}$ se puede predecir:
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=4cm]{./imagenes/formulas/form3}
+\end{center}
+\end{figure}
+
+La similitud de coseno entre los vectores de valoraciones de ítems es la métrica de similitud más popular.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=4cm]{./imagenes/formulas/form4}
+\end{center}
+\end{figure}
+
+\subsubsection{Modelo de Espacio Vectorial basado en palabras clave \cite{13}}
+Vector Space Model (VSM) es una representación de documentos de texto. En ese modelo cada documento es representado por un vector en un espacio n-dimensional, donde cada dimensión corresponde a un término del vocabulario general de una colección dada de un documento.
+\vspace{5mm}\newline
+La representación del documento en VSM plantea dos cuestiones: ponderar los términos y medir la similitud del vector. El esquema de ponderación de términos más utilizado, es la ponderación TF-IDF (Term Frequency-Inverse Document Frequency), está basada en las observaciones empíricas respecto a los textos:
+\begin{itemize}
+    \item Los términos raros no son menos relevantes que los términos frecuentes (suposición de IDF).
+    \item Las múltiples apariciones de un término en un documento no son menos relevantes que las ocurrencias únicas (suposición de TF).
+    \item Los documentos largos no se prefieren a los documentos cortos (suposición de normalización).
+\end{itemize}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=6cm]{./imagenes/formulas/form5}
+\end{center}
+\end{figure}
+
+Donde N describe el número de documentos en el corpus, y $N_{k}$ describe el número de documentos en la colección en la cual el término $t_{k}$ ocurre al menos una vez.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=4cm]{./imagenes/formulas/form6}
+\end{center}
+\end{figure}
+
+Donde el máximo es computado sobre las frecuencias $f_{z,j}$ de todos los términos $t_{z}$ que ocurren en el documento $d_{j}$. Para que las ponderaciones estén en el intervalo [0,1] y para que los documentos sean representados por vectores de igual tamaño, las ponderaciones usualmente se normalizan por la normalización de coseno.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=5cm]{./imagenes/formulas/form7}
+\end{center}
+\end{figure}
+
+Una medida de similitud es requerida para determinar que tanto se parecen dos documentos. Muchas medidas de similitud han sido derivadas para describir la proximidad de dos vectores, entre esas medidas, la similitud de coseno es de las más usadas:
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=5cm]{./imagenes/formulas/form8}
+\end{center}
+\end{figure}
+
+En los sistemas de recomendación basados en contenido basado en VSM, el perfil del usuario y los ítems ambos son representados como vectores de términos ponderados. Las predicciones de un interés del usuario en un ítem particular pueden ser derivadas computando la similitud de coseno.
+
+\subsubsection{Slope One \cite{27}}
+El algoritmo Slope One está basado en un modelo lineal unario \textit{f(x) = x + b} para la predicción. El principio de Slope One es calificar ítems sin calificar basado en la desviación promedio de las valoraciones de los ítems. Este consta de dos partes, el cálculo de la formula de desviación y la formula de predicción. Dados dos ítems \textit{i} y \textit{j (i $\neq{j}$)}, $R_{u,i}$ es la calificación de un usuario \textit{u} a un ítem \textit{i}. $S_{u,i}$ es una colección de usuarios que calificaron ambos ítems \textit{i} y \textit{j}. $\vert{S_{i,j}}\vert$ es el número de usuarios en el conjunto $S_{i,j}$, y la desviación entre el ítem \textit{i} y el ítem \textit{j} se calcula así:
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=5cm]{./imagenes/formulas/form9}
+\end{center}
+\end{figure}
+
+Obteniendo la desviación, se puede predecir la calificación de un usuario \textit{u} para un ítem \textit{i}:
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=5cm]{./imagenes/formulas/form10}
+\end{center}
+\end{figure}
+
+Donde, \textit{S(u)} representa el conjunto de ítems calificados por el usuario \textit{u}, y \textit{S(u)-$\lbrace{i}\rbrace$} representa el conjunto de ítems en los cuales hay al menos uno calificado por el usuario.
+
+\subsubsection{Resultados}
+Para elegir uno de los algoritmos que se encontraron en la literatura se toman en cuenta los siguientes aspectos:
+
+\begin{itemize}
+    \item Escalabilidad.
+    \item Cobertura.
+\end{itemize}
+
+Se toman en cuenta estos aspectos ya que son los que se pueden medir inmediatamente sin depender de los datos que se tengan para el algoritmo, ya que se mira solo algunos puntos de estos aspectos como lo es la complejidad computacional de cada algoritmo, y si estos presentan el problema del coldstart. Ya que es un prototipo para una aplicación nueva, por lo tanto, no tendrá usuarios inicialmente, pero si contará con lugares, como máximo 40.	
+
+\begin{table}[H]
+\centering
+\includegraphics[width=8cm]{./imagenes/formulas/tablaAlgoritmos}
+\caption{Tabla Complejidad Computacional por Algoritmo.}
+\centering Fuente: Elaboración propia.
+\end{table}
+
+La complejidad computacional del algoritmo Usuario-Usuario con kNN es \textit{O(D x U)} donde \textit{D} es la dimensión de la matriz y \textit{U} es la cantidad de usuarios, para el algoritmo Item-Item la complejidad es la misma solo que en vez de ser la cantidad de usuarios, es la cantidad de ítems \textit{I}.\cite{14}\cite{35} VSM con TF-IDF tiene una complejidad \textit{O(T x D)} donde \textit{T} es la cantidad de términos y \textit{D} es la  cantidad de documentos\cite{39}, finalmente la complejidad computacional de Slope One es \textit{O(U*$I^{2}$)} donde \textit{U} es la cantidad de usuarios e \textit{I} es la cantidad de ítems[27].
+\vspace{5mm}\newline
+Los algoritmos Usuario-Usuario, Item-Item y Slope One todos dependen y predicen calificaciones de los usuarios por lo tanto estos presenta el problema del coldstart mientras que el algoritmo VSM con TF-IDF no.
+\vspace{5mm}\newline
+Comparando el algoritmo Usuario-Usuario con el Item-Item el primero es mejor cuando existen más usuarios que ítems, y el segundo es mejor en una situación contraria, por lo tanto el algoritmo Usuario-Usuario presenta problemas de escalabilidad respecto al crecimiento de usuarios, por lo que este algoritmo no es apropiado para la aplicación, por otro lado el Item-Item mientras sean pocos ítems tendrá un tiempo de ejecución independiente de la cantidad de usuarios eso hace que sea apropiado para el sistema que se requiere desarrollar. El VSM para sistemas de recomendación al ser una técnica basada en contenido no depende de la cantidad de usuarios solo dependería de los términos, los cuales serían las preferencias del usuario y la cantidad de documentos, que vendrían a ser los lugares, el Slope One depende de los usuarios y de  los ítems, y tiene peor costo computacional que el Item-Item sin embargo Hu y Zhou muestran que tiene buenos resultados\cite{27}
+
+
+
+
+\subsection{Implementación de la Aplicación Móvil}
 Actualmente, se encuentra disponible en versión beta dentro de la Google Play Store, la aplicación movil desarrollada en lenguaje JAVA, la cual tiene como nombre "GuideMe",  teniendo más de 50 descargas, evidencia de este desarrollo se observa en el apartado Diseño y Descripción General del Sistema. De esta manera se logra cumplir con el objetivo \textbf{(Implementar un prototipo de una aplicación móvil que permita consumir y ofrecer la información sobre los sitios y eventos de la ciudad de Ginebra.)}.
 \begin{figure}[H]
 \begin{center}
@@ -810,40 +1017,72 @@ Actualmente, se encuentra disponible en versión beta dentro de la Google Play S
 Videos referentes a la aplicación movil: \\
 \url{https://www.youtube.com/watch?v=ihaKEdw0NQM}\\
 \url{https://www.youtube.com/watch?v=QLt4tpqouJM}
+
+\subsection{Diseño e Implementación del Sistema de Recomendación}
+Se implementó un prototipo de sistema de recomendación, el cual se encuentra en el Backend dentro del modulo de lugares. De esta manera, desde la aplicación movil se realiza el llamado a este algoritmo por medio de una petición HTTP GET para poder obtener recomendaciones de acuerdo a las preferencias del usuario y a los tags de los sitios.
 \vspace{5mm}\newline
-Se implementó un prototipo de sistema de recomendación, el cual se encuentra en el Backend dentro del modulo de lugares, para dar cumplimiento al objetivo \textbf{(Implementar un prototipo de sistema de recomendación para los sitios y eventos del municipio de Ginebra.)}. De esta manera, desde la aplicación movil se realiza el llamado a este algoritmo por medio de una petición HTTP GET para poder obtener recomendaciones de acuerdo a las preferencias del usuario y a los tags de los sitios.
+El prototipo de sistema de recomendación obtiene como parametro el uid del usuario y retorna una lista con los lugares recomendados.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=10cm]{./imagenes/codigoSR}
+\caption{Pseudocódigo SR}
+\centering Fuente: Elaboración propia.
+\end{center}
+\end{figure}
+
+Funcionalidad:
+\begin{itemize}
+    \item Se obtienen desde la base de datos todos los lugares, y los datos del usuario y sus preferencias con el uid.
+    \item Se inicializa una lista vacia de tags en el cuál se guardarán en listas los tags de las preferencias del usuario y los tags de los lugares.
+    \item Se inicializa una variable palabra como una cadena de caracteres vacía con el fin de usarla como auxiliar para almacenar todos los tags en una cadena separadas por un espacio en la lista tagsRS.
+    \item Para los tags de preferencia del usuario por cada tag se eliminan los espacios de cada tag y se cambian las mayusculas por minusculas y se almacenan en la lista tagsRS. Se hace este proceso también para los tags de cada lugar.
+    \item Se inicializa la variable count como CountVectorizer de sklearn la cual convierte una colección de documentos de texto en una matriz de recuentos de tokens. Luego se inicializa count\_matrix con la función fit\_transform de CountVectorizer que aprende el diccionario de vocabulario y devuelve la matriz de términos y documentos, con esta matriz se calcula la similaridad de los tags de las preferencias y los lugares.
+    \item Se inicializa una lista de lugares vacía la cuál tendrá los lugares que se le recomendarán al usuario. Para la matriz de las similitudes por cada ítem si el puntaje es mayor que 0 se crea la recomendación.
+\end{itemize}
+
+El sistema de recomendación va aprendiendo de acuerdo a las preferencias de los usuarios y las compara con los tags que tiene el lugar para evaluarlo y así decidir si recomendarlo o no.
+Estas preferencias se pueden actualizar de 2 formas ya sea directamente que el usuario lo modifique o indirectamente con alguna interacción del usuario con el lugar (suscripción, visita o comentario), los tags de este lugar se agregarán a las preferencias.
+
+\subsection{Evaluación del Sistema de Recomendación}
+Se realizó una difusión para el uso de la aplicación por parte de los estudiantes de la Universidad del Valle Sede Tuluá mediante un correo electrónico, y por parte de los habitantes del municipio de Ginebra mediante redes sociales.
+Después de haber pasado un tiempo, se encontró que el Sistema de Recomendación no tenia los datos suficientes para poder ser evaluado, por lo cual fue necesario pedir a los estudiantes de la asignatura Desarrollo de Aplicaciones Móviles 2019-01, que interactuaran con la aplicación siguiendo una serie de pasos para poder obtener recomendaciones, y pudieran ser calificadas indicando si fueron de su agrado o no.
 \vspace{5mm}\newline
-Para lograr el quinto objetivo \textbf{(Evaluar las recomendaciones emitidas por el sistema de recomendación conforme a la realimentación de los usuarios de la aplicación.)}, se hizo de la siguiente manera:\\
-El sistema de recomendación lanza una predicción, la cual es un valor que va de 0 a 1, mientras el valor sea mayor a 0, se muestra como una recomendación, sin embargo, en la evaluación, se toma un valor de 0.35 en adelante para considerarlo como recomendado. \\
-Se evaluaron las recomendaciones con  los datos recogidos gracias a los habitantes de Ginebra y con colaboración de los estudiantes de la Universidad del Valle sede Tuluá, de los cuales se obtuvieron 81 registros, y, de esta manera, se obtuvieron los siguientes resultados:
+El sistema de recomendación lanza una predicción, la cual es un valor que va de 0 a 1, mientras el valor sea mayor a 0, se muestra como una recomendación, sin embargo, en la evaluación, se toma un valor de 0.35 en adelante para considerarlo como recomendado. 
+\vspace{5mm}\newline
+En total se recogieron 81 registros, obteniendo los siguientes resultados:
+
 \begin{table}[H]
 \centering
 \includegraphics[width=10cm]{./imagenes/PrecisionRecall}
 \caption{Matriz de Confusión.}
+\centering Fuente: Elaboración propia.
 \end{table}
 
 Un verdadero positivo es un resultado en el que el modelo predice correctamente la clase positiva. De manera similar, un verdadero negativo es un resultado en el que el modelo predice correctamente la clase negativa.\\
 Un falso positivo es un resultado en el que el modelo predice incorrectamente la clase positiva. Y un falso negativo es un resultado en el que el modelo predice incorrectamente la clase negativa.\\
 La precisión intenta responder a la siguiente pregunta: ¿Qué proporción de identificaciones positivas fue correcta?\\
-La exhaustividad intenta responder a la siguiente pregunta: ¿Qué proporción de positivos reales se identificó correctamente?\cite{13}\cite{26}
+La exhaustividad intenta responder a la siguiente pregunta: ¿Qué proporción de positivos reales se identificó correctamente?\cite{13}\cite{28}
 \vspace{5mm}\newline
 Precisión = $\frac{VP}{VP+FP}$ = 0.79 \\
 Recall = $\frac{VP}{VP+FN}$ = 0.47\\
 \newline
-Se obtuvo una precisión de 0.79, por que el 79\% de las recomendaciones fueron de agrado para los usuarios, y se obtuvo una exhaustividad de 0.47, por lo que recomienda el 47\% lugares que les gustan a los usuarios
+Se obtuvo una precisión de 0.79, por que el 79\% de las recomendaciones fueron de agrado para los usuarios, y se obtuvo una exhaustividad de 0.47, por lo que recomienda el 47\% lugares que les gustan a los usuarios.
 \vspace{5mm}\newline
+Dentro de los lugares recogidos en la aplicación se tiene que en su gran mayoría son restaurantes, esto demuestra en pequeña escala que Ginebra tiene un gran atractivo gastronómico. También por esto mismo se tiene que la mayoría de las recomendaciones son restaurantes y todos aquellos lugares que presten servicios gastronómicos. Los hoteles por otro lado fueron los menos recomendados a pesar de que hay 3 hoteles en la aplicación, solo fueron recomendados 7 veces de las 81, en los sitios de entrenamiento solo existe 1 sitio que fue recomendado 4 veces, las discotecas como sitios nocturnos existen 3 en la aplicación y se recomendaron 9 veces, las panaderías que existen 2 en la aplicación se recomendaron 6 veces, y los sitios de comida rápida de igual manera fueron recomendados 6 veces.
+
+\subsection{Tecnologías usadas}
 Por otro lado, \textbf{las tecnologías usadas en el desarrollo del proyecto fueron:}
 \begin{itemize}
-    \item Android: Android \cite{27} es un sistema operativo móvil desarrollado por Google, basado en el Kernel de Linux y otros software de código abierto.
-    \item Java: Java \cite{28} es un lenguaje de programación de propósito general, concurrente y orientado a objetos.
-    \item Python: Python \cite{29} es un lenguaje de programación interpretado, usa tipado dinámico y es multiplataforma.
-    \item PostgreSQL: PostgreSQL \cite{30} es un motor de base de datos libre, robusto y proporciona buenos niveles de seguridad.
-    \item Django: Django \cite{31} es un framework de aplicaciones web de alto nivel que fomenta el desarrollo rápido y el diseño limpio y pragmático.
-    \item ReactJS: React \cite{32} es una biblioteca Javascript para crear interfaces de usuario.
-    \item Scikit-learn: Scikit-learn \cite{33} es una biblioteca para machine learning, para el lenguaje de programación Python.
-    \item Numpy: Numpy \cite{34} es una extensión de Python, que le agrega mayor soporte para vectores y matrices, constituyendo una biblioteca de funciones matemáticas de alto nivel para operar con esos vectores o matrices.
-    \item Firebase: Firebase \cite{35} es una plataforma para el desarrollo de aplicaciones web y aplicaciones móviles.
-    \item Pusher: Pusher \cite{36} permite a los desarrolladores con APIs crear funciones de colaboración y comunicación en sus aplicaciones web y móviles.
+    \item Android: Android \cite{29} es un sistema operativo móvil desarrollado por Google, basado en el Kernel de Linux y otros software de código abierto.
+    \item Java: Java \cite{30} es un lenguaje de programación de propósito general, concurrente y orientado a objetos.
+    \item Python: Python \cite{31} es un lenguaje de programación interpretado, usa tipado dinámico y es multiplataforma.
+    \item PostgreSQL: PostgreSQL \cite{32} es un motor de base de datos libre, robusto y proporciona buenos niveles de seguridad.
+    \item Django: Django \cite{33} es un framework de aplicaciones web de alto nivel que fomenta el desarrollo rápido y el diseño limpio y pragmático.
+    \item ReactJS: React \cite{34} es una biblioteca Javascript para crear interfaces de usuario.
+    \item Scikit-learn: Scikit-learn \cite{35} es una biblioteca para machine learning, para el lenguaje de programación Python.
+    \item Numpy: Numpy \cite{36} es una extensión de Python, que le agrega mayor soporte para vectores y matrices, constituyendo una biblioteca de funciones matemáticas de alto nivel para operar con esos vectores o matrices.
+    \item Firebase: Firebase \cite{37} es una plataforma para el desarrollo de aplicaciones web y aplicaciones móviles.
+    \item Pusher: Pusher \cite{38} permite a los desarrolladores con APIs crear funciones de colaboración y comunicación en sus aplicaciones web y móviles.
 \end{itemize}
 
 \section{Pruebas}
@@ -869,21 +1108,22 @@ Las pruebas realizadas para verificar el correcto comportamiento del sistema fue
 \centering
 \includegraphics[width=8cm]{./imagenes/PA/PA1}
 \caption{PA1: Creación de usuario con email.}
+\centering Fuente: Elaboración propia.
 \end{table}
 
 \begin{table}[H]
 \centering
 \includegraphics[width=8cm]{./imagenes/PA/PA17}
 \caption{PA17: Verificar productos de un lugar.}
+\centering Fuente: Elaboración propia.
 \end{table}
 
 \begin{table}[H]
 \centering
 \includegraphics[width=8cm]{./imagenes/PA/PA24}
 \caption{PA24: Ver ubicación y ruta para llegar a un lugar.}
+\centering Fuente: Elaboración propia.
 \end{table}
-
-Las pruebas funcionales realizadas se encuentran disponibles en un drive, se pueden detallar en el Apéndice A, sección 4.
 
 \subsection{Pruebas Unitarias}
 \begin{figure}[H]
@@ -900,8 +1140,6 @@ Las pruebas funcionales realizadas se encuentran disponibles en un drive, se pue
 \end{center}
 \end{figure}
 
-Los demás pruebas unitarias realizadas las puede detallar en el documento Anexo, Apéndice E.
-
 \subsection{Prueba de Usabilidad}
 \begin{figure}[H]
 \begin{center}
@@ -916,6 +1154,8 @@ Los demás pruebas unitarias realizadas las puede detallar en el documento Anexo
 \caption{Evaluación heurística para aplicación móvil P2.}
 \end{center}
 \end{figure}
+
+Todas las pruebas realizadas se encuentran disponibles en los anexos del proyecto, se pueden detallar en el Apéndice A, sección 4.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%						FIN DESARROLLO DEL PROYECTO
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -937,8 +1177,9 @@ datos de los sitios nuevos del municipio y actualizar los ya existentes de los e
 Ademas, debido a la falta de disponibilidad de las personas administradoras de algunos de los sitios consultados, fue necesario contactar estas mediante sus redes sociales.
 \item La mejor opción para el sistema de recomendación implementada fue VSM, ya que evita el coldstart y puede hacer recomendaciones de lugares a los usuarios en su primer ingreso, además de que tiene un costo computacional razonable para el proyecto que se realizó.
 \item Haciendo uso de la metodología Mobile-D, y a los conocimientos adquiridos a lo largo de los años académicos en la Universidad sobre el lenguaje de programación JAVA, se logró implementar la aplicación móvil en el tiempo estipulado para el desarrollo del trabajo.
-\item Se desarrolló una aplicación web para que la administración de la aplicación pueda ser realizada no necesariamente por una persona experta.
+\item Se desarrolló adicionalmente a los objetivos del proyecto una aplicación web con el fin de permitir que la aplicación sea administrada sin necesidad de que la persona tenga conocimientos técnicos, con esto buscamos que la aplicación tenga escalabilidad.
    \item Al obtener una precisión del 79\%, se puede concluir que las recomendaciones generadas fueron de agrado para los usuarios, sin embargo, al tener un recall del 47\%, no se están tomando en cuenta todos los sitios que podrían llegar a gustar a los usuarios.
+   \item Python hace que el desarrollo de algoritmos para Machine Learning sea menos complejo, ya que posee librerías tales como Sklearn y Numpy, lo que favorece los tiempos de ejecución porque posee algoritmos optimizados tales como la similitud de coseno, que ayudó a realizar las recomendaciones dentro de la aplicación, además de que se escribe menos código y se pueda ver de manera mas limpia.
 \end{itemize}
 
 
@@ -967,16 +1208,13 @@ Ademas, debido a la falta de disponibilidad de las personas administradoras de a
     \item Pruebas Realizadas al Sistema: \url{http://bit.ly/2YrvB4Q}
     \item Código Fuente de la Aplicación Movil: \url{http://bit.ly/2YKbw96}
     \item Código Fuente del Backend con SR implementado: \url{http://bit.ly/2OFRDMQ}	
+    \item Diagramas de Clases: \url{http://bit.ly/2mkfFis}	
+    \item Caracterización Sitios: \url{http://bit.ly/2mnPk3c}	
 \end{enumerate}
 
 Enlace que contiene todos los artefactos de desarrollo elaborados: \url{https://drive.google.com/drive/folders/1bSixq6YnQMAtSLu1EqZTJ3KEhWTQaAlx} 
 \vspace{5mm}\newline
 Aplicacíon Móvil: \url{https://play.google.com/store/apps/details?id=com.guideme.application.android}
-
-\chapter{Cuestionario}\label{aped.B}
-
-\chapter{Tipo de Sistema de Recomendación y Algoritmo}\label{aped.C}
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1036,27 +1274,33 @@ Aplicacíon Móvil: \url{https://play.google.com/store/apps/details?id=com.guide
 
 \bibitem{25} Dennis Crowley y Naveen Selvadurai, “Foursquare, red social basada en servicios de localización que incorpora elementos de juego.,” 2009.
 
-\bibitem{26} “Clasificación: Precisión y exhaustividad.” [Online]. Available: https://developers.google.com/machine-learning/crash-course/classification/precision-and-recall?hl=es-419 . [Accessed: 21-Jul-2019].
+\bibitem{26} Y. D. Amaya Balaguera, “Metodologías ágiles en el desarrollo de aplicaciones para dispositivos móviles,” Rev. Tecnol. | J. Technol., vol. 12 número, pp. 111–124, 2013.
 
-\bibitem{27} Google, “Android,” 2019.
+\bibitem{27} H. Hu and X. Zhou, “Recommendation of Tourist Attractions Based on Slope One Algorithm,” 2017 9th Int. Conf. Intell. Human-Machine Syst. Cybern., no. 3, pp. 418–421, 2017.
 
-\bibitem{28} ORACLE, “Java,” 2019. [Online]. Available: https://www.oracle.com/es/java/.
+\bibitem{28} “Clasificación: Precisión y exhaustividad.” [Online]. Available: https://developers.google.com/machine-learning/crash-course/classification/precision-and-recall?hl=es-419 . [Accessed: 21-Jul-2019].
 
-\bibitem{29} “Python,” 2019. [Online]. Available: https://www.python.org/.
+\bibitem{29} Google, “Android,” 2019.
 
-\bibitem{30} “PosgreSQL,” 2019. [Online]. Available: https://www.postgresql.org/.
+\bibitem{30} ORACLE, “Java,” 2019. [Online]. Available: https://www.oracle.com/es/java/.
 
-\bibitem{31} “Django,” 2019. [Online]. Available: https://www.djangoproject.com/.
+\bibitem{31} “Python,” 2019. [Online]. Available: https://www.python.org/.
 
-\bibitem{32} “ReactJS,” 2019. [Online]. Available: https://es.reactjs.org/docs/getting-started.html/ .
+\bibitem{32} “PosgreSQL,” 2019. [Online]. Available: https://www.postgresql.org/.
 
-\bibitem{33} “Scikit-learn,” 2019. [Online]. Available: https://scikit-learn.org/.
+\bibitem{33} “Django,” 2019. [Online]. Available: https://www.djangoproject.com/.
 
-\bibitem{34} “Numpy,” 2019. [Online]. Available: http://www.numpy.org/.
+\bibitem{34} “ReactJS,” 2019. [Online]. Available: https://es.reactjs.org/docs/getting-started.html/ .
 
-\bibitem{35} “Firebase,” 2019. [Online]. Available: https://firebase.google.com/.
+\bibitem{35} “Scikit-learn,” 2019. [Online]. Available: https://scikit-learn.org/.
 
-\bibitem{36} “Pusher,” 2019. [Online]. Available: https://pusher.com/.
+\bibitem{36} “Numpy,” 2019. [Online]. Available: http://www.numpy.org/.
+
+\bibitem{37} “Firebase,” 2019. [Online]. Available: https://firebase.google.com/.
+
+\bibitem{38} “Pusher,” 2019. [Online]. Available: https://pusher.com/.
+
+\bibitem{39} W. Zhang, T. Yoshida, and X. Tang, “TFIDF, LSI and multi-word in information retrieval and text categorization,” Conf. Proc. - IEEE Int. Conf. Syst. Man Cybern., pp. 108–113, 2008.
 
 
 \end{thebibliography}

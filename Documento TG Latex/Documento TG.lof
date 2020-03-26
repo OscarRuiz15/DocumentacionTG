@@ -1,47 +1,48 @@
 \babel@toc {spanish}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Mapa Pol\IeC {\'\i }tico Valle del Cauca.\relax }}{16}{figure.caption.8}% 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Divisi\IeC {\'o}n por corregimientos, municipio de Ginebra.\relax }}{17}{figure.caption.9}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Mapa Pol\IeC {\'\i }tico Valle del Cauca. \cite {4}\relax }}{17}{figure.caption.9}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Divisi\IeC {\'o}n por corregimientos, municipio de Ginebra. \cite {4}\relax }}{18}{figure.caption.10}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Ciclo de desarrollo Mobile-D.\relax }}{21}{figure.caption.11}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Commits realizados en GitHub para la Aplicaci\IeC {\'o}n M\IeC {\'o}vil.\relax }}{22}{figure.caption.12}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Commits realizados en GitHub para el Backend.\relax }}{22}{figure.caption.13}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Arquitectura del Sistema.\relax }}{23}{figure.caption.14}% 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Diagrama Entidad - Relaci\IeC {\'o}n.\relax }}{26}{figure.caption.18}% 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Diagrama de clases.\relax }}{27}{figure.caption.19}% 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Diagrama de Ventanas.\relax }}{27}{figure.caption.20}% 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Caso de Uso Administrador.\relax }}{28}{figure.caption.21}% 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Caso de Uso Usuario.\relax }}{29}{figure.caption.22}% 
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Caso de Uso Comerciante.\relax }}{29}{figure.caption.23}% 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces DS1: Diagrama de Secuencia Gestionar Lugar.\relax }}{31}{figure.caption.27}% 
-\contentsline {figure}{\numberline {3.12}{\ignorespaces DS2: Diagrama de Secuencia Consultar Lugares.\relax }}{32}{figure.caption.28}% 
-\contentsline {figure}{\numberline {3.13}{\ignorespaces DC1: Diagrama de Colaboraci\IeC {\'o}n Gestionar Lugar.\relax }}{32}{figure.caption.29}% 
-\contentsline {figure}{\numberline {3.14}{\ignorespaces DC2: Diagrama de Colaboraci\IeC {\'o}n Consultar Lugares.\relax }}{32}{figure.caption.30}% 
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Aspecto Inicial de la Aplicaci\IeC {\'o}n para un usuario logeado.\relax }}{33}{figure.caption.31}% 
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Login Web Service.\relax }}{34}{figure.caption.32}% 
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Pantalla Principal Men\IeC {\'u} Administrador.\relax }}{34}{figure.caption.33}% 
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Registrar Lugar.\relax }}{34}{figure.caption.34}% 
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Registrar Categor\IeC {\'\i }a.\relax }}{35}{figure.caption.35}% 
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Registrar Tag.\relax }}{35}{figure.caption.36}% 
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Solicitudes Recibidas.\relax }}{36}{figure.caption.37}% 
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Secciones Pantalla Principal.\relax }}{36}{figure.caption.38}% 
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Pantalla b\IeC {\'u}squedas, resultados obtenidos filtrados por categor\IeC {\'\i }a y ubicaci\IeC {\'o}n en el mapa.\relax }}{37}{figure.caption.39}% 
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Lugares Favoritos.\relax }}{37}{figure.caption.40}% 
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Detalles lugar y ruta/ubicaci\IeC {\'o}n.\relax }}{38}{figure.caption.41}% 
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Mi Perfil.\relax }}{38}{figure.caption.42}% 
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Realizar Solicitud.\relax }}{39}{figure.caption.43}% 
-\contentsline {figure}{\numberline {3.28}{\ignorespaces Opciones Lugar Propio.\relax }}{39}{figure.caption.44}% 
-\contentsline {figure}{\numberline {3.29}{\ignorespaces Opciones Comerciante 1\relax }}{40}{figure.caption.45}% 
-\contentsline {figure}{\numberline {3.30}{\ignorespaces Opciones Comerciante 2\relax }}{40}{figure.caption.46}% 
-\contentsline {figure}{\numberline {3.31}{\ignorespaces Aplicaci\IeC {\'o}n en la Play Store.\relax }}{41}{figure.caption.47}% 
-\contentsline {figure}{\numberline {3.32}{\ignorespaces PT1: Informe Errores Play Store.\relax }}{43}{figure.caption.49}% 
-\contentsline {figure}{\numberline {3.33}{\ignorespaces PT2: Informe M\IeC {\'o}vil en la Play Store.\relax }}{44}{figure.caption.50}% 
-\contentsline {figure}{\numberline {3.34}{\ignorespaces PU1: Prueba Unitaria M\IeC {\'e}todo Controlador Fechas App Movil.\relax }}{45}{figure.caption.54}% 
-\contentsline {figure}{\numberline {3.35}{\ignorespaces PU2: Prueba Unitaria Modulo Lugar - Backend.\relax }}{46}{figure.caption.55}% 
-\contentsline {figure}{\numberline {3.36}{\ignorespaces Evaluaci\IeC {\'o}n heur\IeC {\'\i }stica para aplicaci\IeC {\'o}n m\IeC {\'o}vil P1.\relax }}{46}{figure.caption.56}% 
-\contentsline {figure}{\numberline {3.37}{\ignorespaces Evaluaci\IeC {\'o}n heur\IeC {\'\i }stica para aplicaci\IeC {\'o}n m\IeC {\'o}vil P2.\relax }}{47}{figure.caption.57}% 
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Ciclo de desarrollo Mobile-D. \cite {26}\relax }}{22}{figure.caption.12}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Commits realizados en GitHub para la Aplicaci\IeC {\'o}n M\IeC {\'o}vil.\relax }}{23}{figure.caption.13}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Commits realizados en GitHub para el Backend.\relax }}{23}{figure.caption.14}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Arquitectura del Sistema.\relax }}{24}{figure.caption.15}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Diagrama Entidad - Relaci\IeC {\'o}n\relax }}{27}{figure.caption.19}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Diagrama de clases Modelo.\relax }}{29}{figure.caption.20}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Diagrama de Ventanas.\relax }}{30}{figure.caption.21}% 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Caso de Uso Administrador.\relax }}{31}{figure.caption.22}% 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Caso de Uso Usuario.\relax }}{31}{figure.caption.23}% 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Caso de Uso Comerciante.\relax }}{32}{figure.caption.24}% 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces DS1: Diagrama de Secuencia Gestionar Lugar.\relax }}{34}{figure.caption.28}% 
+\contentsline {figure}{\numberline {3.12}{\ignorespaces DS2: Diagrama de Secuencia Consultar Lugares.\relax }}{34}{figure.caption.29}% 
+\contentsline {figure}{\numberline {3.13}{\ignorespaces DC1: Diagrama de Colaboraci\IeC {\'o}n Gestionar Lugar.\relax }}{34}{figure.caption.30}% 
+\contentsline {figure}{\numberline {3.14}{\ignorespaces DC2: Diagrama de Colaboraci\IeC {\'o}n Consultar Lugares.\relax }}{35}{figure.caption.31}% 
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Aspecto Inicial de la Aplicaci\IeC {\'o}n para un usuario logeado.\relax }}{36}{figure.caption.32}% 
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Login Web Service.\relax }}{36}{figure.caption.33}% 
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Pantalla Principal Men\IeC {\'u} Administrador.\relax }}{37}{figure.caption.34}% 
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Registrar Lugar.\relax }}{37}{figure.caption.35}% 
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Registrar Categor\IeC {\'\i }a.\relax }}{38}{figure.caption.36}% 
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Registrar Tag.\relax }}{38}{figure.caption.37}% 
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Solicitudes Recibidas.\relax }}{39}{figure.caption.38}% 
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Secciones Pantalla Principal.\relax }}{39}{figure.caption.39}% 
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Pantalla b\IeC {\'u}squedas, resultados obtenidos filtrados por categor\IeC {\'\i }a y ubicaci\IeC {\'o}n en el mapa.\relax }}{40}{figure.caption.40}% 
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Lugares Favoritos.\relax }}{40}{figure.caption.41}% 
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Detalles lugar y ruta/ubicaci\IeC {\'o}n.\relax }}{41}{figure.caption.42}% 
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Mi Perfil.\relax }}{41}{figure.caption.43}% 
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Realizar Solicitud.\relax }}{42}{figure.caption.44}% 
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Opciones Lugar Propio.\relax }}{42}{figure.caption.45}% 
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Opciones Comerciante 1\relax }}{43}{figure.caption.46}% 
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Opciones Comerciante 2\relax }}{43}{figure.caption.47}% 
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Cuestionario Elaborado.\relax }}{44}{figure.caption.48}% 
+\contentsline {figure}{\numberline {3.32}{\ignorespaces Caracterizaci\IeC {\'o}n de los Sitios Obtenidos.\relax }}{45}{figure.caption.49}% 
+\contentsline {figure}{\numberline {3.33}{\ignorespaces Aplicaci\IeC {\'o}n en la Play Store.\relax }}{50}{figure.caption.61}% 
+\contentsline {figure}{\numberline {3.34}{\ignorespaces Pseudoc\IeC {\'o}digo SR\relax }}{51}{figure.caption.62}% 
+\contentsline {figure}{\numberline {3.35}{\ignorespaces PT1: Informe Errores Play Store.\relax }}{54}{figure.caption.64}% 
+\contentsline {figure}{\numberline {3.36}{\ignorespaces PT2: Informe M\IeC {\'o}vil en la Play Store.\relax }}{55}{figure.caption.65}% 
+\contentsline {figure}{\numberline {3.37}{\ignorespaces PU1: Prueba Unitaria M\IeC {\'e}todo Controlador Fechas App Movil.\relax }}{56}{figure.caption.69}% 
+\contentsline {figure}{\numberline {3.38}{\ignorespaces PU2: Prueba Unitaria Modulo Lugar - Backend.\relax }}{57}{figure.caption.70}% 
+\contentsline {figure}{\numberline {3.39}{\ignorespaces Evaluaci\IeC {\'o}n heur\IeC {\'\i }stica para aplicaci\IeC {\'o}n m\IeC {\'o}vil P1.\relax }}{57}{figure.caption.71}% 
+\contentsline {figure}{\numberline {3.40}{\ignorespaces Evaluaci\IeC {\'o}n heur\IeC {\'\i }stica para aplicaci\IeC {\'o}n m\IeC {\'o}vil P2.\relax }}{58}{figure.caption.72}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
